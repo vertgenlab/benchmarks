@@ -12,6 +12,8 @@ for DIR in *BamRead; do
 	cd ..
 done
 
+tar -zxvf testdata.tar.gz
+
 go test -bench=Bed -benchmem
 go test -bench=BigFasta -benchmem
 go test -bench=Fastq -benchmem
