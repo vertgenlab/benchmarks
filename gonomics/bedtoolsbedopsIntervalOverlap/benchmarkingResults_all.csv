@@ -1,0 +1,1561 @@
+Job,Tool,a,b,ns/op,memUsage
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100-13          ,Gonomics4Worker,1000,100,28557606,13855
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100-13          ,Gonomics4Worker,1000,100,27267699,13842
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100-13          ,Gonomics4Worker,1000,100,26764026,13900
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100-13          ,Gonomics4Worker,1000,100,26167021,13828
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100-13          ,Gonomics4Worker,1000,100,28484630,13793
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100-13          ,Gonomics4Worker,1000,100,27388345,13853
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100-13          ,Gonomics4Worker,1000,100,28180082,13853
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100-13          ,Gonomics4Worker,1000,100,27587135,13842
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100-13          ,Gonomics4Worker,1000,100,28807736,13849
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100-13          ,Gonomics4Worker,1000,100,28552430,13924
+ 13928BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k-13           ,Gonomics4Worker,1000,1000,32168182,14080
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k-13           ,Gonomics4Worker,1000,1000,31048771,14218
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k-13           ,Gonomics4Worker,1000,1000,27605604,14327
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k-13           ,Gonomics4Worker,1000,1000,32167715,14391
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k-13           ,Gonomics4Worker,1000,1000,27902572,14441
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k-13           ,Gonomics4Worker,1000,1000,28453872,14490
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k-13           ,Gonomics4Worker,1000,1000,27446098,14514
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k-13           ,Gonomics4Worker,1000,1000,28361161,14543
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k-13           ,Gonomics4Worker,1000,1000,28857653,14571
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k-13           ,Gonomics4Worker,1000,1000,29537084,14593
+ 14595BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k-13          ,Gonomics4Worker,1000,10000,40933146,14745
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k-13          ,Gonomics4Worker,1000,10000,39313164,14876
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k-13          ,Gonomics4Worker,1000,10000,36577038,14965
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k-13          ,Gonomics4Worker,1000,10000,38199967,15151
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k-13          ,Gonomics4Worker,1000,10000,35461527,15241
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k-13          ,Gonomics4Worker,1000,10000,34800281,15334
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k-13          ,Gonomics4Worker,1000,10000,35649225,15487
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k-13          ,Gonomics4Worker,1000,10000,34633213,15553
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k-13          ,Gonomics4Worker,1000,10000,33726333,15635
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k-13          ,Gonomics4Worker,1000,10000,34862097,15717
+ 15718BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k-13         ,Gonomics4Worker,1000,100000,139976944,15765
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k-13         ,Gonomics4Worker,1000,100000,137322415,15793
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k-13         ,Gonomics4Worker,1000,100000,135244512,15838
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k-13         ,Gonomics4Worker,1000,100000,135081313,15880
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k-13         ,Gonomics4Worker,1000,100000,126391119,15905
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k-13         ,Gonomics4Worker,1000,100000,142454924,15929
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k-13         ,Gonomics4Worker,1000,100000,140260034,15988
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k-13         ,Gonomics4Worker,1000,100000,137330012,16032
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k-13         ,Gonomics4Worker,1000,100000,151958405,16056
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k-13         ,Gonomics4Worker,1000,100000,136348081,16085
+ 16088BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi-13          ,Gonomics4Worker,1000,1000000,1507194880,16088
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi-13          ,Gonomics4Worker,1000,1000000,1045692808,16091
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi-13          ,Gonomics4Worker,1000,1000000,1175794963,16093
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi-13          ,Gonomics4Worker,1000,1000000,1204085285,16095
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi-13          ,Gonomics4Worker,1000,1000000,1248169312,16098
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi-13          ,Gonomics4Worker,1000,1000000,1128400781,16108
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi-13          ,Gonomics4Worker,1000,1000000,1213974911,16111
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi-13          ,Gonomics4Worker,1000,1000000,1063539219,16113
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi-13          ,Gonomics4Worker,1000,1000000,1182683443,16117
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi-13          ,Gonomics4Worker,1000,1000000,1193316934,16120
+ 16122BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi-13         ,Gonomics4Worker,1000,10000000,13574579286,16122
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi-13         ,Gonomics4Worker,1000,10000000,12659272908,16125
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi-13         ,Gonomics4Worker,1000,10000000,10630460327,16128
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi-13         ,Gonomics4Worker,1000,10000000,10925255836,16131
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi-13         ,Gonomics4Worker,1000,10000000,10969161407,16134
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi-13         ,Gonomics4Worker,1000,10000000,10618877603,16135
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi-13         ,Gonomics4Worker,1000,10000000,11099765300,16138
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi-13         ,Gonomics4Worker,1000,10000000,12237335887,16141
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi-13         ,Gonomics4Worker,1000,10000000,10554446671,16143
+BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi-13         ,Gonomics4Worker,1000,10000000,13023739733,16147
+ 16146BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100-13     ,Gonomics2Worker,1000,100,21714601,16010
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100-13     ,Gonomics2Worker,1000,100,21901302,15933
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100-13     ,Gonomics2Worker,1000,100,23460846,15863
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100-13     ,Gonomics2Worker,1000,100,22123204,15792
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100-13     ,Gonomics2Worker,1000,100,21260207,15670
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100-13     ,Gonomics2Worker,1000,100,22594950,15614
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100-13     ,Gonomics2Worker,1000,100,21053263,15560
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100-13     ,Gonomics2Worker,1000,100,25372055,15497
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100-13     ,Gonomics2Worker,1000,100,25681007,15426
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100-13     ,Gonomics2Worker,1000,100,28390885,15394
+ 15394BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k-13      ,Gonomics2Worker,1000,1000,28401921,15379
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k-13      ,Gonomics2Worker,1000,1000,30081928,15364
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k-13      ,Gonomics2Worker,1000,1000,29924678,15339
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k-13      ,Gonomics2Worker,1000,1000,30264485,15324
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k-13      ,Gonomics2Worker,1000,1000,29191097,15315
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k-13      ,Gonomics2Worker,1000,1000,32015360,15304
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k-13      ,Gonomics2Worker,1000,1000,33459920,15297
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k-13      ,Gonomics2Worker,1000,1000,33688211,15293
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k-13      ,Gonomics2Worker,1000,1000,34778684,15284
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k-13      ,Gonomics2Worker,1000,1000,33762072,15278
+ 15279BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k-13     ,Gonomics2Worker,1000,10000,47209322,15313
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k-13     ,Gonomics2Worker,1000,10000,44430042,15327
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k-13     ,Gonomics2Worker,1000,10000,44565114,15347
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k-13     ,Gonomics2Worker,1000,10000,41329765,15368
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k-13     ,Gonomics2Worker,1000,10000,44500583,15380
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k-13     ,Gonomics2Worker,1000,10000,42929620,15396
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k-13     ,Gonomics2Worker,1000,10000,42801162,15416
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k-13     ,Gonomics2Worker,1000,10000,42326881,15436
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k-13     ,Gonomics2Worker,1000,10000,42003697,15463
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k-13     ,Gonomics2Worker,1000,10000,39343141,15491
+ 15493BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k-13    ,Gonomics2Worker,1000,100000,151593295,15514
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k-13    ,Gonomics2Worker,1000,100000,149146731,15528
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k-13    ,Gonomics2Worker,1000,100000,155689378,15540
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k-13    ,Gonomics2Worker,1000,100000,141762066,15554
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k-13    ,Gonomics2Worker,1000,100000,147136337,15568
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k-13    ,Gonomics2Worker,1000,100000,146599190,15582
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k-13    ,Gonomics2Worker,1000,100000,144467067,15599
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k-13    ,Gonomics2Worker,1000,100000,147454958,15612
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k-13    ,Gonomics2Worker,1000,100000,145620372,15637
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k-13    ,Gonomics2Worker,1000,100000,143125402,15661
+ 15662BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi-13     ,Gonomics2Worker,1000,1000000,1211131125,15662
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi-13     ,Gonomics2Worker,1000,1000000,1312905698,15664
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi-13     ,Gonomics2Worker,1000,1000000,1322018850,15666
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi-13     ,Gonomics2Worker,1000,1000000,1348238984,15667
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi-13     ,Gonomics2Worker,1000,1000000,1285374672,15669
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi-13     ,Gonomics2Worker,1000,1000000,1055692377,15670
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi-13     ,Gonomics2Worker,1000,1000000,1277251892,15672
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi-13     ,Gonomics2Worker,1000,1000000,1310957378,15674
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi-13     ,Gonomics2Worker,1000,1000000,1315065756,15675
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi-13     ,Gonomics2Worker,1000,1000000,1286403249,15676
+ 15677BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi-13    ,Gonomics2Worker,1000,10000000,13092496774,15677
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi-13    ,Gonomics2Worker,1000,10000000,12746375681,15679
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi-13    ,Gonomics2Worker,1000,10000000,14054321730,15681
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi-13    ,Gonomics2Worker,1000,10000000,13233051968,15683
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi-13    ,Gonomics2Worker,1000,10000000,13025041921,15684
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi-13    ,Gonomics2Worker,1000,10000000,13035583540,15686
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi-13    ,Gonomics2Worker,1000,10000000,14114897733,15688
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi-13    ,Gonomics2Worker,1000,10000000,14301144819,15690
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi-13    ,Gonomics2Worker,1000,10000000,15786615172,15692
+BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi-13    ,Gonomics2Worker,1000,10000000,14822212019,15693
+ 15693BenchmarkGonomicsIntervalOverlap100_100-13                         ,Gonomics8Worker,100,100,23679177,15636
+BenchmarkGonomicsIntervalOverlap100_100-13                         ,Gonomics8Worker,100,100,23252267,15587
+BenchmarkGonomicsIntervalOverlap100_100-13                         ,Gonomics8Worker,100,100,23431400,15549
+BenchmarkGonomicsIntervalOverlap100_100-13                         ,Gonomics8Worker,100,100,21961023,15484
+BenchmarkGonomicsIntervalOverlap100_100-13                         ,Gonomics8Worker,100,100,21729885,15443
+BenchmarkGonomicsIntervalOverlap100_100-13                         ,Gonomics8Worker,100,100,21864590,15409
+BenchmarkGonomicsIntervalOverlap100_100-13                         ,Gonomics8Worker,100,100,20497859,15376
+BenchmarkGonomicsIntervalOverlap100_100-13                         ,Gonomics8Worker,100,100,21104587,15341
+BenchmarkGonomicsIntervalOverlap100_100-13                         ,Gonomics8Worker,100,100,21093569,15282
+BenchmarkGonomicsIntervalOverlap100_100-13                         ,Gonomics8Worker,100,100,20261615,15232
+ 15231BenchmarkBedtoolsIntervalOverlap100_100-13                         ,Bedtools,100,100,17447937,15164
+BenchmarkBedtoolsIntervalOverlap100_100-13                         ,Bedtools,100,100,17321351,15062
+BenchmarkBedtoolsIntervalOverlap100_100-13                         ,Bedtools,100,100,16149288,15003
+BenchmarkBedtoolsIntervalOverlap100_100-13                         ,Bedtools,100,100,17306988,14941
+BenchmarkBedtoolsIntervalOverlap100_100-13                         ,Bedtools,100,100,17665477,14852
+BenchmarkBedtoolsIntervalOverlap100_100-13                         ,Bedtools,100,100,17561210,14792
+BenchmarkBedtoolsIntervalOverlap100_100-13                         ,Bedtools,100,100,16736197,14735
+BenchmarkBedtoolsIntervalOverlap100_100-13                         ,Bedtools,100,100,18076095,14688
+BenchmarkBedtoolsIntervalOverlap100_100-13                         ,Bedtools,100,100,17642075,14610
+BenchmarkBedtoolsIntervalOverlap100_100-13                         ,Bedtools,100,100,17924775,14574
+ 14574BenchmarkBedopsIntervalOverlap100_100-13                           ,Bedops,100,100,35771746,14590
+BenchmarkBedopsIntervalOverlap100_100-13                           ,Bedops,100,100,34078651,14605
+BenchmarkBedopsIntervalOverlap100_100-13                           ,Bedops,100,100,31397528,14617
+BenchmarkBedopsIntervalOverlap100_100-13                           ,Bedops,100,100,32747554,14631
+BenchmarkBedopsIntervalOverlap100_100-13                           ,Bedops,100,100,63548837,14643
+BenchmarkBedopsIntervalOverlap100_100-13                           ,Bedops,100,100,34517764,14654
+BenchmarkBedopsIntervalOverlap100_100-13                           ,Bedops,100,100,32735872,14669
+BenchmarkBedopsIntervalOverlap100_100-13                           ,Bedops,100,100,31498970,14681
+BenchmarkBedopsIntervalOverlap100_100-13                           ,Bedops,100,100,29649559,14696
+BenchmarkBedopsIntervalOverlap100_100-13                           ,Bedops,100,100,33132767,14707
+ 14706BenchmarkSingleThreadIntervalOverlap100_100-13                     ,Gonomics1Worker,100,100,21627207,14675
+BenchmarkSingleThreadIntervalOverlap100_100-13                     ,Gonomics1Worker,100,100,22455588,14639
+BenchmarkSingleThreadIntervalOverlap100_100-13                     ,Gonomics1Worker,100,100,20988165,14606
+BenchmarkSingleThreadIntervalOverlap100_100-13                     ,Gonomics1Worker,100,100,22529975,14590
+BenchmarkSingleThreadIntervalOverlap100_100-13                     ,Gonomics1Worker,100,100,21217464,14568
+BenchmarkSingleThreadIntervalOverlap100_100-13                     ,Gonomics1Worker,100,100,21957423,14547
+BenchmarkSingleThreadIntervalOverlap100_100-13                     ,Gonomics1Worker,100,100,20392329,14515
+BenchmarkSingleThreadIntervalOverlap100_100-13                     ,Gonomics1Worker,100,100,21570740,14491
+BenchmarkSingleThreadIntervalOverlap100_100-13                     ,Gonomics1Worker,100,100,21009251,14475
+BenchmarkSingleThreadIntervalOverlap100_100-13                     ,Gonomics1Worker,100,100,21227613,14456
+ 14457BenchmarkGonomicsIntervalOverlap100_1k-13                          ,Gonomics8Worker,100,1000,21647383,14458
+BenchmarkGonomicsIntervalOverlap100_1k-13                          ,Gonomics8Worker,100,1000,21764295,14462
+BenchmarkGonomicsIntervalOverlap100_1k-13                          ,Gonomics8Worker,100,1000,21431413,14460
+BenchmarkGonomicsIntervalOverlap100_1k-13                          ,Gonomics8Worker,100,1000,21668690,14463
+BenchmarkGonomicsIntervalOverlap100_1k-13                          ,Gonomics8Worker,100,1000,20614980,14463
+BenchmarkGonomicsIntervalOverlap100_1k-13                          ,Gonomics8Worker,100,1000,21501328,14465
+BenchmarkGonomicsIntervalOverlap100_1k-13                          ,Gonomics8Worker,100,1000,21239480,14464
+BenchmarkGonomicsIntervalOverlap100_1k-13                          ,Gonomics8Worker,100,1000,20822624,14468
+BenchmarkGonomicsIntervalOverlap100_1k-13                          ,Gonomics8Worker,100,1000,21840167,14469
+BenchmarkGonomicsIntervalOverlap100_1k-13                          ,Gonomics8Worker,100,1000,21084281,14474
+ 14473BenchmarkBedtoolsIntervalOverlap100_1k-13                          ,Bedtools,100,1000,16091343,14424
+BenchmarkBedtoolsIntervalOverlap100_1k-13                          ,Bedtools,100,1000,18258527,14369
+BenchmarkBedtoolsIntervalOverlap100_1k-13                          ,Bedtools,100,1000,17591734,14345
+BenchmarkBedtoolsIntervalOverlap100_1k-13                          ,Bedtools,100,1000,16988590,14313
+BenchmarkBedtoolsIntervalOverlap100_1k-13                          ,Bedtools,100,1000,16342927,14267
+BenchmarkBedtoolsIntervalOverlap100_1k-13                          ,Bedtools,100,1000,18087242,14245
+BenchmarkBedtoolsIntervalOverlap100_1k-13                          ,Bedtools,100,1000,16649804,14222
+BenchmarkBedtoolsIntervalOverlap100_1k-13                          ,Bedtools,100,1000,16555249,14195
+BenchmarkBedtoolsIntervalOverlap100_1k-13                          ,Bedtools,100,1000,17197934,14173
+BenchmarkBedtoolsIntervalOverlap100_1k-13                          ,Bedtools,100,1000,16514062,14152
+ 14152BenchmarkBedopsIntervalOverlap100_1k-13                            ,Bedops,100,1000,34825531,14170
+BenchmarkBedopsIntervalOverlap100_1k-13                            ,Bedops,100,1000,33930108,14180
+BenchmarkBedopsIntervalOverlap100_1k-13                            ,Bedops,100,1000,33317632,14190
+BenchmarkBedopsIntervalOverlap100_1k-13                            ,Bedops,100,1000,32964387,14200
+BenchmarkBedopsIntervalOverlap100_1k-13                            ,Bedops,100,1000,33328636,14209
+BenchmarkBedopsIntervalOverlap100_1k-13                            ,Bedops,100,1000,36966180,14219
+BenchmarkBedopsIntervalOverlap100_1k-13                            ,Bedops,100,1000,34864354,14228
+BenchmarkBedopsIntervalOverlap100_1k-13                            ,Bedops,100,1000,35954543,14236
+BenchmarkBedopsIntervalOverlap100_1k-13                            ,Bedops,100,1000,33749528,14254
+BenchmarkBedopsIntervalOverlap100_1k-13                            ,Bedops,100,1000,35151280,14265
+ 14265BenchmarkSingleThreadIntervalOverlap100_1k-13                      ,Gonomics1Worker,100,1000,22659628,14250
+BenchmarkSingleThreadIntervalOverlap100_1k-13                      ,Gonomics1Worker,100,1000,21874038,14235
+BenchmarkSingleThreadIntervalOverlap100_1k-13                      ,Gonomics1Worker,100,1000,22213452,14224
+BenchmarkSingleThreadIntervalOverlap100_1k-13                      ,Gonomics1Worker,100,1000,23511892,14216
+BenchmarkSingleThreadIntervalOverlap100_1k-13                      ,Gonomics1Worker,100,1000,21648638,14208
+BenchmarkSingleThreadIntervalOverlap100_1k-13                      ,Gonomics1Worker,100,1000,23938641,14201
+BenchmarkSingleThreadIntervalOverlap100_1k-13                      ,Gonomics1Worker,100,1000,23171022,14193
+BenchmarkSingleThreadIntervalOverlap100_1k-13                      ,Gonomics1Worker,100,1000,21717058,14186
+BenchmarkSingleThreadIntervalOverlap100_1k-13                      ,Gonomics1Worker,100,1000,21552599,14177
+BenchmarkSingleThreadIntervalOverlap100_1k-13                      ,Gonomics1Worker,100,1000,22834362,14162
+ 14163BenchmarkGonomicsIntervalOverlap100_10k-13                         ,Gonomics8Worker,100,10000,33647694,14191
+BenchmarkGonomicsIntervalOverlap100_10k-13                         ,Gonomics8Worker,100,10000,32478559,14211
+BenchmarkGonomicsIntervalOverlap100_10k-13                         ,Gonomics8Worker,100,10000,30172411,14242
+BenchmarkGonomicsIntervalOverlap100_10k-13                         ,Gonomics8Worker,100,10000,28691222,14267
+BenchmarkGonomicsIntervalOverlap100_10k-13                         ,Gonomics8Worker,100,10000,29607909,14288
+BenchmarkGonomicsIntervalOverlap100_10k-13                         ,Gonomics8Worker,100,10000,29529286,14309
+BenchmarkGonomicsIntervalOverlap100_10k-13                         ,Gonomics8Worker,100,10000,29536240,14344
+BenchmarkGonomicsIntervalOverlap100_10k-13                         ,Gonomics8Worker,100,10000,29253110,14379
+BenchmarkGonomicsIntervalOverlap100_10k-13                         ,Gonomics8Worker,100,10000,31283503,14401
+BenchmarkGonomicsIntervalOverlap100_10k-13                         ,Gonomics8Worker,100,10000,29480633,14437
+ 14437BenchmarkBedtoolsIntervalOverlap100_10k-13                         ,Bedtools,100,10000,20472366,14421
+BenchmarkBedtoolsIntervalOverlap100_10k-13                         ,Bedtools,100,10000,20109121,14403
+BenchmarkBedtoolsIntervalOverlap100_10k-13                         ,Bedtools,100,10000,19896663,14386
+BenchmarkBedtoolsIntervalOverlap100_10k-13                         ,Bedtools,100,10000,25768125,14372
+BenchmarkBedtoolsIntervalOverlap100_10k-13                         ,Bedtools,100,10000,26382799,14348
+BenchmarkBedtoolsIntervalOverlap100_10k-13                         ,Bedtools,100,10000,25066749,14334
+BenchmarkBedtoolsIntervalOverlap100_10k-13                         ,Bedtools,100,10000,25144170,14310
+BenchmarkBedtoolsIntervalOverlap100_10k-13                         ,Bedtools,100,10000,25114098,14285
+BenchmarkBedtoolsIntervalOverlap100_10k-13                         ,Bedtools,100,10000,25176793,14271
+BenchmarkBedtoolsIntervalOverlap100_10k-13                         ,Bedtools,100,10000,26685973,14251
+ 14251BenchmarkBedopsIntervalOverlap100_10k-13                           ,Bedops,100,10000,92161957,14255
+BenchmarkBedopsIntervalOverlap100_10k-13                           ,Bedops,100,10000,65267533,14259
+BenchmarkBedopsIntervalOverlap100_10k-13                           ,Bedops,100,10000,65789105,14263
+BenchmarkBedopsIntervalOverlap100_10k-13                           ,Bedops,100,10000,66743526,14267
+BenchmarkBedopsIntervalOverlap100_10k-13                           ,Bedops,100,10000,64936162,14270
+BenchmarkBedopsIntervalOverlap100_10k-13                           ,Bedops,100,10000,107732145,14279
+BenchmarkBedopsIntervalOverlap100_10k-13                           ,Bedops,100,10000,59864927,14283
+BenchmarkBedopsIntervalOverlap100_10k-13                           ,Bedops,100,10000,62945815,14287
+BenchmarkBedopsIntervalOverlap100_10k-13                           ,Bedops,100,10000,56604920,14292
+BenchmarkBedopsIntervalOverlap100_10k-13                           ,Bedops,100,10000,58217980,14296
+ 14296BenchmarkSingleThreadIntervalOverlap100_10k-13                     ,Gonomics1Worker,100,10000,37739146,14300
+BenchmarkSingleThreadIntervalOverlap100_10k-13                     ,Gonomics1Worker,100,10000,36623142,14301
+BenchmarkSingleThreadIntervalOverlap100_10k-13                     ,Gonomics1Worker,100,10000,39242126,14303
+BenchmarkSingleThreadIntervalOverlap100_10k-13                     ,Gonomics1Worker,100,10000,37073598,14303
+BenchmarkSingleThreadIntervalOverlap100_10k-13                     ,Gonomics1Worker,100,10000,36925158,14306
+BenchmarkSingleThreadIntervalOverlap100_10k-13                     ,Gonomics1Worker,100,10000,35010098,14307
+BenchmarkSingleThreadIntervalOverlap100_10k-13                     ,Gonomics1Worker,100,10000,37325296,14310
+BenchmarkSingleThreadIntervalOverlap100_10k-13                     ,Gonomics1Worker,100,10000,34692473,14311
+BenchmarkSingleThreadIntervalOverlap100_10k-13                     ,Gonomics1Worker,100,10000,39262803,14312
+BenchmarkSingleThreadIntervalOverlap100_10k-13                     ,Gonomics1Worker,100,10000,38028291,14314
+ 14315BenchmarkGonomicsIntervalOverlap100_100k-13                        ,Gonomics8Worker,100,100000,153717552,14319
+BenchmarkGonomicsIntervalOverlap100_100k-13                        ,Gonomics8Worker,100,100000,137846966,14327
+BenchmarkGonomicsIntervalOverlap100_100k-13                        ,Gonomics8Worker,100,100000,127339898,14331
+BenchmarkGonomicsIntervalOverlap100_100k-13                        ,Gonomics8Worker,100,100000,129832455,14337
+BenchmarkGonomicsIntervalOverlap100_100k-13                        ,Gonomics8Worker,100,100000,126793880,14347
+BenchmarkGonomicsIntervalOverlap100_100k-13                        ,Gonomics8Worker,100,100000,133166146,14352
+BenchmarkGonomicsIntervalOverlap100_100k-13                        ,Gonomics8Worker,100,100000,129152849,14356
+BenchmarkGonomicsIntervalOverlap100_100k-13                        ,Gonomics8Worker,100,100000,140637672,14362
+BenchmarkGonomicsIntervalOverlap100_100k-13                        ,Gonomics8Worker,100,100000,131915577,14366
+BenchmarkGonomicsIntervalOverlap100_100k-13                        ,Gonomics8Worker,100,100000,126022038,14371
+ 14370BenchmarkBedtoolsIntervalOverlap100_100k-13                        ,Bedtools,100,100000,67161941,14365
+BenchmarkBedtoolsIntervalOverlap100_100k-13                        ,Bedtools,100,100000,57584715,14360
+BenchmarkBedtoolsIntervalOverlap100_100k-13                        ,Bedtools,100,100000,59903408,14352
+BenchmarkBedtoolsIntervalOverlap100_100k-13                        ,Bedtools,100,100000,59021223,14347
+BenchmarkBedtoolsIntervalOverlap100_100k-13                        ,Bedtools,100,100000,63675290,14341
+BenchmarkBedtoolsIntervalOverlap100_100k-13                        ,Bedtools,100,100000,63634467,14336
+BenchmarkBedtoolsIntervalOverlap100_100k-13                        ,Bedtools,100,100000,69880046,14332
+BenchmarkBedtoolsIntervalOverlap100_100k-13                        ,Bedtools,100,100000,75240427,14328
+BenchmarkBedtoolsIntervalOverlap100_100k-13                        ,Bedtools,100,100000,80818628,14323
+BenchmarkBedtoolsIntervalOverlap100_100k-13                        ,Bedtools,100,100000,72056631,14318
+ 14318BenchmarkBedopsIntervalOverlap100_100k-13                          ,Bedops,100,100000,272656440,14319
+BenchmarkBedopsIntervalOverlap100_100k-13                          ,Bedops,100,100000,257952541,14320
+BenchmarkBedopsIntervalOverlap100_100k-13                          ,Bedops,100,100000,258308354,14321
+BenchmarkBedopsIntervalOverlap100_100k-13                          ,Bedops,100,100000,222776394,14323
+BenchmarkBedopsIntervalOverlap100_100k-13                          ,Bedops,100,100000,252805719,14325
+BenchmarkBedopsIntervalOverlap100_100k-13                          ,Bedops,100,100000,230330589,14327
+BenchmarkBedopsIntervalOverlap100_100k-13                          ,Bedops,100,100000,384653542,14328
+BenchmarkBedopsIntervalOverlap100_100k-13                          ,Bedops,100,100000,620805194,14329
+BenchmarkBedopsIntervalOverlap100_100k-13                          ,Bedops,100,100000,319247812,14330
+BenchmarkBedopsIntervalOverlap100_100k-13                          ,Bedops,100,100000,258661982,14332
+ 14332BenchmarkSingleThreadIntervalOverlap100_100k-13                    ,Gonomics1Worker,100,100000,157527034,14337
+BenchmarkSingleThreadIntervalOverlap100_100k-13                    ,Gonomics1Worker,100,100000,157772369,14341
+BenchmarkSingleThreadIntervalOverlap100_100k-13                    ,Gonomics1Worker,100,100000,156784615,14344
+BenchmarkSingleThreadIntervalOverlap100_100k-13                    ,Gonomics1Worker,100,100000,155911043,14348
+BenchmarkSingleThreadIntervalOverlap100_100k-13                    ,Gonomics1Worker,100,100000,156094864,14351
+BenchmarkSingleThreadIntervalOverlap100_100k-13                    ,Gonomics1Worker,100,100000,150458112,14354
+BenchmarkSingleThreadIntervalOverlap100_100k-13                    ,Gonomics1Worker,100,100000,149685128,14357
+BenchmarkSingleThreadIntervalOverlap100_100k-13                    ,Gonomics1Worker,100,100000,146247147,14361
+BenchmarkSingleThreadIntervalOverlap100_100k-13                    ,Gonomics1Worker,100,100000,123338113,14365
+BenchmarkSingleThreadIntervalOverlap100_100k-13                    ,Gonomics1Worker,100,100000,140694077,14368
+ 14368BenchmarkGonomicsIntervalOverlap100_1mi-13                         ,Gonomics8Worker,100,1000000,1367127156,14368
+BenchmarkGonomicsIntervalOverlap100_1mi-13                         ,Gonomics8Worker,100,1000000,1355336204,14369
+BenchmarkGonomicsIntervalOverlap100_1mi-13                         ,Gonomics8Worker,100,1000000,1395656515,14369
+BenchmarkGonomicsIntervalOverlap100_1mi-13                         ,Gonomics8Worker,100,1000000,1314701892,14370
+BenchmarkGonomicsIntervalOverlap100_1mi-13                         ,Gonomics8Worker,100,1000000,1295037116,14370
+BenchmarkGonomicsIntervalOverlap100_1mi-13                         ,Gonomics8Worker,100,1000000,1186730749,14371
+BenchmarkGonomicsIntervalOverlap100_1mi-13                         ,Gonomics8Worker,100,1000000,1115853962,14371
+BenchmarkGonomicsIntervalOverlap100_1mi-13                         ,Gonomics8Worker,100,1000000,1328720593,14372
+BenchmarkGonomicsIntervalOverlap100_1mi-13                         ,Gonomics8Worker,100,1000000,1344295740,14372
+BenchmarkGonomicsIntervalOverlap100_1mi-13                         ,Gonomics8Worker,100,1000000,1415141034,14373
+ 14373BenchmarkBedtoolsIntervalOverlap100_1mi-13                         ,Bedtools,100,1000000,519529123,14372
+BenchmarkBedtoolsIntervalOverlap100_1mi-13                         ,Bedtools,100,1000000,690266708,14370
+BenchmarkBedtoolsIntervalOverlap100_1mi-13                         ,Bedtools,100,1000000,628539659,14369
+BenchmarkBedtoolsIntervalOverlap100_1mi-13                         ,Bedtools,100,1000000,670452384,14369
+BenchmarkBedtoolsIntervalOverlap100_1mi-13                         ,Bedtools,100,1000000,631018866,14368
+BenchmarkBedtoolsIntervalOverlap100_1mi-13                         ,Bedtools,100,1000000,387857230,14366
+BenchmarkBedtoolsIntervalOverlap100_1mi-13                         ,Bedtools,100,1000000,541733735,14365
+BenchmarkBedtoolsIntervalOverlap100_1mi-13                         ,Bedtools,100,1000000,856155252,14364
+BenchmarkBedtoolsIntervalOverlap100_1mi-13                         ,Bedtools,100,1000000,705265036,14363
+BenchmarkBedtoolsIntervalOverlap100_1mi-13                         ,Bedtools,100,1000000,584951264,14361
+ 14363BenchmarkBedopsIntervalOverlap100_1mi-13                           ,Bedops,100,1000000,1807705950,14363
+BenchmarkBedopsIntervalOverlap100_1mi-13                           ,Bedops,100,1000000,1652009625,14365
+BenchmarkBedopsIntervalOverlap100_1mi-13                           ,Bedops,100,1000000,2119959696,14366
+BenchmarkBedopsIntervalOverlap100_1mi-13                           ,Bedops,100,1000000,1618378420,14368
+BenchmarkBedopsIntervalOverlap100_1mi-13                           ,Bedops,100,1000000,1632154930,14370
+BenchmarkBedopsIntervalOverlap100_1mi-13                           ,Bedops,100,1000000,3104627896,14371
+BenchmarkBedopsIntervalOverlap100_1mi-13                           ,Bedops,100,1000000,3067806922,14373
+BenchmarkBedopsIntervalOverlap100_1mi-13                           ,Bedops,100,1000000,3042659332,14375
+BenchmarkBedopsIntervalOverlap100_1mi-13                           ,Bedops,100,1000000,3140679330,14377
+BenchmarkBedopsIntervalOverlap100_1mi-13                           ,Bedops,100,1000000,1755821246,14379
+ 14379BenchmarkSingleThreadIntervalOverlap100_1mi-13                     ,Gonomics1Worker,100,1000000,1268270113,14379
+BenchmarkSingleThreadIntervalOverlap100_1mi-13                     ,Gonomics1Worker,100,1000000,1297973428,14379
+BenchmarkSingleThreadIntervalOverlap100_1mi-13                     ,Gonomics1Worker,100,1000000,1246847222,14380
+BenchmarkSingleThreadIntervalOverlap100_1mi-13                     ,Gonomics1Worker,100,1000000,1246041927,14380
+BenchmarkSingleThreadIntervalOverlap100_1mi-13                     ,Gonomics1Worker,100,1000000,1258503084,14381
+BenchmarkSingleThreadIntervalOverlap100_1mi-13                     ,Gonomics1Worker,100,1000000,1282425155,14381
+BenchmarkSingleThreadIntervalOverlap100_1mi-13                     ,Gonomics1Worker,100,1000000,1368753207,14381
+BenchmarkSingleThreadIntervalOverlap100_1mi-13                     ,Gonomics1Worker,100,1000000,1220268630,14382
+BenchmarkSingleThreadIntervalOverlap100_1mi-13                     ,Gonomics1Worker,100,1000000,1296132176,14382
+BenchmarkSingleThreadIntervalOverlap100_1mi-13                     ,Gonomics1Worker,100,1000000,1361358204,14383
+ 14384BenchmarkGonomicsIntervalOverlap100_10mi-13                        ,Gonomics8Worker,100,10000000,11209100068,14384
+BenchmarkGonomicsIntervalOverlap100_10mi-13                        ,Gonomics8Worker,100,10000000,11163309515,14384
+BenchmarkGonomicsIntervalOverlap100_10mi-13                        ,Gonomics8Worker,100,10000000,11410378156,14385
+BenchmarkGonomicsIntervalOverlap100_10mi-13                        ,Gonomics8Worker,100,10000000,11499059537,14385
+BenchmarkGonomicsIntervalOverlap100_10mi-13                        ,Gonomics8Worker,100,10000000,11502062576,14386
+BenchmarkGonomicsIntervalOverlap100_10mi-13                        ,Gonomics8Worker,100,10000000,12478472260,14386
+BenchmarkGonomicsIntervalOverlap100_10mi-13                        ,Gonomics8Worker,100,10000000,12043829643,14387
+BenchmarkGonomicsIntervalOverlap100_10mi-13                        ,Gonomics8Worker,100,10000000,12864023360,14387
+BenchmarkGonomicsIntervalOverlap100_10mi-13                        ,Gonomics8Worker,100,10000000,11044098164,14388
+BenchmarkGonomicsIntervalOverlap100_10mi-13                        ,Gonomics8Worker,100,10000000,12261567397,14388
+ 14388BenchmarkBedtoolsIntervalOverlap100_10mi-13                        ,Bedtools,100,10000000,3661589025,14388
+BenchmarkBedtoolsIntervalOverlap100_10mi-13                        ,Bedtools,100,10000000,3438085009,14388
+BenchmarkBedtoolsIntervalOverlap100_10mi-13                        ,Bedtools,100,10000000,3377670183,14388
+BenchmarkBedtoolsIntervalOverlap100_10mi-13                        ,Bedtools,100,10000000,3611629395,14387
+BenchmarkBedtoolsIntervalOverlap100_10mi-13                        ,Bedtools,100,10000000,3388527970,14387
+BenchmarkBedtoolsIntervalOverlap100_10mi-13                        ,Bedtools,100,10000000,3692648431,14387
+BenchmarkBedtoolsIntervalOverlap100_10mi-13                        ,Bedtools,100,10000000,3601842285,14387
+BenchmarkBedtoolsIntervalOverlap100_10mi-13                        ,Bedtools,100,10000000,8444297034,14387
+BenchmarkBedtoolsIntervalOverlap100_10mi-13                        ,Bedtools,100,10000000,3409538195,14386
+BenchmarkBedtoolsIntervalOverlap100_10mi-13                        ,Bedtools,100,10000000,8206153581,14386
+ 14408BenchmarkBedopsIntervalOverlap100_10mi-13                          ,Bedops,100,10000000,14348301378,14408
+BenchmarkBedopsIntervalOverlap100_10mi-13                          ,Bedops,100,10000000,28877669368,14430
+BenchmarkBedopsIntervalOverlap100_10mi-13                          ,Bedops,100,10000000,28994385171,14452
+BenchmarkBedopsIntervalOverlap100_10mi-13                          ,Bedops,100,10000000,23434519602,14474
+BenchmarkBedopsIntervalOverlap100_10mi-13                          ,Bedops,100,10000000,14493371327,14496
+BenchmarkBedopsIntervalOverlap100_10mi-13                          ,Bedops,100,10000000,26486301322,14518
+BenchmarkBedopsIntervalOverlap100_10mi-13                          ,Bedops,100,10000000,14754753916,14540
+BenchmarkBedopsIntervalOverlap100_10mi-13                          ,Bedops,100,10000000,14410001924,14562
+BenchmarkBedopsIntervalOverlap100_10mi-13                          ,Bedops,100,10000000,14565529551,14584
+BenchmarkBedopsIntervalOverlap100_10mi-13                          ,Bedops,100,10000000,26710578705,14605
+ 14606BenchmarkSingleThreadIntervalOverlap100_10mi-13                    ,Gonomics1Worker,100,10000000,11981211652,14606
+BenchmarkSingleThreadIntervalOverlap100_10mi-13                    ,Gonomics1Worker,100,10000000,11152289100,14607
+BenchmarkSingleThreadIntervalOverlap100_10mi-13                    ,Gonomics1Worker,100,10000000,11514141272,14607
+BenchmarkSingleThreadIntervalOverlap100_10mi-13                    ,Gonomics1Worker,100,10000000,11366867460,14608
+BenchmarkSingleThreadIntervalOverlap100_10mi-13                    ,Gonomics1Worker,100,10000000,11762147349,14608
+BenchmarkSingleThreadIntervalOverlap100_10mi-13                    ,Gonomics1Worker,100,10000000,12781445966,14609
+BenchmarkSingleThreadIntervalOverlap100_10mi-13                    ,Gonomics1Worker,100,10000000,12919938838,14609
+BenchmarkSingleThreadIntervalOverlap100_10mi-13                    ,Gonomics1Worker,100,10000000,11936972244,14610
+BenchmarkSingleThreadIntervalOverlap100_10mi-13                    ,Gonomics1Worker,100,10000000,12517102871,14611
+BenchmarkSingleThreadIntervalOverlap100_10mi-13                    ,Gonomics1Worker,100,10000000,13147983652,14611
+ 14611BenchmarkGonomicsIntervalOverlap1k_100-13                          ,Gonomics8Worker,1000,100,28703852,14610
+BenchmarkGonomicsIntervalOverlap1k_100-13                          ,Gonomics8Worker,1000,100,29384135,14607
+BenchmarkGonomicsIntervalOverlap1k_100-13                          ,Gonomics8Worker,1000,100,28294185,14604
+BenchmarkGonomicsIntervalOverlap1k_100-13                          ,Gonomics8Worker,1000,100,26252978,14601
+BenchmarkGonomicsIntervalOverlap1k_100-13                          ,Gonomics8Worker,1000,100,26436789,14602
+BenchmarkGonomicsIntervalOverlap1k_100-13                          ,Gonomics8Worker,1000,100,29094804,14601
+BenchmarkGonomicsIntervalOverlap1k_100-13                          ,Gonomics8Worker,1000,100,27188875,14601
+BenchmarkGonomicsIntervalOverlap1k_100-13                          ,Gonomics8Worker,1000,100,31908655,14599
+BenchmarkGonomicsIntervalOverlap1k_100-13                          ,Gonomics8Worker,1000,100,28820784,14596
+BenchmarkGonomicsIntervalOverlap1k_100-13                          ,Gonomics8Worker,1000,100,25702850,14593
+ 14593BenchmarkBedtoolsIntervalOverlap1k_100-13                          ,Bedtools,1000,100,18078330,14568
+BenchmarkBedtoolsIntervalOverlap1k_100-13                          ,Bedtools,1000,100,18781005,14548
+BenchmarkBedtoolsIntervalOverlap1k_100-13                          ,Bedtools,1000,100,22036984,14536
+BenchmarkBedtoolsIntervalOverlap1k_100-13                          ,Bedtools,1000,100,20272792,14523
+BenchmarkBedtoolsIntervalOverlap1k_100-13                          ,Bedtools,1000,100,19317818,14497
+BenchmarkBedtoolsIntervalOverlap1k_100-13                          ,Bedtools,1000,100,18685936,14470
+BenchmarkBedtoolsIntervalOverlap1k_100-13                          ,Bedtools,1000,100,18472958,14444
+BenchmarkBedtoolsIntervalOverlap1k_100-13                          ,Bedtools,1000,100,19118133,14430
+BenchmarkBedtoolsIntervalOverlap1k_100-13                          ,Bedtools,1000,100,18397751,14417
+BenchmarkBedtoolsIntervalOverlap1k_100-13                          ,Bedtools,1000,100,19176859,14393
+ 14393BenchmarkBedopsIntervalOverlap1k_100-13                            ,Bedops,1000,100,34862244,14402
+BenchmarkBedopsIntervalOverlap1k_100-13                            ,Bedops,1000,100,34748595,14407
+BenchmarkBedopsIntervalOverlap1k_100-13                            ,Bedops,1000,100,35935670,14412
+BenchmarkBedopsIntervalOverlap1k_100-13                            ,Bedops,1000,100,35599571,14417
+BenchmarkBedopsIntervalOverlap1k_100-13                            ,Bedops,1000,100,33923184,14422
+BenchmarkBedopsIntervalOverlap1k_100-13                            ,Bedops,1000,100,34442598,14427
+BenchmarkBedopsIntervalOverlap1k_100-13                            ,Bedops,1000,100,33401444,14432
+BenchmarkBedopsIntervalOverlap1k_100-13                            ,Bedops,1000,100,34360265,14438
+BenchmarkBedopsIntervalOverlap1k_100-13                            ,Bedops,1000,100,32453072,14443
+BenchmarkBedopsIntervalOverlap1k_100-13                            ,Bedops,1000,100,35267785,14449
+ 14449BenchmarkSingleThreadIntervalOverlap1k_100-13                      ,Gonomics1Worker,1000,100,24821813,14444
+BenchmarkSingleThreadIntervalOverlap1k_100-13                      ,Gonomics1Worker,1000,100,25800765,14442
+BenchmarkSingleThreadIntervalOverlap1k_100-13                      ,Gonomics1Worker,1000,100,24013850,14438
+BenchmarkSingleThreadIntervalOverlap1k_100-13                      ,Gonomics1Worker,1000,100,26481774,14435
+BenchmarkSingleThreadIntervalOverlap1k_100-13                      ,Gonomics1Worker,1000,100,26914975,14433
+BenchmarkSingleThreadIntervalOverlap1k_100-13                      ,Gonomics1Worker,1000,100,26343725,14430
+BenchmarkSingleThreadIntervalOverlap1k_100-13                      ,Gonomics1Worker,1000,100,26161230,14427
+BenchmarkSingleThreadIntervalOverlap1k_100-13                      ,Gonomics1Worker,1000,100,25528261,14425
+BenchmarkSingleThreadIntervalOverlap1k_100-13                      ,Gonomics1Worker,1000,100,26806790,14423
+BenchmarkSingleThreadIntervalOverlap1k_100-13                      ,Gonomics1Worker,1000,100,25371161,14420
+ 14420BenchmarkGonomicsIntervalOverlap1k_1k-13                           ,Gonomics8Worker,1000,1000,28381761,14428
+BenchmarkGonomicsIntervalOverlap1k_1k-13                           ,Gonomics8Worker,1000,1000,28819221,14434
+BenchmarkGonomicsIntervalOverlap1k_1k-13                           ,Gonomics8Worker,1000,1000,30159709,14441
+BenchmarkGonomicsIntervalOverlap1k_1k-13                           ,Gonomics8Worker,1000,1000,26274716,14446
+BenchmarkGonomicsIntervalOverlap1k_1k-13                           ,Gonomics8Worker,1000,1000,26765079,14451
+BenchmarkGonomicsIntervalOverlap1k_1k-13                           ,Gonomics8Worker,1000,1000,27849173,14455
+BenchmarkGonomicsIntervalOverlap1k_1k-13                           ,Gonomics8Worker,1000,1000,28126713,14460
+BenchmarkGonomicsIntervalOverlap1k_1k-13                           ,Gonomics8Worker,1000,1000,29214321,14466
+BenchmarkGonomicsIntervalOverlap1k_1k-13                           ,Gonomics8Worker,1000,1000,28162695,14470
+BenchmarkGonomicsIntervalOverlap1k_1k-13                           ,Gonomics8Worker,1000,1000,30986954,14478
+ 14478BenchmarkBedtoolsIntervalOverlap1k_1k-13                           ,Bedtools,1000,1000,18317116,14460
+BenchmarkBedtoolsIntervalOverlap1k_1k-13                           ,Bedtools,1000,1000,19573659,14447
+BenchmarkBedtoolsIntervalOverlap1k_1k-13                           ,Bedtools,1000,1000,19038596,14426
+BenchmarkBedtoolsIntervalOverlap1k_1k-13                           ,Bedtools,1000,1000,20009751,14406
+BenchmarkBedtoolsIntervalOverlap1k_1k-13                           ,Bedtools,1000,1000,20248473,14394
+BenchmarkBedtoolsIntervalOverlap1k_1k-13                           ,Bedtools,1000,1000,20116098,14384
+BenchmarkBedtoolsIntervalOverlap1k_1k-13                           ,Bedtools,1000,1000,20444326,14372
+BenchmarkBedtoolsIntervalOverlap1k_1k-13                           ,Bedtools,1000,1000,21802716,14360
+BenchmarkBedtoolsIntervalOverlap1k_1k-13                           ,Bedtools,1000,1000,21157874,14343
+BenchmarkBedtoolsIntervalOverlap1k_1k-13                           ,Bedtools,1000,1000,20626169,14333
+ 14333BenchmarkBedopsIntervalOverlap1k_1k-13                             ,Bedops,1000,1000,38482149,14337
+BenchmarkBedopsIntervalOverlap1k_1k-13                             ,Bedops,1000,1000,38180785,14341
+BenchmarkBedopsIntervalOverlap1k_1k-13                             ,Bedops,1000,1000,37493437,14345
+BenchmarkBedopsIntervalOverlap1k_1k-13                             ,Bedops,1000,1000,37416880,14350
+BenchmarkBedopsIntervalOverlap1k_1k-13                             ,Bedops,1000,1000,40008357,14358
+BenchmarkBedopsIntervalOverlap1k_1k-13                             ,Bedops,1000,1000,40375208,14362
+BenchmarkBedopsIntervalOverlap1k_1k-13                             ,Bedops,1000,1000,38894265,14366
+BenchmarkBedopsIntervalOverlap1k_1k-13                             ,Bedops,1000,1000,39671432,14370
+BenchmarkBedopsIntervalOverlap1k_1k-13                             ,Bedops,1000,1000,40781145,14375
+BenchmarkBedopsIntervalOverlap1k_1k-13                             ,Bedops,1000,1000,39078332,14379
+ 14379BenchmarkSingleThreadIntervalOverlap1k_1k-13                       ,Gonomics1Worker,1000,1000,30907789,14379
+BenchmarkSingleThreadIntervalOverlap1k_1k-13                       ,Gonomics1Worker,1000,1000,33282426,14379
+BenchmarkSingleThreadIntervalOverlap1k_1k-13                       ,Gonomics1Worker,1000,1000,32250759,14380
+BenchmarkSingleThreadIntervalOverlap1k_1k-13                       ,Gonomics1Worker,1000,1000,32096870,14380
+BenchmarkSingleThreadIntervalOverlap1k_1k-13                       ,Gonomics1Worker,1000,1000,32726252,14380
+BenchmarkSingleThreadIntervalOverlap1k_1k-13                       ,Gonomics1Worker,1000,1000,32788899,14379
+BenchmarkSingleThreadIntervalOverlap1k_1k-13                       ,Gonomics1Worker,1000,1000,30015864,14379
+BenchmarkSingleThreadIntervalOverlap1k_1k-13                       ,Gonomics1Worker,1000,1000,31238507,14378
+BenchmarkSingleThreadIntervalOverlap1k_1k-13                       ,Gonomics1Worker,1000,1000,31696254,14378
+BenchmarkSingleThreadIntervalOverlap1k_1k-13                       ,Gonomics1Worker,1000,1000,30627335,14377
+ 14378BenchmarkGonomicsIntervalOverlap1k_10k-13                          ,Gonomics8Worker,1000,10000,41886046,14397
+BenchmarkGonomicsIntervalOverlap1k_10k-13                          ,Gonomics8Worker,1000,10000,35855012,14420
+BenchmarkGonomicsIntervalOverlap1k_10k-13                          ,Gonomics8Worker,1000,10000,36865405,14432
+BenchmarkGonomicsIntervalOverlap1k_10k-13                          ,Gonomics8Worker,1000,10000,36586736,14445
+BenchmarkGonomicsIntervalOverlap1k_10k-13                          ,Gonomics8Worker,1000,10000,38875473,14460
+BenchmarkGonomicsIntervalOverlap1k_10k-13                          ,Gonomics8Worker,1000,10000,34546063,14471
+BenchmarkGonomicsIntervalOverlap1k_10k-13                          ,Gonomics8Worker,1000,10000,34692491,14485
+BenchmarkGonomicsIntervalOverlap1k_10k-13                          ,Gonomics8Worker,1000,10000,36356632,14498
+BenchmarkGonomicsIntervalOverlap1k_10k-13                          ,Gonomics8Worker,1000,10000,34564098,14521
+BenchmarkGonomicsIntervalOverlap1k_10k-13                          ,Gonomics8Worker,1000,10000,37179795,14543
+ 14542BenchmarkBedtoolsIntervalOverlap1k_10k-13                          ,Bedtools,1000,10000,23585257,14528
+BenchmarkBedtoolsIntervalOverlap1k_10k-13                          ,Bedtools,1000,10000,23679071,14518
+BenchmarkBedtoolsIntervalOverlap1k_10k-13                          ,Bedtools,1000,10000,27110763,14503
+BenchmarkBedtoolsIntervalOverlap1k_10k-13                          ,Bedtools,1000,10000,27364194,14494
+BenchmarkBedtoolsIntervalOverlap1k_10k-13                          ,Bedtools,1000,10000,28753532,14487
+BenchmarkBedtoolsIntervalOverlap1k_10k-13                          ,Bedtools,1000,10000,29464268,14479
+BenchmarkBedtoolsIntervalOverlap1k_10k-13                          ,Bedtools,1000,10000,29192193,14466
+BenchmarkBedtoolsIntervalOverlap1k_10k-13                          ,Bedtools,1000,10000,25925998,14458
+BenchmarkBedtoolsIntervalOverlap1k_10k-13                          ,Bedtools,1000,10000,28274740,14446
+BenchmarkBedtoolsIntervalOverlap1k_10k-13                          ,Bedtools,1000,10000,29466284,14439
+ 14439BenchmarkBedopsIntervalOverlap1k_10k-13                            ,Bedops,1000,10000,65162216,14443
+BenchmarkBedopsIntervalOverlap1k_10k-13                            ,Bedops,1000,10000,68727933,14445
+BenchmarkBedopsIntervalOverlap1k_10k-13                            ,Bedops,1000,10000,64048686,14447
+BenchmarkBedopsIntervalOverlap1k_10k-13                            ,Bedops,1000,10000,65110464,14451
+BenchmarkBedopsIntervalOverlap1k_10k-13                            ,Bedops,1000,10000,190044708,14452
+BenchmarkBedopsIntervalOverlap1k_10k-13                            ,Bedops,1000,10000,66729189,14455
+BenchmarkBedopsIntervalOverlap1k_10k-13                            ,Bedops,1000,10000,70828873,14457
+BenchmarkBedopsIntervalOverlap1k_10k-13                            ,Bedops,1000,10000,63754030,14459
+BenchmarkBedopsIntervalOverlap1k_10k-13                            ,Bedops,1000,10000,66499133,14462
+BenchmarkBedopsIntervalOverlap1k_10k-13                            ,Bedops,1000,10000,61785039,14464
+ 14464BenchmarkSingleThreadIntervalOverlap1k_10k-13                      ,Gonomics1Worker,1000,10000,55900015,14467
+BenchmarkSingleThreadIntervalOverlap1k_10k-13                      ,Gonomics1Worker,1000,10000,50278814,14470
+BenchmarkSingleThreadIntervalOverlap1k_10k-13                      ,Gonomics1Worker,1000,10000,54318496,14475
+BenchmarkSingleThreadIntervalOverlap1k_10k-13                      ,Gonomics1Worker,1000,10000,50723330,14477
+BenchmarkSingleThreadIntervalOverlap1k_10k-13                      ,Gonomics1Worker,1000,10000,53195895,14482
+BenchmarkSingleThreadIntervalOverlap1k_10k-13                      ,Gonomics1Worker,1000,10000,56970751,14486
+BenchmarkSingleThreadIntervalOverlap1k_10k-13                      ,Gonomics1Worker,1000,10000,56324066,14490
+BenchmarkSingleThreadIntervalOverlap1k_10k-13                      ,Gonomics1Worker,1000,10000,55548343,14495
+BenchmarkSingleThreadIntervalOverlap1k_10k-13                      ,Gonomics1Worker,1000,10000,51591300,14498
+BenchmarkSingleThreadIntervalOverlap1k_10k-13                      ,Gonomics1Worker,1000,10000,56761639,14501
+ 14501BenchmarkGonomicsIntervalOverlap1k_100k-13                         ,Gonomics8Worker,1000,100000,144731528,14506
+BenchmarkGonomicsIntervalOverlap1k_100k-13                         ,Gonomics8Worker,1000,100000,155305667,14512
+BenchmarkGonomicsIntervalOverlap1k_100k-13                         ,Gonomics8Worker,1000,100000,148183787,14515
+BenchmarkGonomicsIntervalOverlap1k_100k-13                         ,Gonomics8Worker,1000,100000,148773757,14518
+BenchmarkGonomicsIntervalOverlap1k_100k-13                         ,Gonomics8Worker,1000,100000,145107987,14521
+BenchmarkGonomicsIntervalOverlap1k_100k-13                         ,Gonomics8Worker,1000,100000,143228984,14524
+BenchmarkGonomicsIntervalOverlap1k_100k-13                         ,Gonomics8Worker,1000,100000,141434644,14527
+BenchmarkGonomicsIntervalOverlap1k_100k-13                         ,Gonomics8Worker,1000,100000,154687880,14530
+BenchmarkGonomicsIntervalOverlap1k_100k-13                         ,Gonomics8Worker,1000,100000,190319035,14536
+BenchmarkGonomicsIntervalOverlap1k_100k-13                         ,Gonomics8Worker,1000,100000,145567183,14539
+ 14539BenchmarkBedtoolsIntervalOverlap1k_100k-13                         ,Bedtools,1000,100000,66738309,14536
+BenchmarkBedtoolsIntervalOverlap1k_100k-13                         ,Bedtools,1000,100000,71556998,14534
+BenchmarkBedtoolsIntervalOverlap1k_100k-13                         ,Bedtools,1000,100000,73217921,14529
+BenchmarkBedtoolsIntervalOverlap1k_100k-13                         ,Bedtools,1000,100000,77812215,14525
+BenchmarkBedtoolsIntervalOverlap1k_100k-13                         ,Bedtools,1000,100000,72614246,14522
+BenchmarkBedtoolsIntervalOverlap1k_100k-13                         ,Bedtools,1000,100000,100279003,14520
+BenchmarkBedtoolsIntervalOverlap1k_100k-13                         ,Bedtools,1000,100000,102194919,14517
+BenchmarkBedtoolsIntervalOverlap1k_100k-13                         ,Bedtools,1000,100000,89188628,14514
+BenchmarkBedtoolsIntervalOverlap1k_100k-13                         ,Bedtools,1000,100000,93538164,14510
+BenchmarkBedtoolsIntervalOverlap1k_100k-13                         ,Bedtools,1000,100000,84200466,14508
+ 14508BenchmarkBedopsIntervalOverlap1k_100k-13                           ,Bedops,1000,100000,291996160,14509
+BenchmarkBedopsIntervalOverlap1k_100k-13                           ,Bedops,1000,100000,261725279,14511
+BenchmarkBedopsIntervalOverlap1k_100k-13                           ,Bedops,1000,100000,250894561,14512
+BenchmarkBedopsIntervalOverlap1k_100k-13                           ,Bedops,1000,100000,335402727,14512
+BenchmarkBedopsIntervalOverlap1k_100k-13                           ,Bedops,1000,100000,250317669,14513
+BenchmarkBedopsIntervalOverlap1k_100k-13                           ,Bedops,1000,100000,209280052,14514
+BenchmarkBedopsIntervalOverlap1k_100k-13                           ,Bedops,1000,100000,268934512,14515
+BenchmarkBedopsIntervalOverlap1k_100k-13                           ,Bedops,1000,100000,321978807,14517
+BenchmarkBedopsIntervalOverlap1k_100k-13                           ,Bedops,1000,100000,225579967,14518
+BenchmarkBedopsIntervalOverlap1k_100k-13                           ,Bedops,1000,100000,221106391,14519
+ 14519BenchmarkSingleThreadIntervalOverlap1k_100k-13                     ,Gonomics1Worker,1000,100000,266914859,14522
+BenchmarkSingleThreadIntervalOverlap1k_100k-13                     ,Gonomics1Worker,1000,100000,264854144,14524
+BenchmarkSingleThreadIntervalOverlap1k_100k-13                     ,Gonomics1Worker,1000,100000,272931680,14526
+BenchmarkSingleThreadIntervalOverlap1k_100k-13                     ,Gonomics1Worker,1000,100000,263854548,14528
+BenchmarkSingleThreadIntervalOverlap1k_100k-13                     ,Gonomics1Worker,1000,100000,258117816,14530
+BenchmarkSingleThreadIntervalOverlap1k_100k-13                     ,Gonomics1Worker,1000,100000,258114657,14532
+BenchmarkSingleThreadIntervalOverlap1k_100k-13                     ,Gonomics1Worker,1000,100000,267509958,14535
+BenchmarkSingleThreadIntervalOverlap1k_100k-13                     ,Gonomics1Worker,1000,100000,234625639,14538
+BenchmarkSingleThreadIntervalOverlap1k_100k-13                     ,Gonomics1Worker,1000,100000,247900700,14542
+BenchmarkSingleThreadIntervalOverlap1k_100k-13                     ,Gonomics1Worker,1000,100000,229298017,14546
+ 14546BenchmarkGonomicsIntervalOverlap1k_1mi-13                          ,Gonomics8Worker,1000,1000000,1267697018,14546
+BenchmarkGonomicsIntervalOverlap1k_1mi-13                          ,Gonomics8Worker,1000,1000000,1249374835,14546
+BenchmarkGonomicsIntervalOverlap1k_1mi-13                          ,Gonomics8Worker,1000,1000000,1157263702,14547
+BenchmarkGonomicsIntervalOverlap1k_1mi-13                          ,Gonomics8Worker,1000,1000000,1264817101,14547
+BenchmarkGonomicsIntervalOverlap1k_1mi-13                          ,Gonomics8Worker,1000,1000000,1355537272,14548
+BenchmarkGonomicsIntervalOverlap1k_1mi-13                          ,Gonomics8Worker,1000,1000000,1296852949,14548
+BenchmarkGonomicsIntervalOverlap1k_1mi-13                          ,Gonomics8Worker,1000,1000000,1126549246,14548
+BenchmarkGonomicsIntervalOverlap1k_1mi-13                          ,Gonomics8Worker,1000,1000000,1167514326,14549
+BenchmarkGonomicsIntervalOverlap1k_1mi-13                          ,Gonomics8Worker,1000,1000000,1190789961,14549
+BenchmarkGonomicsIntervalOverlap1k_1mi-13                          ,Gonomics8Worker,1000,1000000,1142359756,14549
+ 14549BenchmarkBedtoolsIntervalOverlap1k_1mi-13                          ,Bedtools,1000,1000000,745834145,14548
+BenchmarkBedtoolsIntervalOverlap1k_1mi-13                          ,Bedtools,1000,1000000,482534887,14547
+BenchmarkBedtoolsIntervalOverlap1k_1mi-13                          ,Bedtools,1000,1000000,873884204,14547
+BenchmarkBedtoolsIntervalOverlap1k_1mi-13                          ,Bedtools,1000,1000000,505976282,14546
+BenchmarkBedtoolsIntervalOverlap1k_1mi-13                          ,Bedtools,1000,1000000,868240754,14546
+BenchmarkBedtoolsIntervalOverlap1k_1mi-13                          ,Bedtools,1000,1000000,505341168,14546
+BenchmarkBedtoolsIntervalOverlap1k_1mi-13                          ,Bedtools,1000,1000000,567741649,14545
+BenchmarkBedtoolsIntervalOverlap1k_1mi-13                          ,Bedtools,1000,1000000,510646254,14544
+BenchmarkBedtoolsIntervalOverlap1k_1mi-13                          ,Bedtools,1000,1000000,503510682,14544
+BenchmarkBedtoolsIntervalOverlap1k_1mi-13                          ,Bedtools,1000,1000000,822696486,14543
+ 14544BenchmarkBedopsIntervalOverlap1k_1mi-13                            ,Bedops,1000,1000000,2950111661,14544
+BenchmarkBedopsIntervalOverlap1k_1mi-13                            ,Bedops,1000,1000000,2833294829,14545
+BenchmarkBedopsIntervalOverlap1k_1mi-13                            ,Bedops,1000,1000000,3037773384,14546
+BenchmarkBedopsIntervalOverlap1k_1mi-13                            ,Bedops,1000,1000000,1730112647,14547
+BenchmarkBedopsIntervalOverlap1k_1mi-13                            ,Bedops,1000,1000000,1650325421,14548
+BenchmarkBedopsIntervalOverlap1k_1mi-13                            ,Bedops,1000,1000000,1666239395,14550
+BenchmarkBedopsIntervalOverlap1k_1mi-13                            ,Bedops,1000,1000000,3367601312,14551
+BenchmarkBedopsIntervalOverlap1k_1mi-13                            ,Bedops,1000,1000000,2993430685,14552
+BenchmarkBedopsIntervalOverlap1k_1mi-13                            ,Bedops,1000,1000000,2395210648,14553
+BenchmarkBedopsIntervalOverlap1k_1mi-13                            ,Bedops,1000,1000000,2779453019,14554
+ 14554BenchmarkSingleThreadIntervalOverlap1k_1mi-13                      ,Gonomics1Worker,1000,1000000,2445119160,14554
+BenchmarkSingleThreadIntervalOverlap1k_1mi-13                      ,Gonomics1Worker,1000,1000000,2436314972,14554
+BenchmarkSingleThreadIntervalOverlap1k_1mi-13                      ,Gonomics1Worker,1000,1000000,2256686592,14555
+BenchmarkSingleThreadIntervalOverlap1k_1mi-13                      ,Gonomics1Worker,1000,1000000,2389292912,14555
+BenchmarkSingleThreadIntervalOverlap1k_1mi-13                      ,Gonomics1Worker,1000,1000000,2338759857,14555
+BenchmarkSingleThreadIntervalOverlap1k_1mi-13                      ,Gonomics1Worker,1000,1000000,2289784575,14556
+BenchmarkSingleThreadIntervalOverlap1k_1mi-13                      ,Gonomics1Worker,1000,1000000,2201092458,14556
+BenchmarkSingleThreadIntervalOverlap1k_1mi-13                      ,Gonomics1Worker,1000,1000000,2245101766,14556
+BenchmarkSingleThreadIntervalOverlap1k_1mi-13                      ,Gonomics1Worker,1000,1000000,2171795993,14557
+BenchmarkSingleThreadIntervalOverlap1k_1mi-13                      ,Gonomics1Worker,1000,1000000,2373832664,14557
+ 14557BenchmarkGonomicsIntervalOverlap1k_10mi-13                         ,Gonomics8Worker,1000,10000000,12960317233,14557
+BenchmarkGonomicsIntervalOverlap1k_10mi-13                         ,Gonomics8Worker,1000,10000000,12784413387,14558
+BenchmarkGonomicsIntervalOverlap1k_10mi-13                         ,Gonomics8Worker,1000,10000000,12750804459,14558
+BenchmarkGonomicsIntervalOverlap1k_10mi-13                         ,Gonomics8Worker,1000,10000000,13753151873,14558
+BenchmarkGonomicsIntervalOverlap1k_10mi-13                         ,Gonomics8Worker,1000,10000000,12513157761,14559
+BenchmarkGonomicsIntervalOverlap1k_10mi-13                         ,Gonomics8Worker,1000,10000000,12579471306,14559
+BenchmarkGonomicsIntervalOverlap1k_10mi-13                         ,Gonomics8Worker,1000,10000000,11110890973,14559
+BenchmarkGonomicsIntervalOverlap1k_10mi-13                         ,Gonomics8Worker,1000,10000000,12167605712,14560
+BenchmarkGonomicsIntervalOverlap1k_10mi-13                         ,Gonomics8Worker,1000,10000000,11586253822,14560
+BenchmarkGonomicsIntervalOverlap1k_10mi-13                         ,Gonomics8Worker,1000,10000000,12425421430,14561
+ 14561BenchmarkBedtoolsIntervalOverlap1k_10mi-13                         ,Bedtools,1000,10000000,8980403828,14561
+BenchmarkBedtoolsIntervalOverlap1k_10mi-13                         ,Bedtools,1000,10000000,4917280676,14561
+BenchmarkBedtoolsIntervalOverlap1k_10mi-13                         ,Bedtools,1000,10000000,9883874696,14560
+BenchmarkBedtoolsIntervalOverlap1k_10mi-13                         ,Bedtools,1000,10000000,5009724125,14560
+BenchmarkBedtoolsIntervalOverlap1k_10mi-13                         ,Bedtools,1000,10000000,4808628245,14560
+BenchmarkBedtoolsIntervalOverlap1k_10mi-13                         ,Bedtools,1000,10000000,9906495351,14560
+BenchmarkBedtoolsIntervalOverlap1k_10mi-13                         ,Bedtools,1000,10000000,4811521186,14560
+BenchmarkBedtoolsIntervalOverlap1k_10mi-13                         ,Bedtools,1000,10000000,4526686556,14560
+BenchmarkBedtoolsIntervalOverlap1k_10mi-13                         ,Bedtools,1000,10000000,11276682663,14559
+BenchmarkBedtoolsIntervalOverlap1k_10mi-13                         ,Bedtools,1000,10000000,4682830645,14559
+ 14573BenchmarkBedopsIntervalOverlap1k_10mi-13                           ,Bedops,1000,10000000,14913777619,14573
+BenchmarkBedopsIntervalOverlap1k_10mi-13                           ,Bedops,1000,10000000,15236914639,14587
+BenchmarkBedopsIntervalOverlap1k_10mi-13                           ,Bedops,1000,10000000,19157203115,14600
+BenchmarkBedopsIntervalOverlap1k_10mi-13                           ,Bedops,1000,10000000,15055520428,14614
+BenchmarkBedopsIntervalOverlap1k_10mi-13                           ,Bedops,1000,10000000,14425538059,14628
+BenchmarkBedopsIntervalOverlap1k_10mi-13                           ,Bedops,1000,10000000,28977686013,14641
+BenchmarkBedopsIntervalOverlap1k_10mi-13                           ,Bedops,1000,10000000,15378184798,14654
+BenchmarkBedopsIntervalOverlap1k_10mi-13                           ,Bedops,1000,10000000,17700579527,14668
+BenchmarkBedopsIntervalOverlap1k_10mi-13                           ,Bedops,1000,10000000,15399597583,14681
+BenchmarkBedopsIntervalOverlap1k_10mi-13                           ,Bedops,1000,10000000,15012919675,14695
+ 14695BenchmarkSingleThreadIntervalOverlap1k_10mi-13                     ,Gonomics1Worker,1000,10000000,21965908881,14695
+BenchmarkSingleThreadIntervalOverlap1k_10mi-13                     ,Gonomics1Worker,1000,10000000,21399037556,14696
+BenchmarkSingleThreadIntervalOverlap1k_10mi-13                     ,Gonomics1Worker,1000,10000000,21409885138,14696
+BenchmarkSingleThreadIntervalOverlap1k_10mi-13                     ,Gonomics1Worker,1000,10000000,22044273993,14697
+BenchmarkSingleThreadIntervalOverlap1k_10mi-13                     ,Gonomics1Worker,1000,10000000,22336455224,14697
+BenchmarkSingleThreadIntervalOverlap1k_10mi-13                     ,Gonomics1Worker,1000,10000000,22209465576,14698
+BenchmarkSingleThreadIntervalOverlap1k_10mi-13                     ,Gonomics1Worker,1000,10000000,22232801936,14698
+BenchmarkSingleThreadIntervalOverlap1k_10mi-13                     ,Gonomics1Worker,1000,10000000,23068585750,14699
+BenchmarkSingleThreadIntervalOverlap1k_10mi-13                     ,Gonomics1Worker,1000,10000000,22280680138,14699
+BenchmarkSingleThreadIntervalOverlap1k_10mi-13                     ,Gonomics1Worker,1000,10000000,22514227381,14699
+ 14700BenchmarkGonomicsIntervalOverlap10k_100-13                         ,Gonomics8Worker,10000,100,101262759,14713
+BenchmarkGonomicsIntervalOverlap10k_100-13                         ,Gonomics8Worker,10000,100,92662014,14724
+BenchmarkGonomicsIntervalOverlap10k_100-13                         ,Gonomics8Worker,10000,100,101821362,14734
+BenchmarkGonomicsIntervalOverlap10k_100-13                         ,Gonomics8Worker,10000,100,102875998,14743
+BenchmarkGonomicsIntervalOverlap10k_100-13                         ,Gonomics8Worker,10000,100,102667167,14758
+BenchmarkGonomicsIntervalOverlap10k_100-13                         ,Gonomics8Worker,10000,100,102030571,14775
+BenchmarkGonomicsIntervalOverlap10k_100-13                         ,Gonomics8Worker,10000,100,105225779,14783
+BenchmarkGonomicsIntervalOverlap10k_100-13                         ,Gonomics8Worker,10000,100,100802357,14791
+BenchmarkGonomicsIntervalOverlap10k_100-13                         ,Gonomics8Worker,10000,100,102250218,14801
+BenchmarkGonomicsIntervalOverlap10k_100-13                         ,Gonomics8Worker,10000,100,102590920,14826
+ 14825BenchmarkBedtoolsIntervalOverlap10k_100-13                         ,Bedtools,10000,100,41035679,14821
+BenchmarkBedtoolsIntervalOverlap10k_100-13                         ,Bedtools,10000,100,36748360,14811
+BenchmarkBedtoolsIntervalOverlap10k_100-13                         ,Bedtools,10000,100,37221924,14805
+BenchmarkBedtoolsIntervalOverlap10k_100-13                         ,Bedtools,10000,100,37236242,14799
+BenchmarkBedtoolsIntervalOverlap10k_100-13                         ,Bedtools,10000,100,38411988,14793
+BenchmarkBedtoolsIntervalOverlap10k_100-13                         ,Bedtools,10000,100,39688541,14788
+BenchmarkBedtoolsIntervalOverlap10k_100-13                         ,Bedtools,10000,100,41366799,14783
+BenchmarkBedtoolsIntervalOverlap10k_100-13                         ,Bedtools,10000,100,41315194,14773
+BenchmarkBedtoolsIntervalOverlap10k_100-13                         ,Bedtools,10000,100,39114417,14768
+BenchmarkBedtoolsIntervalOverlap10k_100-13                         ,Bedtools,10000,100,41596290,14763
+ 14763BenchmarkBedopsIntervalOverlap10k_100-13                           ,Bedops,10000,100,65256402,14766
+BenchmarkBedopsIntervalOverlap10k_100-13                           ,Bedops,10000,100,63372749,14769
+BenchmarkBedopsIntervalOverlap10k_100-13                           ,Bedops,10000,100,60723082,14770
+BenchmarkBedopsIntervalOverlap10k_100-13                           ,Bedops,10000,100,87285343,14772
+BenchmarkBedopsIntervalOverlap10k_100-13                           ,Bedops,10000,100,58294963,14774
+BenchmarkBedopsIntervalOverlap10k_100-13                           ,Bedops,10000,100,62973832,14776
+BenchmarkBedopsIntervalOverlap10k_100-13                           ,Bedops,10000,100,65151037,14779
+BenchmarkBedopsIntervalOverlap10k_100-13                           ,Bedops,10000,100,59618114,14781
+BenchmarkBedopsIntervalOverlap10k_100-13                           ,Bedops,10000,100,62613188,14784
+BenchmarkBedopsIntervalOverlap10k_100-13                           ,Bedops,10000,100,60265171,14787
+ 14788BenchmarkSingleThreadIntervalOverlap10k_100-13                     ,Gonomics1Worker,10000,100,102325111,14796
+BenchmarkSingleThreadIntervalOverlap10k_100-13                     ,Gonomics1Worker,10000,100,100635396,14804
+BenchmarkSingleThreadIntervalOverlap10k_100-13                     ,Gonomics1Worker,10000,100,98408826,14815
+BenchmarkSingleThreadIntervalOverlap10k_100-13                     ,Gonomics1Worker,10000,100,103803260,14829
+BenchmarkSingleThreadIntervalOverlap10k_100-13                     ,Gonomics1Worker,10000,100,103050312,14836
+BenchmarkSingleThreadIntervalOverlap10k_100-13                     ,Gonomics1Worker,10000,100,102835403,14844
+BenchmarkSingleThreadIntervalOverlap10k_100-13                     ,Gonomics1Worker,10000,100,103880255,14853
+BenchmarkSingleThreadIntervalOverlap10k_100-13                     ,Gonomics1Worker,10000,100,104977110,14867
+BenchmarkSingleThreadIntervalOverlap10k_100-13                     ,Gonomics1Worker,10000,100,98534255,14884
+BenchmarkSingleThreadIntervalOverlap10k_100-13                     ,Gonomics1Worker,10000,100,102387412,14892
+ 14893BenchmarkGonomicsIntervalOverlap10k_1k-13                          ,Gonomics8Worker,10000,1000,104579330,14914
+BenchmarkGonomicsIntervalOverlap10k_1k-13                          ,Gonomics8Worker,10000,1000,103272730,14922
+BenchmarkGonomicsIntervalOverlap10k_1k-13                          ,Gonomics8Worker,10000,1000,103553820,14932
+BenchmarkGonomicsIntervalOverlap10k_1k-13                          ,Gonomics8Worker,10000,1000,106907987,14947
+BenchmarkGonomicsIntervalOverlap10k_1k-13                          ,Gonomics8Worker,10000,1000,110789916,14957
+BenchmarkGonomicsIntervalOverlap10k_1k-13                          ,Gonomics8Worker,10000,1000,104787913,14966
+BenchmarkGonomicsIntervalOverlap10k_1k-13                          ,Gonomics8Worker,10000,1000,106696713,14976
+BenchmarkGonomicsIntervalOverlap10k_1k-13                          ,Gonomics8Worker,10000,1000,106140644,14990
+BenchmarkGonomicsIntervalOverlap10k_1k-13                          ,Gonomics8Worker,10000,1000,104353620,14999
+BenchmarkGonomicsIntervalOverlap10k_1k-13                          ,Gonomics8Worker,10000,1000,102368061,15007
+ 15007BenchmarkBedtoolsIntervalOverlap10k_1k-13                          ,Bedtools,10000,1000,41643040,14998
+BenchmarkBedtoolsIntervalOverlap10k_1k-13                          ,Bedtools,10000,1000,43108085,14989
+BenchmarkBedtoolsIntervalOverlap10k_1k-13                          ,Bedtools,10000,1000,45573036,14980
+BenchmarkBedtoolsIntervalOverlap10k_1k-13                          ,Bedtools,10000,1000,45101994,14975
+BenchmarkBedtoolsIntervalOverlap10k_1k-13                          ,Bedtools,10000,1000,47819089,14970
+BenchmarkBedtoolsIntervalOverlap10k_1k-13                          ,Bedtools,10000,1000,41139478,14965
+BenchmarkBedtoolsIntervalOverlap10k_1k-13                          ,Bedtools,10000,1000,40199172,14959
+BenchmarkBedtoolsIntervalOverlap10k_1k-13                          ,Bedtools,10000,1000,42770409,14951
+BenchmarkBedtoolsIntervalOverlap10k_1k-13                          ,Bedtools,10000,1000,48632998,14945
+BenchmarkBedtoolsIntervalOverlap10k_1k-13                          ,Bedtools,10000,1000,42207181,14941
+ 14941BenchmarkBedopsIntervalOverlap10k_1k-13                            ,Bedops,10000,1000,65274172,14943
+BenchmarkBedopsIntervalOverlap10k_1k-13                            ,Bedops,10000,1000,78558198,14944
+BenchmarkBedopsIntervalOverlap10k_1k-13                            ,Bedops,10000,1000,66754585,14945
+BenchmarkBedopsIntervalOverlap10k_1k-13                            ,Bedops,10000,1000,65855237,14946
+BenchmarkBedopsIntervalOverlap10k_1k-13                            ,Bedops,10000,1000,66384951,14949
+BenchmarkBedopsIntervalOverlap10k_1k-13                            ,Bedops,10000,1000,62881919,14951
+BenchmarkBedopsIntervalOverlap10k_1k-13                            ,Bedops,10000,1000,66385474,14953
+BenchmarkBedopsIntervalOverlap10k_1k-13                            ,Bedops,10000,1000,62444735,14955
+BenchmarkBedopsIntervalOverlap10k_1k-13                            ,Bedops,10000,1000,62128974,14956
+BenchmarkBedopsIntervalOverlap10k_1k-13                            ,Bedops,10000,1000,62152369,14958
+ 14958BenchmarkSingleThreadIntervalOverlap10k_1k-13                      ,Gonomics1Worker,10000,1000,102863827,14965
+BenchmarkSingleThreadIntervalOverlap10k_1k-13                      ,Gonomics1Worker,10000,1000,106591279,14974
+BenchmarkSingleThreadIntervalOverlap10k_1k-13                      ,Gonomics1Worker,10000,1000,107362576,14987
+BenchmarkSingleThreadIntervalOverlap10k_1k-13                      ,Gonomics1Worker,10000,1000,105319464,14995
+BenchmarkSingleThreadIntervalOverlap10k_1k-13                      ,Gonomics1Worker,10000,1000,108453404,15002
+BenchmarkSingleThreadIntervalOverlap10k_1k-13                      ,Gonomics1Worker,10000,1000,111851274,15009
+BenchmarkSingleThreadIntervalOverlap10k_1k-13                      ,Gonomics1Worker,10000,1000,106594094,15016
+BenchmarkSingleThreadIntervalOverlap10k_1k-13                      ,Gonomics1Worker,10000,1000,105191977,15029
+BenchmarkSingleThreadIntervalOverlap10k_1k-13                      ,Gonomics1Worker,10000,1000,114863294,15036
+BenchmarkSingleThreadIntervalOverlap10k_1k-13                      ,Gonomics1Worker,10000,1000,112345924,15043
+ 15044BenchmarkGonomicsIntervalOverlap10k_10k-13                         ,Gonomics8Worker,10000,10000,112492037,15065
+BenchmarkGonomicsIntervalOverlap10k_10k-13                         ,Gonomics8Worker,10000,10000,111762469,15074
+BenchmarkGonomicsIntervalOverlap10k_10k-13                         ,Gonomics8Worker,10000,10000,95208322,15099
+BenchmarkGonomicsIntervalOverlap10k_10k-13                         ,Gonomics8Worker,10000,10000,94309054,15117
+BenchmarkGonomicsIntervalOverlap10k_10k-13                         ,Gonomics8Worker,10000,10000,98123827,15128
+BenchmarkGonomicsIntervalOverlap10k_10k-13                         ,Gonomics8Worker,10000,10000,90670723,15139
+BenchmarkGonomicsIntervalOverlap10k_10k-13                         ,Gonomics8Worker,10000,10000,92032122,15151
+BenchmarkGonomicsIntervalOverlap10k_10k-13                         ,Gonomics8Worker,10000,10000,92519662,15169
+BenchmarkGonomicsIntervalOverlap10k_10k-13                         ,Gonomics8Worker,10000,10000,91092381,15188
+BenchmarkGonomicsIntervalOverlap10k_10k-13                         ,Gonomics8Worker,10000,10000,94162362,15198
+ 15197BenchmarkBedtoolsIntervalOverlap10k_10k-13                         ,Bedtools,10000,10000,42746461,15190
+BenchmarkBedtoolsIntervalOverlap10k_10k-13                         ,Bedtools,10000,10000,53130703,15184
+BenchmarkBedtoolsIntervalOverlap10k_10k-13                         ,Bedtools,10000,10000,52210632,15180
+BenchmarkBedtoolsIntervalOverlap10k_10k-13                         ,Bedtools,10000,10000,51734117,15172
+BenchmarkBedtoolsIntervalOverlap10k_10k-13                         ,Bedtools,10000,10000,53347658,15167
+BenchmarkBedtoolsIntervalOverlap10k_10k-13                         ,Bedtools,10000,10000,52212833,15163
+BenchmarkBedtoolsIntervalOverlap10k_10k-13                         ,Bedtools,10000,10000,52152739,15158
+BenchmarkBedtoolsIntervalOverlap10k_10k-13                         ,Bedtools,10000,10000,47609713,15148
+BenchmarkBedtoolsIntervalOverlap10k_10k-13                         ,Bedtools,10000,10000,55471999,15140
+BenchmarkBedtoolsIntervalOverlap10k_10k-13                         ,Bedtools,10000,10000,61353218,15135
+ 15135BenchmarkBedopsIntervalOverlap10k_10k-13                           ,Bedops,10000,10000,85434734,15137
+BenchmarkBedopsIntervalOverlap10k_10k-13                           ,Bedops,10000,10000,86529039,15138
+BenchmarkBedopsIntervalOverlap10k_10k-13                           ,Bedops,10000,10000,87346902,15139
+BenchmarkBedopsIntervalOverlap10k_10k-13                           ,Bedops,10000,10000,86357874,15140
+BenchmarkBedopsIntervalOverlap10k_10k-13                           ,Bedops,10000,10000,85894056,15141
+BenchmarkBedopsIntervalOverlap10k_10k-13                           ,Bedops,10000,10000,92674627,15142
+BenchmarkBedopsIntervalOverlap10k_10k-13                           ,Bedops,10000,10000,87671378,15143
+BenchmarkBedopsIntervalOverlap10k_10k-13                           ,Bedops,10000,10000,86020403,15144
+BenchmarkBedopsIntervalOverlap10k_10k-13                           ,Bedops,10000,10000,85962644,15144
+BenchmarkBedopsIntervalOverlap10k_10k-13                           ,Bedops,10000,10000,80505931,15145
+ 15146BenchmarkSingleThreadIntervalOverlap10k_10k-13                     ,Gonomics1Worker,10000,10000,129528945,15151
+BenchmarkSingleThreadIntervalOverlap10k_10k-13                     ,Gonomics1Worker,10000,10000,152220510,15157
+BenchmarkSingleThreadIntervalOverlap10k_10k-13                     ,Gonomics1Worker,10000,10000,140836124,15168
+BenchmarkSingleThreadIntervalOverlap10k_10k-13                     ,Gonomics1Worker,10000,10000,152125131,15174
+BenchmarkSingleThreadIntervalOverlap10k_10k-13                     ,Gonomics1Worker,10000,10000,142048124,15181
+BenchmarkSingleThreadIntervalOverlap10k_10k-13                     ,Gonomics1Worker,10000,10000,145313607,15187
+BenchmarkSingleThreadIntervalOverlap10k_10k-13                     ,Gonomics1Worker,10000,10000,144272118,15199
+BenchmarkSingleThreadIntervalOverlap10k_10k-13                     ,Gonomics1Worker,10000,10000,151279216,15204
+BenchmarkSingleThreadIntervalOverlap10k_10k-13                     ,Gonomics1Worker,10000,10000,142426073,15211
+BenchmarkSingleThreadIntervalOverlap10k_10k-13                     ,Gonomics1Worker,10000,10000,155530947,15222
+ 15222BenchmarkGonomicsIntervalOverlap10k_100k-13                        ,Gonomics8Worker,10000,100000,217647333,15231
+BenchmarkGonomicsIntervalOverlap10k_100k-13                        ,Gonomics8Worker,10000,100000,205023722,15240
+BenchmarkGonomicsIntervalOverlap10k_100k-13                        ,Gonomics8Worker,10000,100000,210720092,15247
+BenchmarkGonomicsIntervalOverlap10k_100k-13                        ,Gonomics8Worker,10000,100000,206910634,15254
+BenchmarkGonomicsIntervalOverlap10k_100k-13                        ,Gonomics8Worker,10000,100000,216759799,15264
+BenchmarkGonomicsIntervalOverlap10k_100k-13                        ,Gonomics8Worker,10000,100000,195901908,15270
+BenchmarkGonomicsIntervalOverlap10k_100k-13                        ,Gonomics8Worker,10000,100000,211296320,15277
+BenchmarkGonomicsIntervalOverlap10k_100k-13                        ,Gonomics8Worker,10000,100000,209238001,15287
+BenchmarkGonomicsIntervalOverlap10k_100k-13                        ,Gonomics8Worker,10000,100000,204009386,15296
+BenchmarkGonomicsIntervalOverlap10k_100k-13                        ,Gonomics8Worker,10000,100000,209613503,15306
+ 15306BenchmarkBedtoolsIntervalOverlap10k_100k-13                        ,Bedtools,10000,100000,149399769,15305
+BenchmarkBedtoolsIntervalOverlap10k_100k-13                        ,Bedtools,10000,100000,153614918,15303
+BenchmarkBedtoolsIntervalOverlap10k_100k-13                        ,Bedtools,10000,100000,138688386,15300
+BenchmarkBedtoolsIntervalOverlap10k_100k-13                        ,Bedtools,10000,100000,187367673,15298
+BenchmarkBedtoolsIntervalOverlap10k_100k-13                        ,Bedtools,10000,100000,139245447,15297
+BenchmarkBedtoolsIntervalOverlap10k_100k-13                        ,Bedtools,10000,100000,146626790,15295
+BenchmarkBedtoolsIntervalOverlap10k_100k-13                        ,Bedtools,10000,100000,148356516,15293
+BenchmarkBedtoolsIntervalOverlap10k_100k-13                        ,Bedtools,10000,100000,186014467,15291
+BenchmarkBedtoolsIntervalOverlap10k_100k-13                        ,Bedtools,10000,100000,126552394,15288
+BenchmarkBedtoolsIntervalOverlap10k_100k-13                        ,Bedtools,10000,100000,112544238,15286
+ 15286BenchmarkBedopsIntervalOverlap10k_100k-13                          ,Bedops,10000,100000,297486558,15287
+BenchmarkBedopsIntervalOverlap10k_100k-13                          ,Bedops,10000,100000,333304292,15287
+BenchmarkBedopsIntervalOverlap10k_100k-13                          ,Bedops,10000,100000,253240204,15287
+BenchmarkBedopsIntervalOverlap10k_100k-13                          ,Bedops,10000,100000,239959656,15288
+BenchmarkBedopsIntervalOverlap10k_100k-13                          ,Bedops,10000,100000,302428960,15288
+BenchmarkBedopsIntervalOverlap10k_100k-13                          ,Bedops,10000,100000,290230674,15289
+BenchmarkBedopsIntervalOverlap10k_100k-13                          ,Bedops,10000,100000,344620758,15289
+BenchmarkBedopsIntervalOverlap10k_100k-13                          ,Bedops,10000,100000,256070917,15290
+BenchmarkBedopsIntervalOverlap10k_100k-13                          ,Bedops,10000,100000,223651135,15291
+BenchmarkBedopsIntervalOverlap10k_100k-13                          ,Bedops,10000,100000,283254718,15291
+ 15292BenchmarkSingleThreadIntervalOverlap10k_100k-13                    ,Gonomics1Worker,10000,100000,551463816,15294
+BenchmarkSingleThreadIntervalOverlap10k_100k-13                    ,Gonomics1Worker,10000,100000,503240305,15297
+BenchmarkSingleThreadIntervalOverlap10k_100k-13                    ,Gonomics1Worker,10000,100000,525080187,15300
+BenchmarkSingleThreadIntervalOverlap10k_100k-13                    ,Gonomics1Worker,10000,100000,541200702,15303
+BenchmarkSingleThreadIntervalOverlap10k_100k-13                    ,Gonomics1Worker,10000,100000,553807025,15307
+BenchmarkSingleThreadIntervalOverlap10k_100k-13                    ,Gonomics1Worker,10000,100000,549414794,15310
+BenchmarkSingleThreadIntervalOverlap10k_100k-13                    ,Gonomics1Worker,10000,100000,546592054,15316
+BenchmarkSingleThreadIntervalOverlap10k_100k-13                    ,Gonomics1Worker,10000,100000,528729275,15322
+BenchmarkSingleThreadIntervalOverlap10k_100k-13                    ,Gonomics1Worker,10000,100000,588379630,15325
+BenchmarkSingleThreadIntervalOverlap10k_100k-13                    ,Gonomics1Worker,10000,100000,529171166,15328
+ 15329BenchmarkGonomicsIntervalOverlap10k_1mi-13                         ,Gonomics8Worker,10000,1000000,1431515851,15329
+BenchmarkGonomicsIntervalOverlap10k_1mi-13                         ,Gonomics8Worker,10000,1000000,1413657011,15330
+BenchmarkGonomicsIntervalOverlap10k_1mi-13                         ,Gonomics8Worker,10000,1000000,1371194647,15331
+BenchmarkGonomicsIntervalOverlap10k_1mi-13                         ,Gonomics8Worker,10000,1000000,1318728691,15332
+BenchmarkGonomicsIntervalOverlap10k_1mi-13                         ,Gonomics8Worker,10000,1000000,1286249524,15333
+BenchmarkGonomicsIntervalOverlap10k_1mi-13                         ,Gonomics8Worker,10000,1000000,1576708798,15334
+BenchmarkGonomicsIntervalOverlap10k_1mi-13                         ,Gonomics8Worker,10000,1000000,1352968730,15335
+BenchmarkGonomicsIntervalOverlap10k_1mi-13                         ,Gonomics8Worker,10000,1000000,1315989433,15336
+BenchmarkGonomicsIntervalOverlap10k_1mi-13                         ,Gonomics8Worker,10000,1000000,1478117004,15337
+BenchmarkGonomicsIntervalOverlap10k_1mi-13                         ,Gonomics8Worker,10000,1000000,1345224911,15338
+ 15338BenchmarkBedtoolsIntervalOverlap10k_1mi-13                         ,Bedtools,10000,1000000,1705796083,15338
+BenchmarkBedtoolsIntervalOverlap10k_1mi-13                         ,Bedtools,10000,1000000,1235645506,15337
+BenchmarkBedtoolsIntervalOverlap10k_1mi-13                         ,Bedtools,10000,1000000,792926724,15337
+BenchmarkBedtoolsIntervalOverlap10k_1mi-13                         ,Bedtools,10000,1000000,779430442,15336
+BenchmarkBedtoolsIntervalOverlap10k_1mi-13                         ,Bedtools,10000,1000000,1830446998,15336
+BenchmarkBedtoolsIntervalOverlap10k_1mi-13                         ,Bedtools,10000,1000000,1285647562,15335
+BenchmarkBedtoolsIntervalOverlap10k_1mi-13                         ,Bedtools,10000,1000000,1931350702,15335
+BenchmarkBedtoolsIntervalOverlap10k_1mi-13                         ,Bedtools,10000,1000000,854460216,15334
+BenchmarkBedtoolsIntervalOverlap10k_1mi-13                         ,Bedtools,10000,1000000,1332731403,15334
+BenchmarkBedtoolsIntervalOverlap10k_1mi-13                         ,Bedtools,10000,1000000,802965560,15333
+ 15334BenchmarkBedopsIntervalOverlap10k_1mi-13                           ,Bedops,10000,1000000,1598627052,15334
+BenchmarkBedopsIntervalOverlap10k_1mi-13                           ,Bedops,10000,1000000,1713902430,15335
+BenchmarkBedopsIntervalOverlap10k_1mi-13                           ,Bedops,10000,1000000,1692547289,15336
+BenchmarkBedopsIntervalOverlap10k_1mi-13                           ,Bedops,10000,1000000,3088357994,15336
+BenchmarkBedopsIntervalOverlap10k_1mi-13                           ,Bedops,10000,1000000,1602078051,15337
+BenchmarkBedopsIntervalOverlap10k_1mi-13                           ,Bedops,10000,1000000,1628108154,15338
+BenchmarkBedopsIntervalOverlap10k_1mi-13                           ,Bedops,10000,1000000,1696089004,15339
+BenchmarkBedopsIntervalOverlap10k_1mi-13                           ,Bedops,10000,1000000,1705904498,15340
+BenchmarkBedopsIntervalOverlap10k_1mi-13                           ,Bedops,10000,1000000,2004319589,15341
+BenchmarkBedopsIntervalOverlap10k_1mi-13                           ,Bedops,10000,1000000,1677149639,15341
+ 15342BenchmarkSingleThreadIntervalOverlap10k_1mi-13                     ,Gonomics1Worker,10000,1000000,4027556791,15342
+BenchmarkSingleThreadIntervalOverlap10k_1mi-13                     ,Gonomics1Worker,10000,1000000,4246733780,15343
+BenchmarkSingleThreadIntervalOverlap10k_1mi-13                     ,Gonomics1Worker,10000,1000000,4297417302,15344
+BenchmarkSingleThreadIntervalOverlap10k_1mi-13                     ,Gonomics1Worker,10000,1000000,4207228274,15345
+BenchmarkSingleThreadIntervalOverlap10k_1mi-13                     ,Gonomics1Worker,10000,1000000,4017682037,15346
+BenchmarkSingleThreadIntervalOverlap10k_1mi-13                     ,Gonomics1Worker,10000,1000000,4343801308,15347
+BenchmarkSingleThreadIntervalOverlap10k_1mi-13                     ,Gonomics1Worker,10000,1000000,4474386039,15348
+BenchmarkSingleThreadIntervalOverlap10k_1mi-13                     ,Gonomics1Worker,10000,1000000,4251446929,15349
+BenchmarkSingleThreadIntervalOverlap10k_1mi-13                     ,Gonomics1Worker,10000,1000000,3955413859,15350
+BenchmarkSingleThreadIntervalOverlap10k_1mi-13                     ,Gonomics1Worker,10000,1000000,4040087141,15351
+ 15352BenchmarkGonomicsIntervalOverlap10k_10mi-13                        ,Gonomics8Worker,10000,10000000,13099721095,15352
+BenchmarkGonomicsIntervalOverlap10k_10mi-13                        ,Gonomics8Worker,10000,10000000,13993867843,15353
+BenchmarkGonomicsIntervalOverlap10k_10mi-13                        ,Gonomics8Worker,10000,10000000,13737169418,15354
+BenchmarkGonomicsIntervalOverlap10k_10mi-13                        ,Gonomics8Worker,10000,10000000,13126710014,15355
+BenchmarkGonomicsIntervalOverlap10k_10mi-13                        ,Gonomics8Worker,10000,10000000,13602858026,15356
+BenchmarkGonomicsIntervalOverlap10k_10mi-13                        ,Gonomics8Worker,10000,10000000,14121313930,15357
+BenchmarkGonomicsIntervalOverlap10k_10mi-13                        ,Gonomics8Worker,10000,10000000,12147045994,15358
+BenchmarkGonomicsIntervalOverlap10k_10mi-13                        ,Gonomics8Worker,10000,10000000,12728442419,15359
+BenchmarkGonomicsIntervalOverlap10k_10mi-13                        ,Gonomics8Worker,10000,10000000,13821462393,15360
+BenchmarkGonomicsIntervalOverlap10k_10mi-13                        ,Gonomics8Worker,10000,10000000,13559364211,15361
+ 15361BenchmarkBedtoolsIntervalOverlap10k_10mi-13                        ,Bedtools,10000,10000000,24567396756,15361
+BenchmarkBedtoolsIntervalOverlap10k_10mi-13                        ,Bedtools,10000,10000000,7723453799,15361
+BenchmarkBedtoolsIntervalOverlap10k_10mi-13                        ,Bedtools,10000,10000000,7610199574,15361
+BenchmarkBedtoolsIntervalOverlap10k_10mi-13                        ,Bedtools,10000,10000000,7428077724,15361
+BenchmarkBedtoolsIntervalOverlap10k_10mi-13                        ,Bedtools,10000,10000000,7792292106,15360
+BenchmarkBedtoolsIntervalOverlap10k_10mi-13                        ,Bedtools,10000,10000000,7394464579,15360
+BenchmarkBedtoolsIntervalOverlap10k_10mi-13                        ,Bedtools,10000,10000000,7319297879,15360
+BenchmarkBedtoolsIntervalOverlap10k_10mi-13                        ,Bedtools,10000,10000000,7615422162,15360
+BenchmarkBedtoolsIntervalOverlap10k_10mi-13                        ,Bedtools,10000,10000000,7376408460,15360
+BenchmarkBedtoolsIntervalOverlap10k_10mi-13                        ,Bedtools,10000,10000000,16046866292,15360
+ 15371BenchmarkBedopsIntervalOverlap10k_10mi-13                          ,Bedops,10000,10000000,14331632922,15371
+BenchmarkBedopsIntervalOverlap10k_10mi-13                          ,Bedops,10000,10000000,14222181138,15383
+BenchmarkBedopsIntervalOverlap10k_10mi-13                          ,Bedops,10000,10000000,14110702174,15394
+BenchmarkBedopsIntervalOverlap10k_10mi-13                          ,Bedops,10000,10000000,14141728036,15405
+BenchmarkBedopsIntervalOverlap10k_10mi-13                          ,Bedops,10000,10000000,14262492373,15417
+BenchmarkBedopsIntervalOverlap10k_10mi-13                          ,Bedops,10000,10000000,28796630695,15428
+BenchmarkBedopsIntervalOverlap10k_10mi-13                          ,Bedops,10000,10000000,14470513205,15440
+BenchmarkBedopsIntervalOverlap10k_10mi-13                          ,Bedops,10000,10000000,17591143747,15451
+BenchmarkBedopsIntervalOverlap10k_10mi-13                          ,Bedops,10000,10000000,19310826636,15463
+BenchmarkBedopsIntervalOverlap10k_10mi-13                          ,Bedops,10000,10000000,17706351650,15474
+ 15475BenchmarkSingleThreadIntervalOverlap10k_10mi-13                    ,Gonomics1Worker,10000,10000000,39093917730,15475
+BenchmarkSingleThreadIntervalOverlap10k_10mi-13                    ,Gonomics1Worker,10000,10000000,38578290892,15476
+BenchmarkSingleThreadIntervalOverlap10k_10mi-13                    ,Gonomics1Worker,10000,10000000,42571177401,15477
+BenchmarkSingleThreadIntervalOverlap10k_10mi-13                    ,Gonomics1Worker,10000,10000000,37900211193,15478
+BenchmarkSingleThreadIntervalOverlap10k_10mi-13                    ,Gonomics1Worker,10000,10000000,38581831864,15479
+BenchmarkSingleThreadIntervalOverlap10k_10mi-13                    ,Gonomics1Worker,10000,10000000,39119984505,15480
+BenchmarkSingleThreadIntervalOverlap10k_10mi-13                    ,Gonomics1Worker,10000,10000000,38794994720,15482
+BenchmarkSingleThreadIntervalOverlap10k_10mi-13                    ,Gonomics1Worker,10000,10000000,41107656446,15483
+BenchmarkSingleThreadIntervalOverlap10k_10mi-13                    ,Gonomics1Worker,10000,10000000,39349095233,15484
+BenchmarkSingleThreadIntervalOverlap10k_10mi-13                    ,Gonomics1Worker,10000,10000000,38609905709,15485
+ 15490BenchmarkGonomicsIntervalOverlap100k_100-13                        ,Gonomics8Worker,100000,100,713849190,15501
+BenchmarkGonomicsIntervalOverlap100k_100-13                        ,Gonomics8Worker,100000,100,749768112,15517
+BenchmarkGonomicsIntervalOverlap100k_100-13                        ,Gonomics8Worker,100000,100,554998942,15533
+BenchmarkGonomicsIntervalOverlap100k_100-13                        ,Gonomics8Worker,100000,100,861239196,15549
+BenchmarkGonomicsIntervalOverlap100k_100-13                        ,Gonomics8Worker,100000,100,1077792081,15555
+BenchmarkGonomicsIntervalOverlap100k_100-13                        ,Gonomics8Worker,100000,100,741676134,15571
+BenchmarkGonomicsIntervalOverlap100k_100-13                        ,Gonomics8Worker,100000,100,688264315,15587
+BenchmarkGonomicsIntervalOverlap100k_100-13                        ,Gonomics8Worker,100000,100,741173053,15603
+BenchmarkGonomicsIntervalOverlap100k_100-13                        ,Gonomics8Worker,100000,100,650181968,15619
+BenchmarkGonomicsIntervalOverlap100k_100-13                        ,Gonomics8Worker,100000,100,697951793,15635
+ 15637BenchmarkBedtoolsIntervalOverlap100k_100-13                        ,Bedtools,100000,100,268071549,15642
+BenchmarkBedtoolsIntervalOverlap100k_100-13                        ,Bedtools,100000,100,297577812,15650
+BenchmarkBedtoolsIntervalOverlap100k_100-13                        ,Bedtools,100000,100,276206786,15664
+BenchmarkBedtoolsIntervalOverlap100k_100-13                        ,Bedtools,100000,100,226123054,15678
+BenchmarkBedtoolsIntervalOverlap100k_100-13                        ,Bedtools,100000,100,272002987,15688
+BenchmarkBedtoolsIntervalOverlap100k_100-13                        ,Bedtools,100000,100,280573129,15695
+BenchmarkBedtoolsIntervalOverlap100k_100-13                        ,Bedtools,100000,100,305605644,15710
+BenchmarkBedtoolsIntervalOverlap100k_100-13                        ,Bedtools,100000,100,214629200,15727
+BenchmarkBedtoolsIntervalOverlap100k_100-13                        ,Bedtools,100000,100,216229816,15745
+BenchmarkBedtoolsIntervalOverlap100k_100-13                        ,Bedtools,100000,100,290591392,15767
+ 15767BenchmarkBedopsIntervalOverlap100k_100-13                          ,Bedops,100000,100,284638795,15767
+BenchmarkBedopsIntervalOverlap100k_100-13                          ,Bedops,100000,100,261349470,15767
+BenchmarkBedopsIntervalOverlap100k_100-13                          ,Bedops,100000,100,237680876,15768
+BenchmarkBedopsIntervalOverlap100k_100-13                          ,Bedops,100000,100,241832251,15768
+BenchmarkBedopsIntervalOverlap100k_100-13                          ,Bedops,100000,100,270779870,15768
+BenchmarkBedopsIntervalOverlap100k_100-13                          ,Bedops,100000,100,220726965,15768
+BenchmarkBedopsIntervalOverlap100k_100-13                          ,Bedops,100000,100,261117949,15768
+BenchmarkBedopsIntervalOverlap100k_100-13                          ,Bedops,100000,100,250748340,15769
+BenchmarkBedopsIntervalOverlap100k_100-13                          ,Bedops,100000,100,238297119,15769
+BenchmarkBedopsIntervalOverlap100k_100-13                          ,Bedops,100000,100,222591394,15769
+ 15775BenchmarkSingleThreadIntervalOverlap100k_100-13                    ,Gonomics1Worker,100000,100,685160003,15785
+BenchmarkSingleThreadIntervalOverlap100k_100-13                    ,Gonomics1Worker,100000,100,682382398,15801
+BenchmarkSingleThreadIntervalOverlap100k_100-13                    ,Gonomics1Worker,100000,100,636949451,15817
+BenchmarkSingleThreadIntervalOverlap100k_100-13                    ,Gonomics1Worker,100000,100,622256228,15833
+BenchmarkSingleThreadIntervalOverlap100k_100-13                    ,Gonomics1Worker,100000,100,579853324,15849
+BenchmarkSingleThreadIntervalOverlap100k_100-13                    ,Gonomics1Worker,100000,100,723227454,15865
+BenchmarkSingleThreadIntervalOverlap100k_100-13                    ,Gonomics1Worker,100000,100,774149382,15881
+BenchmarkSingleThreadIntervalOverlap100k_100-13                    ,Gonomics1Worker,100000,100,766405735,15897
+BenchmarkSingleThreadIntervalOverlap100k_100-13                    ,Gonomics1Worker,100000,100,699968899,15912
+BenchmarkSingleThreadIntervalOverlap100k_100-13                    ,Gonomics1Worker,100000,100,657088760,15928
+ 15933BenchmarkGonomicsIntervalOverlap100k_1k-13                         ,Gonomics8Worker,100000,1000,856145134,15944
+BenchmarkGonomicsIntervalOverlap100k_1k-13                         ,Gonomics8Worker,100000,1000,709035858,15960
+BenchmarkGonomicsIntervalOverlap100k_1k-13                         ,Gonomics8Worker,100000,1000,791432762,15975
+BenchmarkGonomicsIntervalOverlap100k_1k-13                         ,Gonomics8Worker,100000,1000,594309635,15991
+BenchmarkGonomicsIntervalOverlap100k_1k-13                         ,Gonomics8Worker,100000,1000,768941426,16007
+BenchmarkGonomicsIntervalOverlap100k_1k-13                         ,Gonomics8Worker,100000,1000,836073534,16023
+BenchmarkGonomicsIntervalOverlap100k_1k-13                         ,Gonomics8Worker,100000,1000,759777692,16038
+BenchmarkGonomicsIntervalOverlap100k_1k-13                         ,Gonomics8Worker,100000,1000,729112099,16054
+BenchmarkGonomicsIntervalOverlap100k_1k-13                         ,Gonomics8Worker,100000,1000,601804222,16069
+BenchmarkGonomicsIntervalOverlap100k_1k-13                         ,Gonomics8Worker,100000,1000,630585800,16085
+ 16087BenchmarkBedtoolsIntervalOverlap100k_1k-13                         ,Bedtools,100000,1000,293311587,16092
+BenchmarkBedtoolsIntervalOverlap100k_1k-13                         ,Bedtools,100000,1000,225525224,16110
+BenchmarkBedtoolsIntervalOverlap100k_1k-13                         ,Bedtools,100000,1000,228316119,16129
+BenchmarkBedtoolsIntervalOverlap100k_1k-13                         ,Bedtools,100000,1000,283937400,16136
+BenchmarkBedtoolsIntervalOverlap100k_1k-13                         ,Bedtools,100000,1000,278587854,16142
+BenchmarkBedtoolsIntervalOverlap100k_1k-13                         ,Bedtools,100000,1000,333774282,16156
+BenchmarkBedtoolsIntervalOverlap100k_1k-13                         ,Bedtools,100000,1000,385893124,16166
+BenchmarkBedtoolsIntervalOverlap100k_1k-13                         ,Bedtools,100000,1000,287207146,16177
+BenchmarkBedtoolsIntervalOverlap100k_1k-13                         ,Bedtools,100000,1000,213035741,16191
+BenchmarkBedtoolsIntervalOverlap100k_1k-13                         ,Bedtools,100000,1000,216142356,16208
+ 16208BenchmarkBedopsIntervalOverlap100k_1k-13                           ,Bedops,100000,1000,271680120,16208
+BenchmarkBedopsIntervalOverlap100k_1k-13                           ,Bedops,100000,1000,269543359,16208
+BenchmarkBedopsIntervalOverlap100k_1k-13                           ,Bedops,100000,1000,260603403,16208
+BenchmarkBedopsIntervalOverlap100k_1k-13                           ,Bedops,100000,1000,286219201,16208
+BenchmarkBedopsIntervalOverlap100k_1k-13                           ,Bedops,100000,1000,257526938,16209
+BenchmarkBedopsIntervalOverlap100k_1k-13                           ,Bedops,100000,1000,283385592,16209
+BenchmarkBedopsIntervalOverlap100k_1k-13                           ,Bedops,100000,1000,244054586,16209
+BenchmarkBedopsIntervalOverlap100k_1k-13                           ,Bedops,100000,1000,271477675,16209
+BenchmarkBedopsIntervalOverlap100k_1k-13                           ,Bedops,100000,1000,231286201,16209
+BenchmarkBedopsIntervalOverlap100k_1k-13                           ,Bedops,100000,1000,210804473,16209
+ 16214BenchmarkSingleThreadIntervalOverlap100k_1k-13                     ,Gonomics1Worker,100000,1000,630283836,16225
+BenchmarkSingleThreadIntervalOverlap100k_1k-13                     ,Gonomics1Worker,100000,1000,614818759,16241
+BenchmarkSingleThreadIntervalOverlap100k_1k-13                     ,Gonomics1Worker,100000,1000,661783055,16257
+BenchmarkSingleThreadIntervalOverlap100k_1k-13                     ,Gonomics1Worker,100000,1000,742328462,16272
+BenchmarkSingleThreadIntervalOverlap100k_1k-13                     ,Gonomics1Worker,100000,1000,595926460,16288
+BenchmarkSingleThreadIntervalOverlap100k_1k-13                     ,Gonomics1Worker,100000,1000,632762331,16304
+BenchmarkSingleThreadIntervalOverlap100k_1k-13                     ,Gonomics1Worker,100000,1000,647910792,16319
+BenchmarkSingleThreadIntervalOverlap100k_1k-13                     ,Gonomics1Worker,100000,1000,773618892,16335
+BenchmarkSingleThreadIntervalOverlap100k_1k-13                     ,Gonomics1Worker,100000,1000,684459742,16350
+BenchmarkSingleThreadIntervalOverlap100k_1k-13                     ,Gonomics1Worker,100000,1000,656778611,16366
+ 16371BenchmarkGonomicsIntervalOverlap100k_10k-13                        ,Gonomics8Worker,100000,10000,685897615,16382
+BenchmarkGonomicsIntervalOverlap100k_10k-13                        ,Gonomics8Worker,100000,10000,647307690,16397
+BenchmarkGonomicsIntervalOverlap100k_10k-13                        ,Gonomics8Worker,100000,10000,703810784,16413
+BenchmarkGonomicsIntervalOverlap100k_10k-13                        ,Gonomics8Worker,100000,10000,564898193,16429
+BenchmarkGonomicsIntervalOverlap100k_10k-13                        ,Gonomics8Worker,100000,10000,542197072,16445
+BenchmarkGonomicsIntervalOverlap100k_10k-13                        ,Gonomics8Worker,100000,10000,687913068,16461
+BenchmarkGonomicsIntervalOverlap100k_10k-13                        ,Gonomics8Worker,100000,10000,694373626,16477
+BenchmarkGonomicsIntervalOverlap100k_10k-13                        ,Gonomics8Worker,100000,10000,561723926,16493
+BenchmarkGonomicsIntervalOverlap100k_10k-13                        ,Gonomics8Worker,100000,10000,731664680,16509
+BenchmarkGonomicsIntervalOverlap100k_10k-13                        ,Gonomics8Worker,100000,10000,691471704,16524
+ 16526BenchmarkBedtoolsIntervalOverlap100k_10k-13                        ,Bedtools,100000,10000,350835337,16530
+BenchmarkBedtoolsIntervalOverlap100k_10k-13                        ,Bedtools,100000,10000,340966153,16535
+BenchmarkBedtoolsIntervalOverlap100k_10k-13                        ,Bedtools,100000,10000,346831424,16552
+BenchmarkBedtoolsIntervalOverlap100k_10k-13                        ,Bedtools,100000,10000,253107981,16558
+BenchmarkBedtoolsIntervalOverlap100k_10k-13                        ,Bedtools,100000,10000,333970811,16569
+BenchmarkBedtoolsIntervalOverlap100k_10k-13                        ,Bedtools,100000,10000,500082904,16575
+BenchmarkBedtoolsIntervalOverlap100k_10k-13                        ,Bedtools,100000,10000,352472405,16580
+BenchmarkBedtoolsIntervalOverlap100k_10k-13                        ,Bedtools,100000,10000,406969919,16587
+BenchmarkBedtoolsIntervalOverlap100k_10k-13                        ,Bedtools,100000,10000,391624094,16595
+BenchmarkBedtoolsIntervalOverlap100k_10k-13                        ,Bedtools,100000,10000,354221973,16601
+ 16601BenchmarkBedopsIntervalOverlap100k_10k-13                          ,Bedops,100000,10000,270251822,16601
+BenchmarkBedopsIntervalOverlap100k_10k-13                          ,Bedops,100000,10000,281731688,16600
+BenchmarkBedopsIntervalOverlap100k_10k-13                          ,Bedops,100000,10000,292194103,16600
+BenchmarkBedopsIntervalOverlap100k_10k-13                          ,Bedops,100000,10000,294362743,16600
+BenchmarkBedopsIntervalOverlap100k_10k-13                          ,Bedops,100000,10000,274742342,16600
+BenchmarkBedopsIntervalOverlap100k_10k-13                          ,Bedops,100000,10000,279317032,16600
+BenchmarkBedopsIntervalOverlap100k_10k-13                          ,Bedops,100000,10000,377407275,16600
+BenchmarkBedopsIntervalOverlap100k_10k-13                          ,Bedops,100000,10000,241356733,16600
+BenchmarkBedopsIntervalOverlap100k_10k-13                          ,Bedops,100000,10000,251351501,16600
+BenchmarkBedopsIntervalOverlap100k_10k-13                          ,Bedops,100000,10000,250052065,16600
+ 16605BenchmarkSingleThreadIntervalOverlap100k_10k-13                    ,Gonomics1Worker,100000,10000,857985936,16615
+BenchmarkSingleThreadIntervalOverlap100k_10k-13                    ,Gonomics1Worker,100000,10000,781861018,16631
+BenchmarkSingleThreadIntervalOverlap100k_10k-13                    ,Gonomics1Worker,100000,10000,810406434,16647
+BenchmarkSingleThreadIntervalOverlap100k_10k-13                    ,Gonomics1Worker,100000,10000,827408708,16663
+BenchmarkSingleThreadIntervalOverlap100k_10k-13                    ,Gonomics1Worker,100000,10000,725738392,16679
+BenchmarkSingleThreadIntervalOverlap100k_10k-13                    ,Gonomics1Worker,100000,10000,899959273,16694
+BenchmarkSingleThreadIntervalOverlap100k_10k-13                    ,Gonomics1Worker,100000,10000,803486092,16710
+BenchmarkSingleThreadIntervalOverlap100k_10k-13                    ,Gonomics1Worker,100000,10000,723629662,16725
+BenchmarkSingleThreadIntervalOverlap100k_10k-13                    ,Gonomics1Worker,100000,10000,894359291,16741
+BenchmarkSingleThreadIntervalOverlap100k_10k-13                    ,Gonomics1Worker,100000,10000,793343106,16757
+ 16763BenchmarkGonomicsIntervalOverlap100k_100k-13                       ,Gonomics8Worker,100000,100000,732608952,16774
+BenchmarkGonomicsIntervalOverlap100k_100k-13                       ,Gonomics8Worker,100000,100000,952727121,16792
+BenchmarkGonomicsIntervalOverlap100k_100k-13                       ,Gonomics8Worker,100000,100000,729375688,16810
+BenchmarkGonomicsIntervalOverlap100k_100k-13                       ,Gonomics8Worker,100000,100000,798567154,16827
+BenchmarkGonomicsIntervalOverlap100k_100k-13                       ,Gonomics8Worker,100000,100000,931506256,16845
+BenchmarkGonomicsIntervalOverlap100k_100k-13                       ,Gonomics8Worker,100000,100000,922219034,16862
+BenchmarkGonomicsIntervalOverlap100k_100k-13                       ,Gonomics8Worker,100000,100000,684465134,16880
+BenchmarkGonomicsIntervalOverlap100k_100k-13                       ,Gonomics8Worker,100000,100000,1013102588,16886
+BenchmarkGonomicsIntervalOverlap100k_100k-13                       ,Gonomics8Worker,100000,100000,720570326,16904
+BenchmarkGonomicsIntervalOverlap100k_100k-13                       ,Gonomics8Worker,100000,100000,740900330,16922
+ 16923BenchmarkBedtoolsIntervalOverlap100k_100k-13                       ,Bedtools,100000,100000,470741773,16930
+BenchmarkBedtoolsIntervalOverlap100k_100k-13                       ,Bedtools,100000,100000,1039466996,16931
+BenchmarkBedtoolsIntervalOverlap100k_100k-13                       ,Bedtools,100000,100000,922189464,16935
+BenchmarkBedtoolsIntervalOverlap100k_100k-13                       ,Bedtools,100000,100000,651118858,16939
+BenchmarkBedtoolsIntervalOverlap100k_100k-13                       ,Bedtools,100000,100000,1055818290,16940
+BenchmarkBedtoolsIntervalOverlap100k_100k-13                       ,Bedtools,100000,100000,1072167728,16942
+BenchmarkBedtoolsIntervalOverlap100k_100k-13                       ,Bedtools,100000,100000,682787452,16946
+BenchmarkBedtoolsIntervalOverlap100k_100k-13                       ,Bedtools,100000,100000,939568167,16949
+BenchmarkBedtoolsIntervalOverlap100k_100k-13                       ,Bedtools,100000,100000,659224636,16953
+BenchmarkBedtoolsIntervalOverlap100k_100k-13                       ,Bedtools,100000,100000,838945614,16957
+ 16957BenchmarkBedopsIntervalOverlap100k_100k-13                         ,Bedops,100000,100000,605926922,16957
+BenchmarkBedopsIntervalOverlap100k_100k-13                         ,Bedops,100000,100000,549333891,16957
+BenchmarkBedopsIntervalOverlap100k_100k-13                         ,Bedops,100000,100000,578586768,16957
+BenchmarkBedopsIntervalOverlap100k_100k-13                         ,Bedops,100000,100000,442627967,16957
+BenchmarkBedopsIntervalOverlap100k_100k-13                         ,Bedops,100000,100000,395440661,16957
+BenchmarkBedopsIntervalOverlap100k_100k-13                         ,Bedops,100000,100000,538893233,16957
+BenchmarkBedopsIntervalOverlap100k_100k-13                         ,Bedops,100000,100000,416326395,16957
+BenchmarkBedopsIntervalOverlap100k_100k-13                         ,Bedops,100000,100000,477003420,16957
+BenchmarkBedopsIntervalOverlap100k_100k-13                         ,Bedops,100000,100000,521946216,16956
+BenchmarkBedopsIntervalOverlap100k_100k-13                         ,Bedops,100000,100000,508648134,16956
+ 16962BenchmarkSingleThreadIntervalOverlap100k_100k-13                   ,Gonomics1Worker,100000,100000,1571418774,16962
+BenchmarkSingleThreadIntervalOverlap100k_100k-13                   ,Gonomics1Worker,100000,100000,1438333774,16968
+BenchmarkSingleThreadIntervalOverlap100k_100k-13                   ,Gonomics1Worker,100000,100000,1597201623,16974
+BenchmarkSingleThreadIntervalOverlap100k_100k-13                   ,Gonomics1Worker,100000,100000,1264113359,16980
+BenchmarkSingleThreadIntervalOverlap100k_100k-13                   ,Gonomics1Worker,100000,100000,1213482607,16985
+BenchmarkSingleThreadIntervalOverlap100k_100k-13                   ,Gonomics1Worker,100000,100000,1304355321,16991
+BenchmarkSingleThreadIntervalOverlap100k_100k-13                   ,Gonomics1Worker,100000,100000,1355499907,16997
+BenchmarkSingleThreadIntervalOverlap100k_100k-13                   ,Gonomics1Worker,100000,100000,1421964771,17003
+BenchmarkSingleThreadIntervalOverlap100k_100k-13                   ,Gonomics1Worker,100000,100000,1351752376,17009
+BenchmarkSingleThreadIntervalOverlap100k_100k-13                   ,Gonomics1Worker,100000,100000,1410178814,17015
+ 17023BenchmarkGonomicsIntervalOverlap100k_1mi-13                        ,Gonomics8Worker,100000,1000000,1955852089,17023
+BenchmarkGonomicsIntervalOverlap100k_1mi-13                        ,Gonomics8Worker,100000,1000000,1833376556,17031
+BenchmarkGonomicsIntervalOverlap100k_1mi-13                        ,Gonomics8Worker,100000,1000000,1986332857,17040
+BenchmarkGonomicsIntervalOverlap100k_1mi-13                        ,Gonomics8Worker,100000,1000000,1703256442,17048
+BenchmarkGonomicsIntervalOverlap100k_1mi-13                        ,Gonomics8Worker,100000,1000000,1972959284,17057
+BenchmarkGonomicsIntervalOverlap100k_1mi-13                        ,Gonomics8Worker,100000,1000000,2148803740,17065
+BenchmarkGonomicsIntervalOverlap100k_1mi-13                        ,Gonomics8Worker,100000,1000000,1733064235,17073
+BenchmarkGonomicsIntervalOverlap100k_1mi-13                        ,Gonomics8Worker,100000,1000000,1801240685,17082
+BenchmarkGonomicsIntervalOverlap100k_1mi-13                        ,Gonomics8Worker,100000,1000000,2205891167,17090
+BenchmarkGonomicsIntervalOverlap100k_1mi-13                        ,Gonomics8Worker,100000,1000000,2055203062,17098
+ 17099BenchmarkBedtoolsIntervalOverlap100k_1mi-13                        ,Bedtools,100000,1000000,2737058036,17099
+BenchmarkBedtoolsIntervalOverlap100k_1mi-13                        ,Bedtools,100000,1000000,2802141748,17101
+BenchmarkBedtoolsIntervalOverlap100k_1mi-13                        ,Bedtools,100000,1000000,6270025913,17102
+BenchmarkBedtoolsIntervalOverlap100k_1mi-13                        ,Bedtools,100000,1000000,2816358885,17103
+BenchmarkBedtoolsIntervalOverlap100k_1mi-13                        ,Bedtools,100000,1000000,2857493327,17105
+BenchmarkBedtoolsIntervalOverlap100k_1mi-13                        ,Bedtools,100000,1000000,2931758825,17106
+BenchmarkBedtoolsIntervalOverlap100k_1mi-13                        ,Bedtools,100000,1000000,8417825617,17107
+BenchmarkBedtoolsIntervalOverlap100k_1mi-13                        ,Bedtools,100000,1000000,6983898793,17109
+BenchmarkBedtoolsIntervalOverlap100k_1mi-13                        ,Bedtools,100000,1000000,2758026286,17110
+BenchmarkBedtoolsIntervalOverlap100k_1mi-13                        ,Bedtools,100000,1000000,6449121592,17111
+ 17112BenchmarkBedopsIntervalOverlap100k_1mi-13                          ,Bedops,100000,1000000,1910766664,17112
+BenchmarkBedopsIntervalOverlap100k_1mi-13                          ,Bedops,100000,1000000,4124914384,17113
+BenchmarkBedopsIntervalOverlap100k_1mi-13                          ,Bedops,100000,1000000,1988003421,17113
+BenchmarkBedopsIntervalOverlap100k_1mi-13                          ,Bedops,100000,1000000,1854038971,17114
+BenchmarkBedopsIntervalOverlap100k_1mi-13                          ,Bedops,100000,1000000,2205895938,17115
+BenchmarkBedopsIntervalOverlap100k_1mi-13                          ,Bedops,100000,1000000,2008292382,17116
+BenchmarkBedopsIntervalOverlap100k_1mi-13                          ,Bedops,100000,1000000,1869296169,17117
+BenchmarkBedopsIntervalOverlap100k_1mi-13                          ,Bedops,100000,1000000,3754875250,17117
+BenchmarkBedopsIntervalOverlap100k_1mi-13                          ,Bedops,100000,1000000,3227129820,17118
+BenchmarkBedopsIntervalOverlap100k_1mi-13                          ,Bedops,100000,1000000,1865510291,17119
+ 17127BenchmarkSingleThreadIntervalOverlap100k_1mi-13                    ,Gonomics1Worker,100000,1000000,7373560996,17127
+BenchmarkSingleThreadIntervalOverlap100k_1mi-13                    ,Gonomics1Worker,100000,1000000,6436533624,17135
+BenchmarkSingleThreadIntervalOverlap100k_1mi-13                    ,Gonomics1Worker,100000,1000000,6797131635,17143
+BenchmarkSingleThreadIntervalOverlap100k_1mi-13                    ,Gonomics1Worker,100000,1000000,6593730417,17152
+BenchmarkSingleThreadIntervalOverlap100k_1mi-13                    ,Gonomics1Worker,100000,1000000,6911248286,17160
+BenchmarkSingleThreadIntervalOverlap100k_1mi-13                    ,Gonomics1Worker,100000,1000000,6762759526,17168
+BenchmarkSingleThreadIntervalOverlap100k_1mi-13                    ,Gonomics1Worker,100000,1000000,6353777408,17177
+BenchmarkSingleThreadIntervalOverlap100k_1mi-13                    ,Gonomics1Worker,100000,1000000,6441802408,17185
+BenchmarkSingleThreadIntervalOverlap100k_1mi-13                    ,Gonomics1Worker,100000,1000000,7142982705,17193
+BenchmarkSingleThreadIntervalOverlap100k_1mi-13                    ,Gonomics1Worker,100000,1000000,6251777370,17201
+ 17210BenchmarkGonomicsIntervalOverlap100k_10mi-13                       ,Gonomics8Worker,100000,10000000,12742446930,17210
+BenchmarkGonomicsIntervalOverlap100k_10mi-13                       ,Gonomics8Worker,100000,10000000,11916592720,17218
+BenchmarkGonomicsIntervalOverlap100k_10mi-13                       ,Gonomics8Worker,100000,10000000,11899823330,17227
+BenchmarkGonomicsIntervalOverlap100k_10mi-13                       ,Gonomics8Worker,100000,10000000,12627889730,17236
+BenchmarkGonomicsIntervalOverlap100k_10mi-13                       ,Gonomics8Worker,100000,10000000,12411291656,17244
+BenchmarkGonomicsIntervalOverlap100k_10mi-13                       ,Gonomics8Worker,100000,10000000,12011218070,17253
+BenchmarkGonomicsIntervalOverlap100k_10mi-13                       ,Gonomics8Worker,100000,10000000,14604887000,17261
+BenchmarkGonomicsIntervalOverlap100k_10mi-13                       ,Gonomics8Worker,100000,10000000,12994176109,17270
+BenchmarkGonomicsIntervalOverlap100k_10mi-13                       ,Gonomics8Worker,100000,10000000,13332390586,17279
+BenchmarkGonomicsIntervalOverlap100k_10mi-13                       ,Gonomics8Worker,100000,10000000,13303845979,17287
+ 17289BenchmarkBedtoolsIntervalOverlap100k_10mi-13                       ,Bedtools,100000,10000000,26638724608,17289
+BenchmarkBedtoolsIntervalOverlap100k_10mi-13                       ,Bedtools,100000,10000000,27079807928,17290
+BenchmarkBedtoolsIntervalOverlap100k_10mi-13                       ,Bedtools,100000,10000000,26433600311,17291
+BenchmarkBedtoolsIntervalOverlap100k_10mi-13                       ,Bedtools,100000,10000000,48170615261,17293
+BenchmarkBedtoolsIntervalOverlap100k_10mi-13                       ,Bedtools,100000,10000000,63860588345,17294
+BenchmarkBedtoolsIntervalOverlap100k_10mi-13                       ,Bedtools,100000,10000000,27035472586,17295
+BenchmarkBedtoolsIntervalOverlap100k_10mi-13                       ,Bedtools,100000,10000000,42067913321,17297
+BenchmarkBedtoolsIntervalOverlap100k_10mi-13                       ,Bedtools,100000,10000000,26399672406,17298
+BenchmarkBedtoolsIntervalOverlap100k_10mi-13                       ,Bedtools,100000,10000000,25308854921,17299
+BenchmarkBedtoolsIntervalOverlap100k_10mi-13                       ,Bedtools,100000,10000000,43498156140,17301
+ 17312BenchmarkBedopsIntervalOverlap100k_10mi-13                         ,Bedops,100000,10000000,22508204592,17312
+BenchmarkBedopsIntervalOverlap100k_10mi-13                         ,Bedops,100000,10000000,22514323289,17323
+BenchmarkBedopsIntervalOverlap100k_10mi-13                         ,Bedops,100000,10000000,14881501290,17334
+BenchmarkBedopsIntervalOverlap100k_10mi-13                         ,Bedops,100000,10000000,14874901759,17345
+BenchmarkBedopsIntervalOverlap100k_10mi-13                         ,Bedops,100000,10000000,27307419189,17356
+BenchmarkBedopsIntervalOverlap100k_10mi-13                         ,Bedops,100000,10000000,25737288295,17367
+BenchmarkBedopsIntervalOverlap100k_10mi-13                         ,Bedops,100000,10000000,14992684035,17377
+BenchmarkBedopsIntervalOverlap100k_10mi-13                         ,Bedops,100000,10000000,15277262551,17388
+BenchmarkBedopsIntervalOverlap100k_10mi-13                         ,Bedops,100000,10000000,14755755121,17399
+BenchmarkBedopsIntervalOverlap100k_10mi-13                         ,Bedops,100000,10000000,25884777986,17410
+ 17418BenchmarkSingleThreadIntervalOverlap100k_10mi-13                   ,Gonomics1Worker,100000,10000000,60481767700,17418
+BenchmarkSingleThreadIntervalOverlap100k_10mi-13                   ,Gonomics1Worker,100000,10000000,61310116724,17426
+BenchmarkSingleThreadIntervalOverlap100k_10mi-13                   ,Gonomics1Worker,100000,10000000,59411685697,17435
+BenchmarkSingleThreadIntervalOverlap100k_10mi-13                   ,Gonomics1Worker,100000,10000000,61802967262,17443
+BenchmarkSingleThreadIntervalOverlap100k_10mi-13                   ,Gonomics1Worker,100000,10000000,60006534557,17451
+BenchmarkSingleThreadIntervalOverlap100k_10mi-13                   ,Gonomics1Worker,100000,10000000,61324887840,17459
+BenchmarkSingleThreadIntervalOverlap100k_10mi-13                   ,Gonomics1Worker,100000,10000000,59981891247,17467
+BenchmarkSingleThreadIntervalOverlap100k_10mi-13                   ,Gonomics1Worker,100000,10000000,59954958556,17476
+BenchmarkSingleThreadIntervalOverlap100k_10mi-13                   ,Gonomics1Worker,100000,10000000,61923779069,17484
+BenchmarkSingleThreadIntervalOverlap100k_10mi-13                   ,Gonomics1Worker,100000,10000000,59839291829,17492
+ 17545BenchmarkGonomicsIntervalOverlap1mi_100-13                         ,Gonomics8Worker,1000000,100,13352618017,17545
+BenchmarkGonomicsIntervalOverlap1mi_100-13                         ,Gonomics8Worker,1000000,100,10645214110,17598
+BenchmarkGonomicsIntervalOverlap1mi_100-13                         ,Gonomics8Worker,1000000,100,10040542334,17652
+BenchmarkGonomicsIntervalOverlap1mi_100-13                         ,Gonomics8Worker,1000000,100,8566136036,17705
+BenchmarkGonomicsIntervalOverlap1mi_100-13                         ,Gonomics8Worker,1000000,100,8986497176,17759
+BenchmarkGonomicsIntervalOverlap1mi_100-13                         ,Gonomics8Worker,1000000,100,8203055695,17812
+BenchmarkGonomicsIntervalOverlap1mi_100-13                         ,Gonomics8Worker,1000000,100,12407493838,17868
+BenchmarkGonomicsIntervalOverlap1mi_100-13                         ,Gonomics8Worker,1000000,100,11997551532,17921
+BenchmarkGonomicsIntervalOverlap1mi_100-13                         ,Gonomics8Worker,1000000,100,9201498124,17975
+BenchmarkGonomicsIntervalOverlap1mi_100-13                         ,Gonomics8Worker,1000000,100,10222556410,18028
+ 18043BenchmarkBedtoolsIntervalOverlap1mi_100-13                         ,Bedtools,1000000,100,2669830376,18043
+BenchmarkBedtoolsIntervalOverlap1mi_100-13                         ,Bedtools,1000000,100,5679055858,18059
+BenchmarkBedtoolsIntervalOverlap1mi_100-13                         ,Bedtools,1000000,100,2813312949,18075
+BenchmarkBedtoolsIntervalOverlap1mi_100-13                         ,Bedtools,1000000,100,5982673840,18091
+BenchmarkBedtoolsIntervalOverlap1mi_100-13                         ,Bedtools,1000000,100,2854209604,18107
+BenchmarkBedtoolsIntervalOverlap1mi_100-13                         ,Bedtools,1000000,100,5675756712,18123
+BenchmarkBedtoolsIntervalOverlap1mi_100-13                         ,Bedtools,1000000,100,2751353468,18139
+BenchmarkBedtoolsIntervalOverlap1mi_100-13                         ,Bedtools,1000000,100,4529962449,18155
+BenchmarkBedtoolsIntervalOverlap1mi_100-13                         ,Bedtools,1000000,100,2884370859,18171
+BenchmarkBedtoolsIntervalOverlap1mi_100-13                         ,Bedtools,1000000,100,2664672882,18187
+ 18188BenchmarkBedopsIntervalOverlap1mi_100-13                           ,Bedops,1000000,100,2515602306,18188
+BenchmarkBedopsIntervalOverlap1mi_100-13                           ,Bedops,1000000,100,1816155810,18189
+BenchmarkBedopsIntervalOverlap1mi_100-13                           ,Bedops,1000000,100,2485700844,18189
+BenchmarkBedopsIntervalOverlap1mi_100-13                           ,Bedops,1000000,100,3444286584,18190
+BenchmarkBedopsIntervalOverlap1mi_100-13                           ,Bedops,1000000,100,1658666907,18191
+BenchmarkBedopsIntervalOverlap1mi_100-13                           ,Bedops,1000000,100,1943922691,18191
+BenchmarkBedopsIntervalOverlap1mi_100-13                           ,Bedops,1000000,100,1918249662,18192
+BenchmarkBedopsIntervalOverlap1mi_100-13                           ,Bedops,1000000,100,1941968696,18193
+BenchmarkBedopsIntervalOverlap1mi_100-13                           ,Bedops,1000000,100,1603792161,18193
+BenchmarkBedopsIntervalOverlap1mi_100-13                           ,Bedops,1000000,100,1900689727,18194
+ 18247BenchmarkSingleThreadIntervalOverlap1mi_100-13                     ,Gonomics1Worker,1000000,100,13902971771,18247
+BenchmarkSingleThreadIntervalOverlap1mi_100-13                     ,Gonomics1Worker,1000000,100,9979545121,18300
+BenchmarkSingleThreadIntervalOverlap1mi_100-13                     ,Gonomics1Worker,1000000,100,8229349143,18353
+BenchmarkSingleThreadIntervalOverlap1mi_100-13                     ,Gonomics1Worker,1000000,100,9280409619,18406
+BenchmarkSingleThreadIntervalOverlap1mi_100-13                     ,Gonomics1Worker,1000000,100,8693412092,18459
+BenchmarkSingleThreadIntervalOverlap1mi_100-13                     ,Gonomics1Worker,1000000,100,8367003186,18512
+BenchmarkSingleThreadIntervalOverlap1mi_100-13                     ,Gonomics1Worker,1000000,100,8177372691,18566
+BenchmarkSingleThreadIntervalOverlap1mi_100-13                     ,Gonomics1Worker,1000000,100,9010477167,18619
+BenchmarkSingleThreadIntervalOverlap1mi_100-13                     ,Gonomics1Worker,1000000,100,11619556480,18673
+BenchmarkSingleThreadIntervalOverlap1mi_100-13                     ,Gonomics1Worker,1000000,100,8410564729,18726
+ 18779BenchmarkGonomicsIntervalOverlap1mi_1k-13                          ,Gonomics8Worker,1000000,1000,10695334218,18779
+BenchmarkGonomicsIntervalOverlap1mi_1k-13                          ,Gonomics8Worker,1000000,1000,9188219170,18832
+BenchmarkGonomicsIntervalOverlap1mi_1k-13                          ,Gonomics8Worker,1000000,1000,11226860878,18884
+BenchmarkGonomicsIntervalOverlap1mi_1k-13                          ,Gonomics8Worker,1000000,1000,8358345328,18938
+BenchmarkGonomicsIntervalOverlap1mi_1k-13                          ,Gonomics8Worker,1000000,1000,9561668172,18991
+BenchmarkGonomicsIntervalOverlap1mi_1k-13                          ,Gonomics8Worker,1000000,1000,7786597152,19044
+BenchmarkGonomicsIntervalOverlap1mi_1k-13                          ,Gonomics8Worker,1000000,1000,11010079616,19096
+BenchmarkGonomicsIntervalOverlap1mi_1k-13                          ,Gonomics8Worker,1000000,1000,8912551407,19149
+BenchmarkGonomicsIntervalOverlap1mi_1k-13                          ,Gonomics8Worker,1000000,1000,9193049000,19203
+BenchmarkGonomicsIntervalOverlap1mi_1k-13                          ,Gonomics8Worker,1000000,1000,12221304339,19257
+ 19273BenchmarkBedtoolsIntervalOverlap1mi_1k-13                          ,Bedtools,1000000,1000,3013140216,19273
+BenchmarkBedtoolsIntervalOverlap1mi_1k-13                          ,Bedtools,1000000,1000,2782849441,19288
+BenchmarkBedtoolsIntervalOverlap1mi_1k-13                          ,Bedtools,1000000,1000,2821357973,19304
+BenchmarkBedtoolsIntervalOverlap1mi_1k-13                          ,Bedtools,1000000,1000,6435093604,19320
+BenchmarkBedtoolsIntervalOverlap1mi_1k-13                          ,Bedtools,1000000,1000,3023127319,19336
+BenchmarkBedtoolsIntervalOverlap1mi_1k-13                          ,Bedtools,1000000,1000,2913552033,19352
+BenchmarkBedtoolsIntervalOverlap1mi_1k-13                          ,Bedtools,1000000,1000,2985258997,19368
+BenchmarkBedtoolsIntervalOverlap1mi_1k-13                          ,Bedtools,1000000,1000,2987457514,19384
+BenchmarkBedtoolsIntervalOverlap1mi_1k-13                          ,Bedtools,1000000,1000,2919226714,19400
+BenchmarkBedtoolsIntervalOverlap1mi_1k-13                          ,Bedtools,1000000,1000,2965314081,19416
+ 19416BenchmarkBedopsIntervalOverlap1mi_1k-13                            ,Bedops,1000000,1000,2176834038,19416
+BenchmarkBedopsIntervalOverlap1mi_1k-13                            ,Bedops,1000000,1000,2071712429,19417
+BenchmarkBedopsIntervalOverlap1mi_1k-13                            ,Bedops,1000000,1000,1593313828,19418
+BenchmarkBedopsIntervalOverlap1mi_1k-13                            ,Bedops,1000000,1000,2077239769,19418
+BenchmarkBedopsIntervalOverlap1mi_1k-13                            ,Bedops,1000000,1000,1600665862,19419
+BenchmarkBedopsIntervalOverlap1mi_1k-13                            ,Bedops,1000000,1000,1658917759,19419
+BenchmarkBedopsIntervalOverlap1mi_1k-13                            ,Bedops,1000000,1000,2103400841,19420
+BenchmarkBedopsIntervalOverlap1mi_1k-13                            ,Bedops,1000000,1000,1627442368,19421
+BenchmarkBedopsIntervalOverlap1mi_1k-13                            ,Bedops,1000000,1000,2115262195,19421
+BenchmarkBedopsIntervalOverlap1mi_1k-13                            ,Bedops,1000000,1000,2118785920,19422
+ 19475BenchmarkSingleThreadIntervalOverlap1mi_1k-13                      ,Gonomics1Worker,1000000,1000,11513606606,19475
+BenchmarkSingleThreadIntervalOverlap1mi_1k-13                      ,Gonomics1Worker,1000000,1000,10884188164,19529
+BenchmarkSingleThreadIntervalOverlap1mi_1k-13                      ,Gonomics1Worker,1000000,1000,11832440175,19582
+BenchmarkSingleThreadIntervalOverlap1mi_1k-13                      ,Gonomics1Worker,1000000,1000,9146707236,19637
+BenchmarkSingleThreadIntervalOverlap1mi_1k-13                      ,Gonomics1Worker,1000000,1000,10148698950,19690
+BenchmarkSingleThreadIntervalOverlap1mi_1k-13                      ,Gonomics1Worker,1000000,1000,8377231769,19742
+BenchmarkSingleThreadIntervalOverlap1mi_1k-13                      ,Gonomics1Worker,1000000,1000,7950462800,19796
+BenchmarkSingleThreadIntervalOverlap1mi_1k-13                      ,Gonomics1Worker,1000000,1000,11317094257,19849
+BenchmarkSingleThreadIntervalOverlap1mi_1k-13                      ,Gonomics1Worker,1000000,1000,7871713324,19902
+BenchmarkSingleThreadIntervalOverlap1mi_1k-13                      ,Gonomics1Worker,1000000,1000,8725682142,19956
+ 20009BenchmarkGonomicsIntervalOverlap1mi_10k-13                         ,Gonomics8Worker,1000000,10000,10651044927,20009
+BenchmarkGonomicsIntervalOverlap1mi_10k-13                         ,Gonomics8Worker,1000000,10000,8771158412,20062
+BenchmarkGonomicsIntervalOverlap1mi_10k-13                         ,Gonomics8Worker,1000000,10000,7733028368,20115
+BenchmarkGonomicsIntervalOverlap1mi_10k-13                         ,Gonomics8Worker,1000000,10000,10168199351,20167
+BenchmarkGonomicsIntervalOverlap1mi_10k-13                         ,Gonomics8Worker,1000000,10000,10887359009,20220
+BenchmarkGonomicsIntervalOverlap1mi_10k-13                         ,Gonomics8Worker,1000000,10000,8271694883,20273
+BenchmarkGonomicsIntervalOverlap1mi_10k-13                         ,Gonomics8Worker,1000000,10000,8142604841,20326
+BenchmarkGonomicsIntervalOverlap1mi_10k-13                         ,Gonomics8Worker,1000000,10000,8895112678,20380
+BenchmarkGonomicsIntervalOverlap1mi_10k-13                         ,Gonomics8Worker,1000000,10000,8757712668,20433
+BenchmarkGonomicsIntervalOverlap1mi_10k-13                         ,Gonomics8Worker,1000000,10000,9261109144,20487
+ 20502BenchmarkBedtoolsIntervalOverlap1mi_10k-13                         ,Bedtools,1000000,10000,3069090438,20502
+BenchmarkBedtoolsIntervalOverlap1mi_10k-13                         ,Bedtools,1000000,10000,3027899824,20518
+BenchmarkBedtoolsIntervalOverlap1mi_10k-13                         ,Bedtools,1000000,10000,2968221056,20534
+BenchmarkBedtoolsIntervalOverlap1mi_10k-13                         ,Bedtools,1000000,10000,3034893370,20550
+BenchmarkBedtoolsIntervalOverlap1mi_10k-13                         ,Bedtools,1000000,10000,3094595799,20566
+BenchmarkBedtoolsIntervalOverlap1mi_10k-13                         ,Bedtools,1000000,10000,3019429221,20581
+BenchmarkBedtoolsIntervalOverlap1mi_10k-13                         ,Bedtools,1000000,10000,2958087695,20597
+BenchmarkBedtoolsIntervalOverlap1mi_10k-13                         ,Bedtools,1000000,10000,3007158395,20613
+BenchmarkBedtoolsIntervalOverlap1mi_10k-13                         ,Bedtools,1000000,10000,3010209880,20629
+BenchmarkBedtoolsIntervalOverlap1mi_10k-13                         ,Bedtools,1000000,10000,2946077491,20645
+ 20645BenchmarkBedopsIntervalOverlap1mi_10k-13                           ,Bedops,1000000,10000,1745048551,20645
+BenchmarkBedopsIntervalOverlap1mi_10k-13                           ,Bedops,1000000,10000,3289340409,20646
+BenchmarkBedopsIntervalOverlap1mi_10k-13                           ,Bedops,1000000,10000,2123177719,20646
+BenchmarkBedopsIntervalOverlap1mi_10k-13                           ,Bedops,1000000,10000,3264558379,20647
+BenchmarkBedopsIntervalOverlap1mi_10k-13                           ,Bedops,1000000,10000,1658468154,20647
+BenchmarkBedopsIntervalOverlap1mi_10k-13                           ,Bedops,1000000,10000,2032204002,20648
+BenchmarkBedopsIntervalOverlap1mi_10k-13                           ,Bedops,1000000,10000,1649979728,20649
+BenchmarkBedopsIntervalOverlap1mi_10k-13                           ,Bedops,1000000,10000,2081028162,20649
+BenchmarkBedopsIntervalOverlap1mi_10k-13                           ,Bedops,1000000,10000,1622441994,20650
+BenchmarkBedopsIntervalOverlap1mi_10k-13                           ,Bedops,1000000,10000,1600421781,20650
+ 20703BenchmarkSingleThreadIntervalOverlap1mi_10k-13                     ,Gonomics1Worker,1000000,10000,8221138975,20703
+BenchmarkSingleThreadIntervalOverlap1mi_10k-13                     ,Gonomics1Worker,1000000,10000,12691695018,20756
+BenchmarkSingleThreadIntervalOverlap1mi_10k-13                     ,Gonomics1Worker,1000000,10000,9731822840,20809
+BenchmarkSingleThreadIntervalOverlap1mi_10k-13                     ,Gonomics1Worker,1000000,10000,9522453744,20861
+BenchmarkSingleThreadIntervalOverlap1mi_10k-13                     ,Gonomics1Worker,1000000,10000,12360151477,20913
+BenchmarkSingleThreadIntervalOverlap1mi_10k-13                     ,Gonomics1Worker,1000000,10000,10370889883,20966
+BenchmarkSingleThreadIntervalOverlap1mi_10k-13                     ,Gonomics1Worker,1000000,10000,9072030401,21019
+BenchmarkSingleThreadIntervalOverlap1mi_10k-13                     ,Gonomics1Worker,1000000,10000,7910727254,21073
+BenchmarkSingleThreadIntervalOverlap1mi_10k-13                     ,Gonomics1Worker,1000000,10000,9716185684,21126
+BenchmarkSingleThreadIntervalOverlap1mi_10k-13                     ,Gonomics1Worker,1000000,10000,12946330398,21179
+ 21233BenchmarkGonomicsIntervalOverlap1mi_100k-13                        ,Gonomics8Worker,1000000,100000,14845948221,21233
+BenchmarkGonomicsIntervalOverlap1mi_100k-13                        ,Gonomics8Worker,1000000,100000,9746168423,21287
+BenchmarkGonomicsIntervalOverlap1mi_100k-13                        ,Gonomics8Worker,1000000,100000,13469179198,21342
+BenchmarkGonomicsIntervalOverlap1mi_100k-13                        ,Gonomics8Worker,1000000,100000,7736779734,21396
+BenchmarkGonomicsIntervalOverlap1mi_100k-13                        ,Gonomics8Worker,1000000,100000,8634123830,21450
+BenchmarkGonomicsIntervalOverlap1mi_100k-13                        ,Gonomics8Worker,1000000,100000,8084295407,21503
+BenchmarkGonomicsIntervalOverlap1mi_100k-13                        ,Gonomics8Worker,1000000,100000,7811627295,21557
+BenchmarkGonomicsIntervalOverlap1mi_100k-13                        ,Gonomics8Worker,1000000,100000,15219626947,21611
+BenchmarkGonomicsIntervalOverlap1mi_100k-13                        ,Gonomics8Worker,1000000,100000,12635393164,21664
+BenchmarkGonomicsIntervalOverlap1mi_100k-13                        ,Gonomics8Worker,1000000,100000,9100269364,21718
+ 21734BenchmarkBedtoolsIntervalOverlap1mi_100k-13                        ,Bedtools,1000000,100000,3914892407,21734
+BenchmarkBedtoolsIntervalOverlap1mi_100k-13                        ,Bedtools,1000000,100000,4189031666,21750
+BenchmarkBedtoolsIntervalOverlap1mi_100k-13                        ,Bedtools,1000000,100000,4075093532,21766
+BenchmarkBedtoolsIntervalOverlap1mi_100k-13                        ,Bedtools,1000000,100000,4128596418,21781
+BenchmarkBedtoolsIntervalOverlap1mi_100k-13                        ,Bedtools,1000000,100000,4228717455,21797
+BenchmarkBedtoolsIntervalOverlap1mi_100k-13                        ,Bedtools,1000000,100000,4127244089,21813
+BenchmarkBedtoolsIntervalOverlap1mi_100k-13                        ,Bedtools,1000000,100000,6993034430,21828
+BenchmarkBedtoolsIntervalOverlap1mi_100k-13                        ,Bedtools,1000000,100000,4293424077,21844
+BenchmarkBedtoolsIntervalOverlap1mi_100k-13                        ,Bedtools,1000000,100000,4160735716,21860
+BenchmarkBedtoolsIntervalOverlap1mi_100k-13                        ,Bedtools,1000000,100000,4329950566,21876
+ 21876BenchmarkBedopsIntervalOverlap1mi_100k-13                          ,Bedops,1000000,100000,1998903083,21876
+BenchmarkBedopsIntervalOverlap1mi_100k-13                          ,Bedops,1000000,100000,1890962322,21877
+BenchmarkBedopsIntervalOverlap1mi_100k-13                          ,Bedops,1000000,100000,3687532197,21877
+BenchmarkBedopsIntervalOverlap1mi_100k-13                          ,Bedops,1000000,100000,1808403467,21878
+BenchmarkBedopsIntervalOverlap1mi_100k-13                          ,Bedops,1000000,100000,1908978686,21878
+BenchmarkBedopsIntervalOverlap1mi_100k-13                          ,Bedops,1000000,100000,1844040760,21879
+BenchmarkBedopsIntervalOverlap1mi_100k-13                          ,Bedops,1000000,100000,1811183695,21879
+BenchmarkBedopsIntervalOverlap1mi_100k-13                          ,Bedops,1000000,100000,1951366590,21880
+BenchmarkBedopsIntervalOverlap1mi_100k-13                          ,Bedops,1000000,100000,1820234065,21880
+BenchmarkBedopsIntervalOverlap1mi_100k-13                          ,Bedops,1000000,100000,1884229438,21881
+ 21934BenchmarkSingleThreadIntervalOverlap1mi_100k-13                    ,Gonomics1Worker,1000000,100000,9217388349,21934
+BenchmarkSingleThreadIntervalOverlap1mi_100k-13                    ,Gonomics1Worker,1000000,100000,10770713617,21988
+BenchmarkSingleThreadIntervalOverlap1mi_100k-13                    ,Gonomics1Worker,1000000,100000,9327294629,22042
+BenchmarkSingleThreadIntervalOverlap1mi_100k-13                    ,Gonomics1Worker,1000000,100000,9742888432,22095
+BenchmarkSingleThreadIntervalOverlap1mi_100k-13                    ,Gonomics1Worker,1000000,100000,8942598074,22148
+BenchmarkSingleThreadIntervalOverlap1mi_100k-13                    ,Gonomics1Worker,1000000,100000,9471143295,22202
+BenchmarkSingleThreadIntervalOverlap1mi_100k-13                    ,Gonomics1Worker,1000000,100000,9054263277,22255
+BenchmarkSingleThreadIntervalOverlap1mi_100k-13                    ,Gonomics1Worker,1000000,100000,9494136212,22308
+BenchmarkSingleThreadIntervalOverlap1mi_100k-13                    ,Gonomics1Worker,1000000,100000,8893861884,22361
+BenchmarkSingleThreadIntervalOverlap1mi_100k-13                    ,Gonomics1Worker,1000000,100000,9082001085,22414
+ 22479BenchmarkGonomicsIntervalOverlap1mi_1mi-13                         ,Gonomics8Worker,1000000,1000000,9578866861,22479
+BenchmarkGonomicsIntervalOverlap1mi_1mi-13                         ,Gonomics8Worker,1000000,1000000,14349198581,22542
+BenchmarkGonomicsIntervalOverlap1mi_1mi-13                         ,Gonomics8Worker,1000000,1000000,10525087550,22604
+BenchmarkGonomicsIntervalOverlap1mi_1mi-13                         ,Gonomics8Worker,1000000,1000000,9819188897,22669
+BenchmarkGonomicsIntervalOverlap1mi_1mi-13                         ,Gonomics8Worker,1000000,1000000,9008366929,22734
+BenchmarkGonomicsIntervalOverlap1mi_1mi-13                         ,Gonomics8Worker,1000000,1000000,9571764270,22797
+BenchmarkGonomicsIntervalOverlap1mi_1mi-13                         ,Gonomics8Worker,1000000,1000000,10583046351,22860
+BenchmarkGonomicsIntervalOverlap1mi_1mi-13                         ,Gonomics8Worker,1000000,1000000,10594941468,22923
+BenchmarkGonomicsIntervalOverlap1mi_1mi-13                         ,Gonomics8Worker,1000000,1000000,9306341205,22988
+BenchmarkGonomicsIntervalOverlap1mi_1mi-13                         ,Gonomics8Worker,1000000,1000000,9196989843,23052
+ 23068BenchmarkBedtoolsIntervalOverlap1mi_1mi-13                         ,Bedtools,1000000,1000000,13387579701,23068
+BenchmarkBedtoolsIntervalOverlap1mi_1mi-13                         ,Bedtools,1000000,1000000,14021302130,23084
+BenchmarkBedtoolsIntervalOverlap1mi_1mi-13                         ,Bedtools,1000000,1000000,13731684357,23099
+BenchmarkBedtoolsIntervalOverlap1mi_1mi-13                         ,Bedtools,1000000,1000000,14567661409,23115
+BenchmarkBedtoolsIntervalOverlap1mi_1mi-13                         ,Bedtools,1000000,1000000,14462822943,23131
+BenchmarkBedtoolsIntervalOverlap1mi_1mi-13                         ,Bedtools,1000000,1000000,14435100075,23146
+BenchmarkBedtoolsIntervalOverlap1mi_1mi-13                         ,Bedtools,1000000,1000000,14447882853,23162
+BenchmarkBedtoolsIntervalOverlap1mi_1mi-13                         ,Bedtools,1000000,1000000,14442439199,23178
+BenchmarkBedtoolsIntervalOverlap1mi_1mi-13                         ,Bedtools,1000000,1000000,14346275771,23193
+BenchmarkBedtoolsIntervalOverlap1mi_1mi-13                         ,Bedtools,1000000,1000000,14542373344,23209
+ 23209BenchmarkBedopsIntervalOverlap1mi_1mi-13                           ,Bedops,1000000,1000000,3484112129,23209
+BenchmarkBedopsIntervalOverlap1mi_1mi-13                           ,Bedops,1000000,1000000,5828404779,23210
+BenchmarkBedopsIntervalOverlap1mi_1mi-13                           ,Bedops,1000000,1000000,7215032628,23210
+BenchmarkBedopsIntervalOverlap1mi_1mi-13                           ,Bedops,1000000,1000000,3490305528,23211
+BenchmarkBedopsIntervalOverlap1mi_1mi-13                           ,Bedops,1000000,1000000,3731277628,23211
+BenchmarkBedopsIntervalOverlap1mi_1mi-13                           ,Bedops,1000000,1000000,3363435198,23211
+BenchmarkBedopsIntervalOverlap1mi_1mi-13                           ,Bedops,1000000,1000000,5835236353,23212
+BenchmarkBedopsIntervalOverlap1mi_1mi-13                           ,Bedops,1000000,1000000,3480868169,23212
+BenchmarkBedopsIntervalOverlap1mi_1mi-13                           ,Bedops,1000000,1000000,3440643137,23213
+BenchmarkBedopsIntervalOverlap1mi_1mi-13                           ,Bedops,1000000,1000000,3437106293,23214
+ 23278BenchmarkSingleThreadIntervalOverlap1mi_1mi-13                     ,Gonomics1Worker,1000000,1000000,16407464340,23278
+BenchmarkSingleThreadIntervalOverlap1mi_1mi-13                     ,Gonomics1Worker,1000000,1000000,19149344563,23341
+BenchmarkSingleThreadIntervalOverlap1mi_1mi-13                     ,Gonomics1Worker,1000000,1000000,17014723170,23405
+BenchmarkSingleThreadIntervalOverlap1mi_1mi-13                     ,Gonomics1Worker,1000000,1000000,15801609582,23470
+BenchmarkSingleThreadIntervalOverlap1mi_1mi-13                     ,Gonomics1Worker,1000000,1000000,15441465352,23534
+BenchmarkSingleThreadIntervalOverlap1mi_1mi-13                     ,Gonomics1Worker,1000000,1000000,18818445892,23598
+BenchmarkSingleThreadIntervalOverlap1mi_1mi-13                     ,Gonomics1Worker,1000000,1000000,17343250040,23663
+BenchmarkSingleThreadIntervalOverlap1mi_1mi-13                     ,Gonomics1Worker,1000000,1000000,18855121265,23727
+BenchmarkSingleThreadIntervalOverlap1mi_1mi-13                     ,Gonomics1Worker,1000000,1000000,21527204408,23791
+BenchmarkSingleThreadIntervalOverlap1mi_1mi-13                     ,Gonomics1Worker,1000000,1000000,17591913231,23854
+ 23948BenchmarkGonomicsIntervalOverlap1mi_10mi-13                        ,Gonomics8Worker,1000000,10000000,21503608948,23948
+BenchmarkGonomicsIntervalOverlap1mi_10mi-13                        ,Gonomics8Worker,1000000,10000000,23377936873,24039
+BenchmarkGonomicsIntervalOverlap1mi_10mi-13                        ,Gonomics8Worker,1000000,10000000,24032568816,24132
+BenchmarkGonomicsIntervalOverlap1mi_10mi-13                        ,Gonomics8Worker,1000000,10000000,22911466172,24224
+BenchmarkGonomicsIntervalOverlap1mi_10mi-13                        ,Gonomics8Worker,1000000,10000000,21677835449,24316
+BenchmarkGonomicsIntervalOverlap1mi_10mi-13                        ,Gonomics8Worker,1000000,10000000,20226695819,24408
+BenchmarkGonomicsIntervalOverlap1mi_10mi-13                        ,Gonomics8Worker,1000000,10000000,21309965944,24498
+BenchmarkGonomicsIntervalOverlap1mi_10mi-13                        ,Gonomics8Worker,1000000,10000000,23293236421,24589
+BenchmarkGonomicsIntervalOverlap1mi_10mi-13                        ,Gonomics8Worker,1000000,10000000,21645173501,24683
+BenchmarkGonomicsIntervalOverlap1mi_10mi-13                        ,Gonomics8Worker,1000000,10000000,22689628230,24778
+ 24794BenchmarkBedtoolsIntervalOverlap1mi_10mi-13                        ,Bedtools,1000000,10000000,1.16021E+11,24794
+BenchmarkBedtoolsIntervalOverlap1mi_10mi-13                        ,Bedtools,1000000,10000000,1.21963E+11,24809
+BenchmarkBedtoolsIntervalOverlap1mi_10mi-13                        ,Bedtools,1000000,10000000,1.22257E+11,24825
+BenchmarkBedtoolsIntervalOverlap1mi_10mi-13                        ,Bedtools,1000000,10000000,1.21842E+11,24840
+BenchmarkBedtoolsIntervalOverlap1mi_10mi-13                        ,Bedtools,1000000,10000000,1.21307E+11,24856
+BenchmarkBedtoolsIntervalOverlap1mi_10mi-13                        ,Bedtools,1000000,10000000,1.20326E+11,24871
+BenchmarkBedtoolsIntervalOverlap1mi_10mi-13                        ,Bedtools,1000000,10000000,1.21316E+11,24887
+BenchmarkBedtoolsIntervalOverlap1mi_10mi-13                        ,Bedtools,1000000,10000000,1.25374E+11,24902
+BenchmarkBedtoolsIntervalOverlap1mi_10mi-13                        ,Bedtools,1000000,10000000,2.11154E+11,24918
+BenchmarkBedtoolsIntervalOverlap1mi_10mi-13                        ,Bedtools,1000000,10000000,1.21332E+11,24933
+ 24944BenchmarkBedopsIntervalOverlap1mi_10mi-13                          ,Bedops,1000000,10000000,25379932840,24944
+BenchmarkBedopsIntervalOverlap1mi_10mi-13                          ,Bedops,1000000,10000000,18153277945,24954
+BenchmarkBedopsIntervalOverlap1mi_10mi-13                          ,Bedops,1000000,10000000,23726074606,24965
+BenchmarkBedopsIntervalOverlap1mi_10mi-13                          ,Bedops,1000000,10000000,18066311511,24975
+BenchmarkBedopsIntervalOverlap1mi_10mi-13                          ,Bedops,1000000,10000000,17922516816,24986
+BenchmarkBedopsIntervalOverlap1mi_10mi-13                          ,Bedops,1000000,10000000,18089985256,24997
+BenchmarkBedopsIntervalOverlap1mi_10mi-13                          ,Bedops,1000000,10000000,18118653685,25007
+BenchmarkBedopsIntervalOverlap1mi_10mi-13                          ,Bedops,1000000,10000000,26664164628,25017
+BenchmarkBedopsIntervalOverlap1mi_10mi-13                          ,Bedops,1000000,10000000,18622340644,25028
+BenchmarkBedopsIntervalOverlap1mi_10mi-13                          ,Bedops,1000000,10000000,18743317139,25039
+ 25126BenchmarkSingleThreadIntervalOverlap1mi_10mi-13                    ,Gonomics1Worker,1000000,10000000,90966529822,25126
+BenchmarkSingleThreadIntervalOverlap1mi_10mi-13                    ,Gonomics1Worker,1000000,10000000,89711597500,25214
+BenchmarkSingleThreadIntervalOverlap1mi_10mi-13                    ,Gonomics1Worker,1000000,10000000,84913442953,25302
+BenchmarkSingleThreadIntervalOverlap1mi_10mi-13                    ,Gonomics1Worker,1000000,10000000,92344334074,25390
+BenchmarkSingleThreadIntervalOverlap1mi_10mi-13                    ,Gonomics1Worker,1000000,10000000,87905697139,25478
+BenchmarkSingleThreadIntervalOverlap1mi_10mi-13                    ,Gonomics1Worker,1000000,10000000,86619201459,25566
+BenchmarkSingleThreadIntervalOverlap1mi_10mi-13                    ,Gonomics1Worker,1000000,10000000,84788910540,25654
+BenchmarkSingleThreadIntervalOverlap1mi_10mi-13                    ,Gonomics1Worker,1000000,10000000,90439153215,25742
+BenchmarkSingleThreadIntervalOverlap1mi_10mi-13                    ,Gonomics1Worker,1000000,10000000,84280848886,25829
+BenchmarkSingleThreadIntervalOverlap1mi_10mi-13                    ,Gonomics1Worker,1000000,10000000,92779781359,25916
+ 26533BenchmarkGonomicsIntervalOverlap10mi_100-13                        ,Gonomics8Worker,10000000,100,1.4912E+11,26533
+BenchmarkGonomicsIntervalOverlap10mi_100-13                        ,Gonomics8Worker,10000000,100,1.25323E+11,27153
+BenchmarkGonomicsIntervalOverlap10mi_100-13                        ,Gonomics8Worker,10000000,100,1.21138E+11,27750
+BenchmarkGonomicsIntervalOverlap10mi_100-13                        ,Gonomics8Worker,10000000,100,1.99464E+11,28361
+BenchmarkGonomicsIntervalOverlap10mi_100-13                        ,Gonomics8Worker,10000000,100,1.56532E+11,28966
+BenchmarkGonomicsIntervalOverlap10mi_100-13                        ,Gonomics8Worker,10000000,100,1.38923E+11,29567
+BenchmarkGonomicsIntervalOverlap10mi_100-13                        ,Gonomics8Worker,10000000,100,1.14511E+11,30175
+BenchmarkGonomicsIntervalOverlap10mi_100-13                        ,Gonomics8Worker,10000000,100,1.7906E+11,30796
+BenchmarkGonomicsIntervalOverlap10mi_100-13                        ,Gonomics8Worker,10000000,100,1.14928E+11,31418
+BenchmarkGonomicsIntervalOverlap10mi_100-13                        ,Gonomics8Worker,10000000,100,1.79772E+11,32034
+ 32189BenchmarkBedtoolsIntervalOverlap10mi_100-13                        ,Bedtools,10000000,100,32489479476,32189
+BenchmarkBedtoolsIntervalOverlap10mi_100-13                        ,Bedtools,10000000,100,33396410098,32343
+BenchmarkBedtoolsIntervalOverlap10mi_100-13                        ,Bedtools,10000000,100,33632487563,32498
+BenchmarkBedtoolsIntervalOverlap10mi_100-13                        ,Bedtools,10000000,100,33563039577,32652
+BenchmarkBedtoolsIntervalOverlap10mi_100-13                        ,Bedtools,10000000,100,33274323165,32806
+BenchmarkBedtoolsIntervalOverlap10mi_100-13                        ,Bedtools,10000000,100,33899471817,32961
+BenchmarkBedtoolsIntervalOverlap10mi_100-13                        ,Bedtools,10000000,100,33157945588,33115
+BenchmarkBedtoolsIntervalOverlap10mi_100-13                        ,Bedtools,10000000,100,32735464517,33269
+BenchmarkBedtoolsIntervalOverlap10mi_100-13                        ,Bedtools,10000000,100,32665622999,33424
+BenchmarkBedtoolsIntervalOverlap10mi_100-13                        ,Bedtools,10000000,100,37179529667,33578
+ 33588BenchmarkBedopsIntervalOverlap10mi_100-13                          ,Bedops,10000000,100,14826310841,33588
+BenchmarkBedopsIntervalOverlap10mi_100-13                          ,Bedops,10000000,100,14914729871,33598
+BenchmarkBedopsIntervalOverlap10mi_100-13                          ,Bedops,10000000,100,14705055236,33608
+BenchmarkBedopsIntervalOverlap10mi_100-13                          ,Bedops,10000000,100,30409504356,33618
+BenchmarkBedopsIntervalOverlap10mi_100-13                          ,Bedops,10000000,100,14791466560,33628
+BenchmarkBedopsIntervalOverlap10mi_100-13                          ,Bedops,10000000,100,14777115812,33638
+BenchmarkBedopsIntervalOverlap10mi_100-13                          ,Bedops,10000000,100,15007014301,33648
+BenchmarkBedopsIntervalOverlap10mi_100-13                          ,Bedops,10000000,100,24604556512,33658
+BenchmarkBedopsIntervalOverlap10mi_100-13                          ,Bedops,10000000,100,15104874498,33668
+BenchmarkBedopsIntervalOverlap10mi_100-13                          ,Bedops,10000000,100,15039898110,33678
+ 34297BenchmarkSingleThreadIntervalOverlap10mi_100-13                    ,Gonomics1Worker,10000000,100,1.12221E+11,34297
+BenchmarkSingleThreadIntervalOverlap10mi_100-13                    ,Gonomics1Worker,10000000,100,1.87487E+11,34906
+BenchmarkSingleThreadIntervalOverlap10mi_100-13                    ,Gonomics1Worker,10000000,100,1.33232E+11,35493
+BenchmarkSingleThreadIntervalOverlap10mi_100-13                    ,Gonomics1Worker,10000000,100,1.41948E+11,36122
+BenchmarkSingleThreadIntervalOverlap10mi_100-13                    ,Gonomics1Worker,10000000,100,1.17032E+11,36734
+BenchmarkSingleThreadIntervalOverlap10mi_100-13                    ,Gonomics1Worker,10000000,100,1.16278E+11,37349
+BenchmarkSingleThreadIntervalOverlap10mi_100-13                    ,Gonomics1Worker,10000000,100,1.42936E+11,37964
+BenchmarkSingleThreadIntervalOverlap10mi_100-13                    ,Gonomics1Worker,10000000,100,1.34354E+11,38573
+BenchmarkSingleThreadIntervalOverlap10mi_100-13                    ,Gonomics1Worker,10000000,100,1.57095E+11,39189
+BenchmarkSingleThreadIntervalOverlap10mi_100-13                    ,Gonomics1Worker,10000000,100,1.44836E+11,39823
+ 40438BenchmarkGonomicsIntervalOverlap10mi_1k-13                         ,Gonomics8Worker,10000000,1000,1.32288E+11,40438
+BenchmarkGonomicsIntervalOverlap10mi_1k-13                         ,Gonomics8Worker,10000000,1000,1.22683E+11,41054
+BenchmarkGonomicsIntervalOverlap10mi_1k-13                         ,Gonomics8Worker,10000000,1000,1.17519E+11,41675
+BenchmarkGonomicsIntervalOverlap10mi_1k-13                         ,Gonomics8Worker,10000000,1000,1.29384E+11,42293
+BenchmarkGonomicsIntervalOverlap10mi_1k-13                         ,Gonomics8Worker,10000000,1000,1.51957E+11,42900
+BenchmarkGonomicsIntervalOverlap10mi_1k-13                         ,Gonomics8Worker,10000000,1000,1.30316E+11,43529
+BenchmarkGonomicsIntervalOverlap10mi_1k-13                         ,Gonomics8Worker,10000000,1000,1.49467E+11,44126
+BenchmarkGonomicsIntervalOverlap10mi_1k-13                         ,Gonomics8Worker,10000000,1000,1.24003E+11,44737
+BenchmarkGonomicsIntervalOverlap10mi_1k-13                         ,Gonomics8Worker,10000000,1000,1.15881E+11,45353
+BenchmarkGonomicsIntervalOverlap10mi_1k-13                         ,Gonomics8Worker,10000000,1000,1.21562E+11,45964
+ 46118BenchmarkBedtoolsIntervalOverlap10mi_1k-13                         ,Bedtools,10000000,1000,32383607856,46118
+BenchmarkBedtoolsIntervalOverlap10mi_1k-13                         ,Bedtools,10000000,1000,32286821545,46271
+BenchmarkBedtoolsIntervalOverlap10mi_1k-13                         ,Bedtools,10000000,1000,32751702826,46425
+BenchmarkBedtoolsIntervalOverlap10mi_1k-13                         ,Bedtools,10000000,1000,32450948962,46578
+BenchmarkBedtoolsIntervalOverlap10mi_1k-13                         ,Bedtools,10000000,1000,61825404496,46732
+BenchmarkBedtoolsIntervalOverlap10mi_1k-13                         ,Bedtools,10000000,1000,48579742934,46885
+BenchmarkBedtoolsIntervalOverlap10mi_1k-13                         ,Bedtools,10000000,1000,32327468210,47038
+BenchmarkBedtoolsIntervalOverlap10mi_1k-13                         ,Bedtools,10000000,1000,32650821584,47192
+BenchmarkBedtoolsIntervalOverlap10mi_1k-13                         ,Bedtools,10000000,1000,32713012465,47345
+BenchmarkBedtoolsIntervalOverlap10mi_1k-13                         ,Bedtools,10000000,1000,32307529232,47499
+ 47508BenchmarkBedopsIntervalOverlap10mi_1k-13                           ,Bedops,10000000,1000,25758089625,47508
+BenchmarkBedopsIntervalOverlap10mi_1k-13                           ,Bedops,10000000,1000,14569930302,47517
+BenchmarkBedopsIntervalOverlap10mi_1k-13                           ,Bedops,10000000,1000,14684150600,47526
+BenchmarkBedopsIntervalOverlap10mi_1k-13                           ,Bedops,10000000,1000,33501927443,47536
+BenchmarkBedopsIntervalOverlap10mi_1k-13                           ,Bedops,10000000,1000,33279305117,47545
+BenchmarkBedopsIntervalOverlap10mi_1k-13                           ,Bedops,10000000,1000,14683510381,47554
+BenchmarkBedopsIntervalOverlap10mi_1k-13                           ,Bedops,10000000,1000,28734492946,47564
+BenchmarkBedopsIntervalOverlap10mi_1k-13                           ,Bedops,10000000,1000,15559192150,47573
+BenchmarkBedopsIntervalOverlap10mi_1k-13                           ,Bedops,10000000,1000,18379270397,47582
+BenchmarkBedopsIntervalOverlap10mi_1k-13                           ,Bedops,10000000,1000,15170667352,47592
+ 48166BenchmarkSingleThreadIntervalOverlap10mi_1k-13                     ,Gonomics1Worker,10000000,1000,1.52194E+11,48166
+BenchmarkSingleThreadIntervalOverlap10mi_1k-13                     ,Gonomics1Worker,10000000,1000,1.53788E+11,48777
+BenchmarkSingleThreadIntervalOverlap10mi_1k-13                     ,Gonomics1Worker,10000000,1000,1.58482E+11,49394
+BenchmarkSingleThreadIntervalOverlap10mi_1k-13                     ,Gonomics1Worker,10000000,1000,1.30187E+11,49994
+BenchmarkSingleThreadIntervalOverlap10mi_1k-13                     ,Gonomics1Worker,10000000,1000,1.23898E+11,50605
+BenchmarkSingleThreadIntervalOverlap10mi_1k-13                     ,Gonomics1Worker,10000000,1000,1.32091E+11,51213
+BenchmarkSingleThreadIntervalOverlap10mi_1k-13                     ,Gonomics1Worker,10000000,1000,1.57971E+11,51807
+BenchmarkSingleThreadIntervalOverlap10mi_1k-13                     ,Gonomics1Worker,10000000,1000,1.23451E+11,52415
+BenchmarkSingleThreadIntervalOverlap10mi_1k-13                     ,Gonomics1Worker,10000000,1000,1.65455E+11,53026
+BenchmarkSingleThreadIntervalOverlap10mi_1k-13                     ,Gonomics1Worker,10000000,1000,1.67903E+11,53622
+ 54236BenchmarkGonomicsIntervalOverlap10mi_10k-13                        ,Gonomics8Worker,10000000,10000,1.19128E+11,54236
+BenchmarkGonomicsIntervalOverlap10mi_10k-13                        ,Gonomics8Worker,10000000,10000,1.2055E+11,54850
+BenchmarkGonomicsIntervalOverlap10mi_10k-13                        ,Gonomics8Worker,10000000,10000,1.3914E+11,55456
+BenchmarkGonomicsIntervalOverlap10mi_10k-13                        ,Gonomics8Worker,10000000,10000,1.13568E+11,56068
+BenchmarkGonomicsIntervalOverlap10mi_10k-13                        ,Gonomics8Worker,10000000,10000,1.34741E+11,56671
+BenchmarkGonomicsIntervalOverlap10mi_10k-13                        ,Gonomics8Worker,10000000,10000,1.24966E+11,57287
+BenchmarkGonomicsIntervalOverlap10mi_10k-13                        ,Gonomics8Worker,10000000,10000,1.35361E+11,57898
+BenchmarkGonomicsIntervalOverlap10mi_10k-13                        ,Gonomics8Worker,10000000,10000,1.53691E+11,58513
+BenchmarkGonomicsIntervalOverlap10mi_10k-13                        ,Gonomics8Worker,10000000,10000,1.88264E+11,59124
+BenchmarkGonomicsIntervalOverlap10mi_10k-13                        ,Gonomics8Worker,10000000,10000,1.58871E+11,59729
+ 59881BenchmarkBedtoolsIntervalOverlap10mi_10k-13                        ,Bedtools,10000000,10000,34246369332,59881
+BenchmarkBedtoolsIntervalOverlap10mi_10k-13                        ,Bedtools,10000000,10000,40901157440,60034
+BenchmarkBedtoolsIntervalOverlap10mi_10k-13                        ,Bedtools,10000000,10000,71047532794,60186
+BenchmarkBedtoolsIntervalOverlap10mi_10k-13                        ,Bedtools,10000000,10000,33880008144,60339
+BenchmarkBedtoolsIntervalOverlap10mi_10k-13                        ,Bedtools,10000000,10000,65470688102,60491
+BenchmarkBedtoolsIntervalOverlap10mi_10k-13                        ,Bedtools,10000000,10000,55646247091,60644
+BenchmarkBedtoolsIntervalOverlap10mi_10k-13                        ,Bedtools,10000000,10000,34605114516,60797
+BenchmarkBedtoolsIntervalOverlap10mi_10k-13                        ,Bedtools,10000000,10000,40576516257,60949
+BenchmarkBedtoolsIntervalOverlap10mi_10k-13                        ,Bedtools,10000000,10000,34261345010,61102
+BenchmarkBedtoolsIntervalOverlap10mi_10k-13                        ,Bedtools,10000000,10000,34281187236,61254
+ 61263BenchmarkBedopsIntervalOverlap10mi_10k-13                          ,Bedops,10000000,10000,14831540688,61263
+BenchmarkBedopsIntervalOverlap10mi_10k-13                          ,Bedops,10000000,10000,26854234826,61271
+BenchmarkBedopsIntervalOverlap10mi_10k-13                          ,Bedops,10000000,10000,25508784141,61280
+BenchmarkBedopsIntervalOverlap10mi_10k-13                          ,Bedops,10000000,10000,14905392016,61289
+BenchmarkBedopsIntervalOverlap10mi_10k-13                          ,Bedops,10000000,10000,18614993942,61297
+BenchmarkBedopsIntervalOverlap10mi_10k-13                          ,Bedops,10000000,10000,26893805099,61306
+BenchmarkBedopsIntervalOverlap10mi_10k-13                          ,Bedops,10000000,10000,26593289416,61315
+BenchmarkBedopsIntervalOverlap10mi_10k-13                          ,Bedops,10000000,10000,28814345279,61323
+BenchmarkBedopsIntervalOverlap10mi_10k-13                          ,Bedops,10000000,10000,15010946327,61332
+BenchmarkBedopsIntervalOverlap10mi_10k-13                          ,Bedops,10000000,10000,14674003564,61341
+ 61956BenchmarkSingleThreadIntervalOverlap10mi_10k-13                    ,Gonomics1Worker,10000000,10000,1.17455E+11,61956
+BenchmarkSingleThreadIntervalOverlap10mi_10k-13                    ,Gonomics1Worker,10000000,10000,1.4693E+11,62572
+BenchmarkSingleThreadIntervalOverlap10mi_10k-13                    ,Gonomics1Worker,10000000,10000,1.15785E+11,63177
+BenchmarkSingleThreadIntervalOverlap10mi_10k-13                    ,Gonomics1Worker,10000000,10000,1.17505E+11,63789
+BenchmarkSingleThreadIntervalOverlap10mi_10k-13                    ,Gonomics1Worker,10000000,10000,1.32363E+11,64405
+BenchmarkSingleThreadIntervalOverlap10mi_10k-13                    ,Gonomics1Worker,10000000,10000,1.63273E+11,65011
+BenchmarkSingleThreadIntervalOverlap10mi_10k-13                    ,Gonomics1Worker,10000000,10000,1.74357E+11,65616
+BenchmarkSingleThreadIntervalOverlap10mi_10k-13                    ,Gonomics1Worker,10000000,10000,1.58095E+11,66194
+BenchmarkSingleThreadIntervalOverlap10mi_10k-13                    ,Gonomics1Worker,10000000,10000,1.5698E+11,66798
+BenchmarkSingleThreadIntervalOverlap10mi_10k-13                    ,Gonomics1Worker,10000000,10000,1.37621E+11,67408
+ 67982BenchmarkGonomicsIntervalOverlap10mi_100k-13                       ,Gonomics8Worker,10000000,100000,1.13543E+11,67982
+BenchmarkGonomicsIntervalOverlap10mi_100k-13                       ,Gonomics8Worker,10000000,100000,1.32802E+11,68599
+BenchmarkGonomicsIntervalOverlap10mi_100k-13                       ,Gonomics8Worker,10000000,100000,1.18068E+11,69214
+BenchmarkGonomicsIntervalOverlap10mi_100k-13                       ,Gonomics8Worker,10000000,100000,1.48874E+11,69833
+BenchmarkGonomicsIntervalOverlap10mi_100k-13                       ,Gonomics8Worker,10000000,100000,1.39464E+11,70442
+BenchmarkGonomicsIntervalOverlap10mi_100k-13                       ,Gonomics8Worker,10000000,100000,1.76118E+11,71061
+BenchmarkGonomicsIntervalOverlap10mi_100k-13                       ,Gonomics8Worker,10000000,100000,1.39139E+11,71674
+BenchmarkGonomicsIntervalOverlap10mi_100k-13                       ,Gonomics8Worker,10000000,100000,1.28406E+11,72280
+BenchmarkGonomicsIntervalOverlap10mi_100k-13                       ,Gonomics8Worker,10000000,100000,1.464E+11,72889
+BenchmarkGonomicsIntervalOverlap10mi_100k-13                       ,Gonomics8Worker,10000000,100000,1.49537E+11,73510
+ 73661BenchmarkBedtoolsIntervalOverlap10mi_100k-13                       ,Bedtools,10000000,100000,39746200550,73661
+BenchmarkBedtoolsIntervalOverlap10mi_100k-13                       ,Bedtools,10000000,100000,39865145480,73813
+BenchmarkBedtoolsIntervalOverlap10mi_100k-13                       ,Bedtools,10000000,100000,40218594329,73965
+BenchmarkBedtoolsIntervalOverlap10mi_100k-13                       ,Bedtools,10000000,100000,39810273537,74116
+BenchmarkBedtoolsIntervalOverlap10mi_100k-13                       ,Bedtools,10000000,100000,40181335854,74268
+BenchmarkBedtoolsIntervalOverlap10mi_100k-13                       ,Bedtools,10000000,100000,41416085797,74420
+BenchmarkBedtoolsIntervalOverlap10mi_100k-13                       ,Bedtools,10000000,100000,40124789926,74571
+BenchmarkBedtoolsIntervalOverlap10mi_100k-13                       ,Bedtools,10000000,100000,40039478789,74723
+BenchmarkBedtoolsIntervalOverlap10mi_100k-13                       ,Bedtools,10000000,100000,60645215611,74874
+BenchmarkBedtoolsIntervalOverlap10mi_100k-13                       ,Bedtools,10000000,100000,40190716852,75026
+ 75034BenchmarkBedopsIntervalOverlap10mi_100k-13                         ,Bedops,10000000,100000,15074312827,75034
+BenchmarkBedopsIntervalOverlap10mi_100k-13                         ,Bedops,10000000,100000,15249240935,75042
+BenchmarkBedopsIntervalOverlap10mi_100k-13                         ,Bedops,10000000,100000,15229348452,75050
+BenchmarkBedopsIntervalOverlap10mi_100k-13                         ,Bedops,10000000,100000,14960014599,75058
+BenchmarkBedopsIntervalOverlap10mi_100k-13                         ,Bedops,10000000,100000,15007960532,75067
+BenchmarkBedopsIntervalOverlap10mi_100k-13                         ,Bedops,10000000,100000,18086832082,75075
+BenchmarkBedopsIntervalOverlap10mi_100k-13                         ,Bedops,10000000,100000,27414159440,75083
+BenchmarkBedopsIntervalOverlap10mi_100k-13                         ,Bedops,10000000,100000,14987677094,75091
+BenchmarkBedopsIntervalOverlap10mi_100k-13                         ,Bedops,10000000,100000,18518664019,75099
+BenchmarkBedopsIntervalOverlap10mi_100k-13                         ,Bedops,10000000,100000,29511283088,75107
+ 75716BenchmarkSingleThreadIntervalOverlap10mi_100k-13                   ,Gonomics1Worker,10000000,100000,1.49168E+11,75716
+BenchmarkSingleThreadIntervalOverlap10mi_100k-13                   ,Gonomics1Worker,10000000,100000,1.67746E+11,76333
+BenchmarkSingleThreadIntervalOverlap10mi_100k-13                   ,Gonomics1Worker,10000000,100000,1.62613E+11,76956
+BenchmarkSingleThreadIntervalOverlap10mi_100k-13                   ,Gonomics1Worker,10000000,100000,1.18021E+11,77562
+BenchmarkSingleThreadIntervalOverlap10mi_100k-13                   ,Gonomics1Worker,10000000,100000,1.17753E+11,78187
+BenchmarkSingleThreadIntervalOverlap10mi_100k-13                   ,Gonomics1Worker,10000000,100000,1.54702E+11,78801
+BenchmarkSingleThreadIntervalOverlap10mi_100k-13                   ,Gonomics1Worker,10000000,100000,2.10191E+11,79407
+BenchmarkSingleThreadIntervalOverlap10mi_100k-13                   ,Gonomics1Worker,10000000,100000,1.29828E+11,80013
+BenchmarkSingleThreadIntervalOverlap10mi_100k-13                   ,Gonomics1Worker,10000000,100000,1.48448E+11,80611
+BenchmarkSingleThreadIntervalOverlap10mi_100k-13                   ,Gonomics1Worker,10000000,100000,1.5228E+11,81215
+ 81856BenchmarkGonomicsIntervalOverlap10mi_1mi-13                        ,Gonomics8Worker,10000000,1000000,1.39107E+11,81856
+BenchmarkGonomicsIntervalOverlap10mi_1mi-13                        ,Gonomics8Worker,10000000,1000000,1.65822E+11,82491
+BenchmarkGonomicsIntervalOverlap10mi_1mi-13                        ,Gonomics8Worker,10000000,1000000,1.63762E+11,83110
+BenchmarkGonomicsIntervalOverlap10mi_1mi-13                        ,Gonomics8Worker,10000000,1000000,1.68179E+11,83746
+BenchmarkGonomicsIntervalOverlap10mi_1mi-13                        ,Gonomics8Worker,10000000,1000000,1.51963E+11,84372
+BenchmarkGonomicsIntervalOverlap10mi_1mi-13                        ,Gonomics8Worker,10000000,1000000,1.17818E+11,84998
+BenchmarkGonomicsIntervalOverlap10mi_1mi-13                        ,Gonomics8Worker,10000000,1000000,1.21712E+11,85626
+BenchmarkGonomicsIntervalOverlap10mi_1mi-13                        ,Gonomics8Worker,10000000,1000000,1.34331E+11,86252
+BenchmarkGonomicsIntervalOverlap10mi_1mi-13                        ,Gonomics8Worker,10000000,1000000,1.2035E+11,86882
+BenchmarkGonomicsIntervalOverlap10mi_1mi-13                        ,Gonomics8Worker,10000000,1000000,1.37807E+11,87502
+ 87653BenchmarkBedtoolsIntervalOverlap10mi_1mi-13                        ,Bedtools,10000000,1000000,1.05955E+11,87653
+BenchmarkBedtoolsIntervalOverlap10mi_1mi-13                        ,Bedtools,10000000,1000000,1.31209E+11,87804
+BenchmarkBedtoolsIntervalOverlap10mi_1mi-13                        ,Bedtools,10000000,1000000,1.06622E+11,87955
+BenchmarkBedtoolsIntervalOverlap10mi_1mi-13                        ,Bedtools,10000000,1000000,1.18501E+11,88105
+BenchmarkBedtoolsIntervalOverlap10mi_1mi-13                        ,Bedtools,10000000,1000000,1.03705E+11,88256
+BenchmarkBedtoolsIntervalOverlap10mi_1mi-13                        ,Bedtools,10000000,1000000,1.15452E+11,88407
+BenchmarkBedtoolsIntervalOverlap10mi_1mi-13                        ,Bedtools,10000000,1000000,1.01578E+11,88558
+BenchmarkBedtoolsIntervalOverlap10mi_1mi-13                        ,Bedtools,10000000,1000000,1.8608E+11,88708
+BenchmarkBedtoolsIntervalOverlap10mi_1mi-13                        ,Bedtools,10000000,1000000,1.04035E+11,88859
+BenchmarkBedtoolsIntervalOverlap10mi_1mi-13                        ,Bedtools,10000000,1000000,1.02357E+11,89010
+ 89017BenchmarkBedopsIntervalOverlap10mi_1mi-13                          ,Bedops,10000000,1000000,19018486841,89017
+BenchmarkBedopsIntervalOverlap10mi_1mi-13                          ,Bedops,10000000,1000000,18112426744,89024
+BenchmarkBedopsIntervalOverlap10mi_1mi-13                          ,Bedops,10000000,1000000,30544284174,89032
+BenchmarkBedopsIntervalOverlap10mi_1mi-13                          ,Bedops,10000000,1000000,18324908840,89039
+BenchmarkBedopsIntervalOverlap10mi_1mi-13                          ,Bedops,10000000,1000000,23139410992,89046
+BenchmarkBedopsIntervalOverlap10mi_1mi-13                          ,Bedops,10000000,1000000,18345567665,89054
+BenchmarkBedopsIntervalOverlap10mi_1mi-13                          ,Bedops,10000000,1000000,19086784516,89061
+BenchmarkBedopsIntervalOverlap10mi_1mi-13                          ,Bedops,10000000,1000000,19511501791,89069
+BenchmarkBedopsIntervalOverlap10mi_1mi-13                          ,Bedops,10000000,1000000,29898741457,89076
+BenchmarkBedopsIntervalOverlap10mi_1mi-13                          ,Bedops,10000000,1000000,17907143552,89084
+ 89703BenchmarkSingleThreadIntervalOverlap10mi_1mi-13                    ,Gonomics1Worker,10000000,1000000,1.52534E+11,89703
+BenchmarkSingleThreadIntervalOverlap10mi_1mi-13                    ,Gonomics1Worker,10000000,1000000,1.41107E+11,90330
+BenchmarkSingleThreadIntervalOverlap10mi_1mi-13                    ,Gonomics1Worker,10000000,1000000,1.50775E+11,90908
+BenchmarkSingleThreadIntervalOverlap10mi_1mi-13                    ,Gonomics1Worker,10000000,1000000,1.30048E+11,91536
+BenchmarkSingleThreadIntervalOverlap10mi_1mi-13                    ,Gonomics1Worker,10000000,1000000,1.26473E+11,92164
+BenchmarkSingleThreadIntervalOverlap10mi_1mi-13                    ,Gonomics1Worker,10000000,1000000,1.86629E+11,92789
+BenchmarkSingleThreadIntervalOverlap10mi_1mi-13                    ,Gonomics1Worker,10000000,1000000,1.52859E+11,93425
+BenchmarkSingleThreadIntervalOverlap10mi_1mi-13                    ,Gonomics1Worker,10000000,1000000,1.84274E+11,94044
+BenchmarkSingleThreadIntervalOverlap10mi_1mi-13                    ,Gonomics1Worker,10000000,1000000,1.51887E+11,94661
+BenchmarkSingleThreadIntervalOverlap10mi_1mi-13                    ,Gonomics1Worker,10000000,1000000,1.34031E+11,95285
+ 95995BenchmarkGonomicsIntervalOverlap10mi_10mi-13                       ,Gonomics8Worker,10000000,10000000,2.20254E+11,95995
+BenchmarkGonomicsIntervalOverlap10mi_10mi-13                       ,Gonomics8Worker,10000000,10000000,1.82216E+11,96690
+BenchmarkGonomicsIntervalOverlap10mi_10mi-13                       ,Gonomics8Worker,10000000,10000000,1.7507E+11,97474
+BenchmarkGonomicsIntervalOverlap10mi_10mi-13                       ,Gonomics8Worker,10000000,10000000,1.55671E+11,98162
+BenchmarkGonomicsIntervalOverlap10mi_10mi-13                       ,Gonomics8Worker,10000000,10000000,1.89404E+11,98900
+BenchmarkGonomicsIntervalOverlap10mi_10mi-13                       ,Gonomics8Worker,10000000,10000000,2.09884E+11,99605
+BenchmarkGonomicsIntervalOverlap10mi_10mi-13                       ,Gonomics8Worker,10000000,10000000,1.86376E+11,100312
+BenchmarkGonomicsIntervalOverlap10mi_10mi-13                       ,Gonomics8Worker,10000000,10000000,1.6577E+11,100997
+BenchmarkGonomicsIntervalOverlap10mi_10mi-13                       ,Gonomics8Worker,10000000,10000000,1.57285E+11,101712
+BenchmarkGonomicsIntervalOverlap10mi_10mi-13                       ,Gonomics8Worker,10000000,10000000,2.10301E+11,102418
+ 102568BenchmarkBedtoolsIntervalOverlap10mi_10mi-13                       ,Bedtools,10000000,10000000,6.97528E+11,102568
+BenchmarkBedtoolsIntervalOverlap10mi_10mi-13                       ,Bedtools,10000000,10000000,7.01243E+11,102717
+BenchmarkBedtoolsIntervalOverlap10mi_10mi-13                       ,Bedtools,10000000,10000000,8.21948E+11,102867
+BenchmarkBedtoolsIntervalOverlap10mi_10mi-13                       ,Bedtools,10000000,10000000,7.01292E+11,103017
+BenchmarkBedtoolsIntervalOverlap10mi_10mi-13                       ,Bedtools,10000000,10000000,7.58885E+11,103167
+BenchmarkBedtoolsIntervalOverlap10mi_10mi-13                       ,Bedtools,10000000,10000000,7.05818E+11,103316
+BenchmarkBedtoolsIntervalOverlap10mi_10mi-13                       ,Bedtools,10000000,10000000,7.30319E+11,103466
+BenchmarkBedtoolsIntervalOverlap10mi_10mi-13                       ,Bedtools,10000000,10000000,7.05659E+11,103616
+BenchmarkBedtoolsIntervalOverlap10mi_10mi-13                       ,Bedtools,10000000,10000000,6.79997E+11,103765
+BenchmarkBedtoolsIntervalOverlap10mi_10mi-13                       ,Bedtools,10000000,10000000,6.55586E+11,103915
+ 103922BenchmarkBedopsIntervalOverlap10mi_10mi-13                         ,Bedops,10000000,10000000,33862153297,103922
+BenchmarkBedopsIntervalOverlap10mi_10mi-13                         ,Bedops,10000000,10000000,54077862422,103929
+BenchmarkBedopsIntervalOverlap10mi_10mi-13                         ,Bedops,10000000,10000000,33821211541,103936
+BenchmarkBedopsIntervalOverlap10mi_10mi-13                         ,Bedops,10000000,10000000,37760276669,103942
+BenchmarkBedopsIntervalOverlap10mi_10mi-13                         ,Bedops,10000000,10000000,34019557317,103949
+BenchmarkBedopsIntervalOverlap10mi_10mi-13                         ,Bedops,10000000,10000000,44153078888,103955
+BenchmarkBedopsIntervalOverlap10mi_10mi-13                         ,Bedops,10000000,10000000,33713554972,103962
+BenchmarkBedopsIntervalOverlap10mi_10mi-13                         ,Bedops,10000000,10000000,33888436413,103969
+BenchmarkBedopsIntervalOverlap10mi_10mi-13                         ,Bedops,10000000,10000000,34116108343,103976
+BenchmarkBedopsIntervalOverlap10mi_10mi-13                         ,Bedops,10000000,10000000,33755315333,103982
+ 104641BenchmarkSingleThreadIntervalOverlap10mi_10mi-13                   ,Gonomics1Worker,10000000,10000000,2.4383E+11,104641
+BenchmarkSingleThreadIntervalOverlap10mi_10mi-13                   ,Gonomics1Worker,10000000,10000000,2.05371E+11,105325
+BenchmarkSingleThreadIntervalOverlap10mi_10mi-13                   ,Gonomics1Worker,10000000,10000000,2.43896E+11,105981
+BenchmarkSingleThreadIntervalOverlap10mi_10mi-13                   ,Gonomics1Worker,10000000,10000000,2.2181E+11,106656
+BenchmarkSingleThreadIntervalOverlap10mi_10mi-13                   ,Gonomics1Worker,10000000,10000000,2.25038E+11,107368
+BenchmarkSingleThreadIntervalOverlap10mi_10mi-13                   ,Gonomics1Worker,10000000,10000000,2.36925E+11,108054
+BenchmarkSingleThreadIntervalOverlap10mi_10mi-13                   ,Gonomics1Worker,10000000,10000000,2.44527E+11,108725
+BenchmarkSingleThreadIntervalOverlap10mi_10mi-13                   ,Gonomics1Worker,10000000,10000000,2.27081E+11,109402
+BenchmarkSingleThreadIntervalOverlap10mi_10mi-13                   ,Gonomics1Worker,10000000,10000000,2.68484E+11,110083
+BenchmarkSingleThreadIntervalOverlap10mi_10mi-13                   ,Gonomics1Worker,10000000,10000000,2.5312E+11,110758
