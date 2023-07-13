@@ -1,0 +1,241 @@
+Job,Tool,a,b,memUsage
+BenchmarkGonomicsIntervalOverlapMem100_100-13          ,Gonomics4Worker,100,100,13296
+BenchmarkGonomicsIntervalOverlapMem100_100-13          ,Gonomics4Worker,100,100,12576
+BenchmarkGonomicsIntervalOverlapMem100_100-13          ,Gonomics4Worker,100,100,12689
+BenchmarkGonomicsIntervalOverlapMem100_100-13          ,Gonomics4Worker,100,100,12648
+BenchmarkGonomicsIntervalOverlapMem100_100-13          ,Gonomics4Worker,100,100,12672
+BenchmarkGonomicsIntervalOverlapMem100_100-13          ,Gonomics4Worker,100,100,12616
+BenchmarkGonomicsIntervalOverlapMem100_100-13          ,Gonomics4Worker,100,100,12573
+BenchmarkGonomicsIntervalOverlapMem100_100-13          ,Gonomics4Worker,100,100,12556
+BenchmarkGonomicsIntervalOverlapMem100_100-13          ,Gonomics4Worker,100,100,12573
+BenchmarkGonomicsIntervalOverlapMem100_100-13          ,Gonomics4Worker,100,100,12577
+ 12583BenchmarkSingleThreadIntervalOverlapMem100_100-13      ,Gonomics1Worker,100,100,12538
+BenchmarkSingleThreadIntervalOverlapMem100_100-13      ,Gonomics1Worker,100,100,12542
+BenchmarkSingleThreadIntervalOverlapMem100_100-13      ,Gonomics1Worker,100,100,12533
+BenchmarkSingleThreadIntervalOverlapMem100_100-13      ,Gonomics1Worker,100,100,12499
+BenchmarkSingleThreadIntervalOverlapMem100_100-13      ,Gonomics1Worker,100,100,12488
+BenchmarkSingleThreadIntervalOverlapMem100_100-13      ,Gonomics1Worker,100,100,12460
+BenchmarkSingleThreadIntervalOverlapMem100_100-13      ,Gonomics1Worker,100,100,12436
+BenchmarkSingleThreadIntervalOverlapMem100_100-13      ,Gonomics1Worker,100,100,12460
+BenchmarkSingleThreadIntervalOverlapMem100_100-13      ,Gonomics1Worker,100,100,12464
+BenchmarkSingleThreadIntervalOverlapMem100_100-13      ,Gonomics1Worker,100,100,12479
+ 12475BenchmarkBedtoolsIntervalOverlapMem100_100-13          ,Bedtools,100,100,12475
+BenchmarkBedtoolsIntervalOverlapMem100_100-13          ,Bedtools,100,100,12412
+BenchmarkBedtoolsIntervalOverlapMem100_100-13          ,Bedtools,100,100,12339
+BenchmarkBedtoolsIntervalOverlapMem100_100-13          ,Bedtools,100,100,12279
+BenchmarkBedtoolsIntervalOverlapMem100_100-13          ,Bedtools,100,100,12236
+BenchmarkBedtoolsIntervalOverlapMem100_100-13          ,Bedtools,100,100,12193
+BenchmarkBedtoolsIntervalOverlapMem100_100-13          ,Bedtools,100,100,12148
+BenchmarkBedtoolsIntervalOverlapMem100_100-13          ,Bedtools,100,100,12147
+BenchmarkBedtoolsIntervalOverlapMem100_100-13          ,Bedtools,100,100,12137
+BenchmarkBedtoolsIntervalOverlapMem100_100-13          ,Bedtools,100,100,12127
+ 12125BenchmarkBedopsSortAMem100_100-13                      ,BedopsSortA,100,100,12125
+BenchmarkBedopsSortAMem100_100-13                      ,BedopsSortA,100,100,12110
+BenchmarkBedopsSortAMem100_100-13                      ,BedopsSortA,100,100,12104
+BenchmarkBedopsSortAMem100_100-13                      ,BedopsSortA,100,100,12102
+BenchmarkBedopsSortAMem100_100-13                      ,BedopsSortA,100,100,12093
+BenchmarkBedopsSortAMem100_100-13                      ,BedopsSortA,100,100,12041
+BenchmarkBedopsSortAMem100_100-13                      ,BedopsSortA,100,100,11944
+BenchmarkBedopsSortAMem100_100-13                      ,BedopsSortA,100,100,11892
+BenchmarkBedopsSortAMem100_100-13                      ,BedopsSortA,100,100,11854
+BenchmarkBedopsSortAMem100_100-13                      ,BedopsSortA,100,100,11817
+ 11816BenchmarkBedopsSortBMem100_100-13                      ,BedopsSortB,100,100,11800
+BenchmarkBedopsSortBMem100_100-13                      ,BedopsSortB,100,100,11774
+BenchmarkBedopsSortBMem100_100-13                      ,BedopsSortB,100,100,11764
+BenchmarkBedopsSortBMem100_100-13                      ,BedopsSortB,100,100,11747
+BenchmarkBedopsSortBMem100_100-13                      ,BedopsSortB,100,100,11733
+BenchmarkBedopsSortBMem100_100-13                      ,BedopsSortB,100,100,11722
+BenchmarkBedopsSortBMem100_100-13                      ,BedopsSortB,100,100,11710
+BenchmarkBedopsSortBMem100_100-13                      ,BedopsSortB,100,100,11702
+BenchmarkBedopsSortBMem100_100-13                      ,BedopsSortB,100,100,11694
+BenchmarkBedopsSortBMem100_100-13                      ,BedopsSortB,100,100,11687
+ 11691BenchmarkBedopsIntervalOverlapMem100_100-13            ,BedopsOverlap,100,100,11691
+BenchmarkBedopsIntervalOverlapMem100_100-13            ,BedopsOverlap,100,100,11695
+BenchmarkBedopsIntervalOverlapMem100_100-13            ,BedopsOverlap,100,100,11699
+BenchmarkBedopsIntervalOverlapMem100_100-13            ,BedopsOverlap,100,100,11703
+BenchmarkBedopsIntervalOverlapMem100_100-13            ,BedopsOverlap,100,100,11707
+BenchmarkBedopsIntervalOverlapMem100_100-13            ,BedopsOverlap,100,100,11711
+BenchmarkBedopsIntervalOverlapMem100_100-13            ,BedopsOverlap,100,100,11715
+BenchmarkBedopsIntervalOverlapMem100_100-13            ,BedopsOverlap,100,100,11719
+BenchmarkBedopsIntervalOverlapMem100_100-13            ,BedopsOverlap,100,100,11723
+BenchmarkBedopsIntervalOverlapMem100_100-13            ,BedopsOverlap,100,100,11727
+ 11735BenchmarkGonomicsIntervalOverlapMem100_10mi-13         ,Gonomics4Worker,100,10000000,11735
+BenchmarkGonomicsIntervalOverlapMem100_10mi-13         ,Gonomics4Worker,100,10000000,11744
+BenchmarkGonomicsIntervalOverlapMem100_10mi-13         ,Gonomics4Worker,100,10000000,11753
+BenchmarkGonomicsIntervalOverlapMem100_10mi-13         ,Gonomics4Worker,100,10000000,11759
+BenchmarkGonomicsIntervalOverlapMem100_10mi-13         ,Gonomics4Worker,100,10000000,11768
+BenchmarkGonomicsIntervalOverlapMem100_10mi-13         ,Gonomics4Worker,100,10000000,11775
+BenchmarkGonomicsIntervalOverlapMem100_10mi-13         ,Gonomics4Worker,100,10000000,11781
+BenchmarkGonomicsIntervalOverlapMem100_10mi-13         ,Gonomics4Worker,100,10000000,11787
+BenchmarkGonomicsIntervalOverlapMem100_10mi-13         ,Gonomics4Worker,100,10000000,11796
+BenchmarkGonomicsIntervalOverlapMem100_10mi-13         ,Gonomics4Worker,100,10000000,11802
+ 11808BenchmarkSingleThreadIntervalOverlapMem100_10mi-13     ,Gonomics1Worker,100,10000000,11808
+BenchmarkSingleThreadIntervalOverlapMem100_10mi-13     ,Gonomics1Worker,100,10000000,11816
+BenchmarkSingleThreadIntervalOverlapMem100_10mi-13     ,Gonomics1Worker,100,10000000,11823
+BenchmarkSingleThreadIntervalOverlapMem100_10mi-13     ,Gonomics1Worker,100,10000000,11831
+BenchmarkSingleThreadIntervalOverlapMem100_10mi-13     ,Gonomics1Worker,100,10000000,11835
+BenchmarkSingleThreadIntervalOverlapMem100_10mi-13     ,Gonomics1Worker,100,10000000,11843
+BenchmarkSingleThreadIntervalOverlapMem100_10mi-13     ,Gonomics1Worker,100,10000000,11850
+BenchmarkSingleThreadIntervalOverlapMem100_10mi-13     ,Gonomics1Worker,100,10000000,11857
+BenchmarkSingleThreadIntervalOverlapMem100_10mi-13     ,Gonomics1Worker,100,10000000,11863
+BenchmarkSingleThreadIntervalOverlapMem100_10mi-13     ,Gonomics1Worker,100,10000000,11865
+ 11864BenchmarkBedtoolsIntervalOverlapMem100_10mi-13         ,Bedtools,100,10000000,11864
+BenchmarkBedtoolsIntervalOverlapMem100_10mi-13         ,Bedtools,100,10000000,11864
+BenchmarkBedtoolsIntervalOverlapMem100_10mi-13         ,Bedtools,100,10000000,11864
+BenchmarkBedtoolsIntervalOverlapMem100_10mi-13         ,Bedtools,100,10000000,11863
+BenchmarkBedtoolsIntervalOverlapMem100_10mi-13         ,Bedtools,100,10000000,11863
+BenchmarkBedtoolsIntervalOverlapMem100_10mi-13         ,Bedtools,100,10000000,11862
+BenchmarkBedtoolsIntervalOverlapMem100_10mi-13         ,Bedtools,100,10000000,11862
+BenchmarkBedtoolsIntervalOverlapMem100_10mi-13         ,Bedtools,100,10000000,11862
+BenchmarkBedtoolsIntervalOverlapMem100_10mi-13         ,Bedtools,100,10000000,11861
+BenchmarkBedtoolsIntervalOverlapMem100_10mi-13         ,Bedtools,100,10000000,11861
+ 11861BenchmarkBedopsSortAMem100_10mi-13                     ,BedopsSortA,100,10000000,11854
+BenchmarkBedopsSortAMem100_10mi-13                     ,BedopsSortA,100,10000000,11845
+BenchmarkBedopsSortAMem100_10mi-13                     ,BedopsSortA,100,10000000,11829
+BenchmarkBedopsSortAMem100_10mi-13                     ,BedopsSortA,100,10000000,11814
+BenchmarkBedopsSortAMem100_10mi-13                     ,BedopsSortA,100,10000000,11803
+BenchmarkBedopsSortAMem100_10mi-13                     ,BedopsSortA,100,10000000,11791
+BenchmarkBedopsSortAMem100_10mi-13                     ,BedopsSortA,100,10000000,11776
+BenchmarkBedopsSortAMem100_10mi-13                     ,BedopsSortA,100,10000000,11767
+BenchmarkBedopsSortAMem100_10mi-13                     ,BedopsSortA,100,10000000,11759
+BenchmarkBedopsSortAMem100_10mi-13                     ,BedopsSortA,100,10000000,11751
+ 11901BenchmarkBedopsSortBMem100_10mi-13                     ,BedopsSortB,100,10000000,11901
+BenchmarkBedopsSortBMem100_10mi-13                     ,BedopsSortB,100,10000000,12048
+BenchmarkBedopsSortBMem100_10mi-13                     ,BedopsSortB,100,10000000,12193
+BenchmarkBedopsSortBMem100_10mi-13                     ,BedopsSortB,100,10000000,12344
+BenchmarkBedopsSortBMem100_10mi-13                     ,BedopsSortB,100,10000000,12492
+BenchmarkBedopsSortBMem100_10mi-13                     ,BedopsSortB,100,10000000,12644
+BenchmarkBedopsSortBMem100_10mi-13                     ,BedopsSortB,100,10000000,12796
+BenchmarkBedopsSortBMem100_10mi-13                     ,BedopsSortB,100,10000000,12947
+BenchmarkBedopsSortBMem100_10mi-13                     ,BedopsSortB,100,10000000,13095
+BenchmarkBedopsSortBMem100_10mi-13                     ,BedopsSortB,100,10000000,13244
+ 13246BenchmarkBedopsIntervalOverlapMem100_10mi-13           ,BedopsOverlap,100,10000000,13246
+BenchmarkBedopsIntervalOverlapMem100_10mi-13           ,BedopsOverlap,100,10000000,13248
+BenchmarkBedopsIntervalOverlapMem100_10mi-13           ,BedopsOverlap,100,10000000,13250
+BenchmarkBedopsIntervalOverlapMem100_10mi-13           ,BedopsOverlap,100,10000000,13252
+BenchmarkBedopsIntervalOverlapMem100_10mi-13           ,BedopsOverlap,100,10000000,13254
+BenchmarkBedopsIntervalOverlapMem100_10mi-13           ,BedopsOverlap,100,10000000,13256
+BenchmarkBedopsIntervalOverlapMem100_10mi-13           ,BedopsOverlap,100,10000000,13258
+BenchmarkBedopsIntervalOverlapMem100_10mi-13           ,BedopsOverlap,100,10000000,13260
+BenchmarkBedopsIntervalOverlapMem100_10mi-13           ,BedopsOverlap,100,10000000,13262
+BenchmarkBedopsIntervalOverlapMem100_10mi-13           ,BedopsOverlap,100,10000000,13264
+ 21236BenchmarkGonomicsIntervalOverlapMem10mi_100-13         ,Gonomics4Worker,10000000,100,21236
+BenchmarkGonomicsIntervalOverlapMem10mi_100-13         ,Gonomics4Worker,10000000,100,29623
+BenchmarkGonomicsIntervalOverlapMem10mi_100-13         ,Gonomics4Worker,10000000,100,37861
+BenchmarkGonomicsIntervalOverlapMem10mi_100-13         ,Gonomics4Worker,10000000,100,46087
+BenchmarkGonomicsIntervalOverlapMem10mi_100-13         ,Gonomics4Worker,10000000,100,54213
+BenchmarkGonomicsIntervalOverlapMem10mi_100-13         ,Gonomics4Worker,10000000,100,62396
+BenchmarkGonomicsIntervalOverlapMem10mi_100-13         ,Gonomics4Worker,10000000,100,70465
+BenchmarkGonomicsIntervalOverlapMem10mi_100-13         ,Gonomics4Worker,10000000,100,78743
+BenchmarkGonomicsIntervalOverlapMem10mi_100-13         ,Gonomics4Worker,10000000,100,86797
+BenchmarkGonomicsIntervalOverlapMem10mi_100-13         ,Gonomics4Worker,10000000,100,94866
+ 102749BenchmarkSingleThreadIntervalOverlapMem10mi_100-13     ,Gonomics1Worker,10000000,100,102749
+BenchmarkSingleThreadIntervalOverlapMem10mi_100-13     ,Gonomics1Worker,10000000,100,110791
+BenchmarkSingleThreadIntervalOverlapMem10mi_100-13     ,Gonomics1Worker,10000000,100,118864
+BenchmarkSingleThreadIntervalOverlapMem10mi_100-13     ,Gonomics1Worker,10000000,100,127072
+BenchmarkSingleThreadIntervalOverlapMem10mi_100-13     ,Gonomics1Worker,10000000,100,135210
+BenchmarkSingleThreadIntervalOverlapMem10mi_100-13     ,Gonomics1Worker,10000000,100,143325
+BenchmarkSingleThreadIntervalOverlapMem10mi_100-13     ,Gonomics1Worker,10000000,100,151337
+BenchmarkSingleThreadIntervalOverlapMem10mi_100-13     ,Gonomics1Worker,10000000,100,159473
+BenchmarkSingleThreadIntervalOverlapMem10mi_100-13     ,Gonomics1Worker,10000000,100,167396
+BenchmarkSingleThreadIntervalOverlapMem10mi_100-13     ,Gonomics1Worker,10000000,100,175371
+ 177319BenchmarkBedtoolsIntervalOverlapMem10mi_100-13         ,Bedtools,10000000,100,177319
+BenchmarkBedtoolsIntervalOverlapMem10mi_100-13         ,Bedtools,10000000,100,179265
+BenchmarkBedtoolsIntervalOverlapMem10mi_100-13         ,Bedtools,10000000,100,181209
+BenchmarkBedtoolsIntervalOverlapMem10mi_100-13         ,Bedtools,10000000,100,183150
+BenchmarkBedtoolsIntervalOverlapMem10mi_100-13         ,Bedtools,10000000,100,185089
+BenchmarkBedtoolsIntervalOverlapMem10mi_100-13         ,Bedtools,10000000,100,187026
+BenchmarkBedtoolsIntervalOverlapMem10mi_100-13         ,Bedtools,10000000,100,188961
+BenchmarkBedtoolsIntervalOverlapMem10mi_100-13         ,Bedtools,10000000,100,190892
+BenchmarkBedtoolsIntervalOverlapMem10mi_100-13         ,Bedtools,10000000,100,192822
+BenchmarkBedtoolsIntervalOverlapMem10mi_100-13         ,Bedtools,10000000,100,194749
+ 194782BenchmarkBedopsSortAMem10mi_100-13                     ,BedopsSortA,10000000,100,194782
+BenchmarkBedopsSortAMem10mi_100-13                     ,BedopsSortA,10000000,100,194814
+BenchmarkBedopsSortAMem10mi_100-13                     ,BedopsSortA,10000000,100,194848
+BenchmarkBedopsSortAMem10mi_100-13                     ,BedopsSortA,10000000,100,194881
+BenchmarkBedopsSortAMem10mi_100-13                     ,BedopsSortA,10000000,100,194913
+BenchmarkBedopsSortAMem10mi_100-13                     ,BedopsSortA,10000000,100,194946
+BenchmarkBedopsSortAMem10mi_100-13                     ,BedopsSortA,10000000,100,194978
+BenchmarkBedopsSortAMem10mi_100-13                     ,BedopsSortA,10000000,100,195011
+BenchmarkBedopsSortAMem10mi_100-13                     ,BedopsSortA,10000000,100,195045
+BenchmarkBedopsSortAMem10mi_100-13                     ,BedopsSortA,10000000,100,195077
+ 194966BenchmarkBedopsSortBMem10mi_100-13                     ,BedopsSortB,10000000,100,192775
+BenchmarkBedopsSortBMem10mi_100-13                     ,BedopsSortB,10000000,100,186709
+BenchmarkBedopsSortBMem10mi_100-13                     ,BedopsSortB,10000000,100,180658
+BenchmarkBedopsSortBMem10mi_100-13                     ,BedopsSortB,10000000,100,176252
+BenchmarkBedopsSortBMem10mi_100-13                     ,BedopsSortB,10000000,100,172582
+BenchmarkBedopsSortBMem10mi_100-13                     ,BedopsSortB,10000000,100,168176
+BenchmarkBedopsSortBMem10mi_100-13                     ,BedopsSortB,10000000,100,166814
+BenchmarkBedopsSortBMem10mi_100-13                     ,BedopsSortB,10000000,100,166734
+BenchmarkBedopsSortBMem10mi_100-13                     ,BedopsSortB,10000000,100,164698
+BenchmarkBedopsSortBMem10mi_100-13                     ,BedopsSortB,10000000,100,162790
+ 162717BenchmarkBedopsIntervalOverlapMem10mi_100-13           ,BedopsOverlap,10000000,100,162717
+BenchmarkBedopsIntervalOverlapMem10mi_100-13           ,BedopsOverlap,10000000,100,162644
+BenchmarkBedopsIntervalOverlapMem10mi_100-13           ,BedopsOverlap,10000000,100,162571
+BenchmarkBedopsIntervalOverlapMem10mi_100-13           ,BedopsOverlap,10000000,100,162498
+BenchmarkBedopsIntervalOverlapMem10mi_100-13           ,BedopsOverlap,10000000,100,162426
+BenchmarkBedopsIntervalOverlapMem10mi_100-13           ,BedopsOverlap,10000000,100,162353
+BenchmarkBedopsIntervalOverlapMem10mi_100-13           ,BedopsOverlap,10000000,100,162281
+BenchmarkBedopsIntervalOverlapMem10mi_100-13           ,BedopsOverlap,10000000,100,162208
+BenchmarkBedopsIntervalOverlapMem10mi_100-13           ,BedopsOverlap,10000000,100,162136
+BenchmarkBedopsIntervalOverlapMem10mi_100-13           ,BedopsOverlap,10000000,100,162064
+ 169530BenchmarkGonomicsIntervalOverlapMem10mi_10mi-13        ,Gonomics4Worker,10000000,10000000,169530
+BenchmarkGonomicsIntervalOverlapMem10mi_10mi-13        ,Gonomics4Worker,10000000,10000000,177119
+BenchmarkGonomicsIntervalOverlapMem10mi_10mi-13        ,Gonomics4Worker,10000000,10000000,184409
+BenchmarkGonomicsIntervalOverlapMem10mi_10mi-13        ,Gonomics4Worker,10000000,10000000,191597
+BenchmarkGonomicsIntervalOverlapMem10mi_10mi-13        ,Gonomics4Worker,10000000,10000000,199074
+BenchmarkGonomicsIntervalOverlapMem10mi_10mi-13        ,Gonomics4Worker,10000000,10000000,206248
+BenchmarkGonomicsIntervalOverlapMem10mi_10mi-13        ,Gonomics4Worker,10000000,10000000,213804
+BenchmarkGonomicsIntervalOverlapMem10mi_10mi-13        ,Gonomics4Worker,10000000,10000000,221450
+BenchmarkGonomicsIntervalOverlapMem10mi_10mi-13        ,Gonomics4Worker,10000000,10000000,229058
+BenchmarkGonomicsIntervalOverlapMem10mi_10mi-13        ,Gonomics4Worker,10000000,10000000,236285
+ 243725BenchmarkSingleThreadIntervalOverlapMem10mi_10mi-13    ,Gonomics1Worker,10000000,10000000,243725
+BenchmarkSingleThreadIntervalOverlapMem10mi_10mi-13    ,Gonomics1Worker,10000000,10000000,250863
+BenchmarkSingleThreadIntervalOverlapMem10mi_10mi-13    ,Gonomics1Worker,10000000,10000000,258119
+BenchmarkSingleThreadIntervalOverlapMem10mi_10mi-13    ,Gonomics1Worker,10000000,10000000,265093
+BenchmarkSingleThreadIntervalOverlapMem10mi_10mi-13    ,Gonomics1Worker,10000000,10000000,272442
+BenchmarkSingleThreadIntervalOverlapMem10mi_10mi-13    ,Gonomics1Worker,10000000,10000000,279578
+BenchmarkSingleThreadIntervalOverlapMem10mi_10mi-13    ,Gonomics1Worker,10000000,10000000,286516
+BenchmarkSingleThreadIntervalOverlapMem10mi_10mi-13    ,Gonomics1Worker,10000000,10000000,293476
+BenchmarkSingleThreadIntervalOverlapMem10mi_10mi-13    ,Gonomics1Worker,10000000,10000000,300547
+BenchmarkSingleThreadIntervalOverlapMem10mi_10mi-13    ,Gonomics1Worker,10000000,10000000,307660
+ 309158BenchmarkBedtoolsIntervalOverlapMem10mi_10mi-13        ,Bedtools,10000000,10000000,309158
+BenchmarkBedtoolsIntervalOverlapMem10mi_10mi-13        ,Bedtools,10000000,10000000,310656
+BenchmarkBedtoolsIntervalOverlapMem10mi_10mi-13        ,Bedtools,10000000,10000000,312151
+BenchmarkBedtoolsIntervalOverlapMem10mi_10mi-13        ,Bedtools,10000000,10000000,313645
+BenchmarkBedtoolsIntervalOverlapMem10mi_10mi-13        ,Bedtools,10000000,10000000,315138
+BenchmarkBedtoolsIntervalOverlapMem10mi_10mi-13        ,Bedtools,10000000,10000000,316629
+BenchmarkBedtoolsIntervalOverlapMem10mi_10mi-13        ,Bedtools,10000000,10000000,318118
+BenchmarkBedtoolsIntervalOverlapMem10mi_10mi-13        ,Bedtools,10000000,10000000,319606
+BenchmarkBedtoolsIntervalOverlapMem10mi_10mi-13        ,Bedtools,10000000,10000000,321093
+BenchmarkBedtoolsIntervalOverlapMem10mi_10mi-13        ,Bedtools,10000000,10000000,322578
+ 322542BenchmarkBedopsSortAMem10mi_10mi-13                    ,BedopsSortA,10000000,10000000,322542
+BenchmarkBedopsSortAMem10mi_10mi-13                    ,BedopsSortA,10000000,10000000,322506
+BenchmarkBedopsSortAMem10mi_10mi-13                    ,BedopsSortA,10000000,10000000,322470
+BenchmarkBedopsSortAMem10mi_10mi-13                    ,BedopsSortA,10000000,10000000,322433
+BenchmarkBedopsSortAMem10mi_10mi-13                    ,BedopsSortA,10000000,10000000,322398
+BenchmarkBedopsSortAMem10mi_10mi-13                    ,BedopsSortA,10000000,10000000,322362
+BenchmarkBedopsSortAMem10mi_10mi-13                    ,BedopsSortA,10000000,10000000,322327
+BenchmarkBedopsSortAMem10mi_10mi-13                    ,BedopsSortA,10000000,10000000,322292
+BenchmarkBedopsSortAMem10mi_10mi-13                    ,BedopsSortA,10000000,10000000,322259
+BenchmarkBedopsSortAMem10mi_10mi-13                    ,BedopsSortA,10000000,10000000,322225
+ 322190BenchmarkBedopsSortBMem10mi_10mi-13                    ,BedopsSortB,10000000,10000000,322190
+BenchmarkBedopsSortBMem10mi_10mi-13                    ,BedopsSortB,10000000,10000000,322155
+BenchmarkBedopsSortBMem10mi_10mi-13                    ,BedopsSortB,10000000,10000000,322121
+BenchmarkBedopsSortBMem10mi_10mi-13                    ,BedopsSortB,10000000,10000000,322086
+BenchmarkBedopsSortBMem10mi_10mi-13                    ,BedopsSortB,10000000,10000000,322050
+BenchmarkBedopsSortBMem10mi_10mi-13                    ,BedopsSortB,10000000,10000000,322015
+BenchmarkBedopsSortBMem10mi_10mi-13                    ,BedopsSortB,10000000,10000000,321979
+BenchmarkBedopsSortBMem10mi_10mi-13                    ,BedopsSortB,10000000,10000000,321945
+BenchmarkBedopsSortBMem10mi_10mi-13                    ,BedopsSortB,10000000,10000000,321910
+BenchmarkBedopsSortBMem10mi_10mi-13                    ,BedopsSortB,10000000,10000000,321878
+ 321732BenchmarkBedopsIntervalOverlapMem10mi_10mi-13          ,BedopsOverlap,10000000,10000000,321732
+BenchmarkBedopsIntervalOverlapMem10mi_10mi-13          ,BedopsOverlap,10000000,10000000,321587
+BenchmarkBedopsIntervalOverlapMem10mi_10mi-13          ,BedopsOverlap,10000000,10000000,321442
+BenchmarkBedopsIntervalOverlapMem10mi_10mi-13          ,BedopsOverlap,10000000,10000000,321296
+BenchmarkBedopsIntervalOverlapMem10mi_10mi-13          ,BedopsOverlap,10000000,10000000,321151
+BenchmarkBedopsIntervalOverlapMem10mi_10mi-13          ,BedopsOverlap,10000000,10000000,321006
+BenchmarkBedopsIntervalOverlapMem10mi_10mi-13          ,BedopsOverlap,10000000,10000000,320861
+BenchmarkBedopsIntervalOverlapMem10mi_10mi-13          ,BedopsOverlap,10000000,10000000,320717
+BenchmarkBedopsIntervalOverlapMem10mi_10mi-13          ,BedopsOverlap,10000000,10000000,320572
+BenchmarkBedopsIntervalOverlapMem10mi_10mi-13          ,BedopsOverlap,10000000,10000000,320428
