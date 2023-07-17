@@ -205,995 +205,979 @@ var (
 // gonomicsA1kOptimalThread
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_100)
+		executeCsh(gonomicsA1kOptimalThread1k_100)
 	}
 }
 
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_1k)
+		executeCsh(gonomicsA1kOptimalThread1k_1k)
 	}
 }
 
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_10k)
+		executeCsh(gonomicsA1kOptimalThread1k_10k)
 	}
 }
 
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_100k)
+		executeCsh(gonomicsA1kOptimalThread1k_100k)
 	}
 }
 
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_1mi)
+		executeCsh(gonomicsA1kOptimalThread1k_1mi)
 	}
 }
 
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_10mi)
+		executeCsh(gonomicsA1kOptimalThread1k_10mi)
 	}
 }
 
 // gonomicsA1kIntermediateThread
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_100)
+		executeCsh(gonomicsA1kIntermediateThread1k_100)
 	}
 }
 
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_1k)
+		executeCsh(gonomicsA1kIntermediateThread1k_1k)
 	}
 }
 
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_10k)
+		executeCsh(gonomicsA1kIntermediateThread1k_10k)
 	}
 }
 
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_100k)
+		executeCsh(gonomicsA1kIntermediateThread1k_100k)
 	}
 }
 
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_1mi)
+		executeCsh(gonomicsA1kIntermediateThread1k_1mi)
 	}
 }
 
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_10mi)
+		executeCsh(gonomicsA1kIntermediateThread1k_10mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100_100)
+		executeCsh(gonomics100_100)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100_100)
+		executeCsh(bedtools100_100)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100_100)
+		executeCsh(bedops100_100)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100_100)
+		executeCsh(gonomicsSingleThread100_100)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100_1k)
+		executeCsh(gonomics100_1k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100_1k)
+		executeCsh(bedtools100_1k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100_1k)
+		executeCsh(bedops100_1k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100_1k)
+		executeCsh(gonomicsSingleThread100_1k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100_10k)
+		executeCsh(gonomics100_10k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100_10k)
+		executeCsh(bedtools100_10k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100_10k)
+		executeCsh(bedops100_10k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100_10k)
+		executeCsh(gonomicsSingleThread100_10k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100_100k)
+		executeCsh(gonomics100_100k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100_100k)
+		executeCsh(bedtools100_100k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100_100k)
+		executeCsh(bedops100_100k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100_100k)
+		executeCsh(gonomicsSingleThread100_100k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100_1mi)
+		executeCsh(gonomics100_1mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100_1mi)
+		executeCsh(bedtools100_1mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100_1mi)
+		executeCsh(bedops100_1mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100_1mi)
+		executeCsh(gonomicsSingleThread100_1mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100_10mi)
+		executeCsh(gonomics100_10mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100_10mi)
+		executeCsh(bedtools100_10mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100_10mi)
+		executeCsh(bedops100_10mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100_10mi)
+		executeCsh(gonomicsSingleThread100_10mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1k_100)
+		executeCsh(gonomics1k_100)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1k_100)
+		executeCsh(bedtools1k_100)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1k_100)
+		executeCsh(bedops1k_100)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1k_100)
+		executeCsh(gonomicsSingleThread1k_100)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1k_1k)
+		executeCsh(gonomics1k_1k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1k_1k)
+		executeCsh(bedtools1k_1k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1k_1k)
+		executeCsh(bedops1k_1k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1k_1k)
+		executeCsh(gonomicsSingleThread1k_1k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1k_10k)
+		executeCsh(gonomics1k_10k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1k_10k)
+		executeCsh(bedtools1k_10k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1k_10k)
+		executeCsh(bedops1k_10k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1k_10k)
+		executeCsh(gonomicsSingleThread1k_10k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1k_100k)
+		executeCsh(gonomics1k_100k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1k_100k)
+		executeCsh(bedtools1k_100k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1k_100k)
+		executeCsh(bedops1k_100k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1k_100k)
+		executeCsh(gonomicsSingleThread1k_100k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1k_1mi)
+		executeCsh(gonomics1k_1mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1k_1mi)
+		executeCsh(bedtools1k_1mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1k_1mi)
+		executeCsh(bedops1k_1mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1k_1mi)
+		executeCsh(gonomicsSingleThread1k_1mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1k_10mi)
+		executeCsh(gonomics1k_10mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1k_10mi)
+		executeCsh(bedtools1k_10mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1k_10mi)
+		executeCsh(bedops1k_10mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1k_10mi)
+		executeCsh(gonomicsSingleThread1k_10mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10k_100)
+		executeCsh(gonomics10k_100)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10k_100)
+		executeCsh(bedtools10k_100)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10k_100)
+		executeCsh(bedops10k_100)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10k_100)
+		executeCsh(gonomicsSingleThread10k_100)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10k_1k)
+		executeCsh(gonomics10k_1k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10k_1k)
+		executeCsh(bedtools10k_1k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10k_1k)
+		executeCsh(bedops10k_1k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10k_1k)
+		executeCsh(gonomicsSingleThread10k_1k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10k_10k)
+		executeCsh(gonomics10k_10k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10k_10k)
+		executeCsh(bedtools10k_10k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10k_10k)
+		executeCsh(bedops10k_10k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10k_10k)
+		executeCsh(gonomicsSingleThread10k_10k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10k_100k)
+		executeCsh(gonomics10k_100k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10k_100k)
+		executeCsh(bedtools10k_100k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10k_100k)
+		executeCsh(bedops10k_100k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10k_100k)
+		executeCsh(gonomicsSingleThread10k_100k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10k_1mi)
+		executeCsh(gonomics10k_1mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10k_1mi)
+		executeCsh(bedtools10k_1mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10k_1mi)
+		executeCsh(bedops10k_1mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10k_1mi)
+		executeCsh(gonomicsSingleThread10k_1mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10k_10mi)
+		executeCsh(gonomics10k_10mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10k_10mi)
+		executeCsh(bedtools10k_10mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10k_10mi)
+		executeCsh(bedops10k_10mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10k_10mi)
+		executeCsh(gonomicsSingleThread10k_10mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100k_100)
+		executeCsh(gonomics100k_100)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100k_100)
+		executeCsh(bedtools100k_100)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100k_100)
+		executeCsh(bedops100k_100)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100k_100)
+		executeCsh(gonomicsSingleThread100k_100)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100k_1k)
+		executeCsh(gonomics100k_1k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100k_1k)
+		executeCsh(bedtools100k_1k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100k_1k)
+		executeCsh(bedops100k_1k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100k_1k)
+		executeCsh(gonomicsSingleThread100k_1k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100k_10k)
+		executeCsh(gonomics100k_10k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100k_10k)
+		executeCsh(bedtools100k_10k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100k_10k)
+		executeCsh(bedops100k_10k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100k_10k)
+		executeCsh(gonomicsSingleThread100k_10k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100k_100k)
+		executeCsh(gonomics100k_100k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100k_100k)
+		executeCsh(bedtools100k_100k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100k_100k)
+		executeCsh(bedops100k_100k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100k_100k)
+		executeCsh(gonomicsSingleThread100k_100k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100k_1mi)
+		executeCsh(gonomics100k_1mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100k_1mi)
+		executeCsh(bedtools100k_1mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100k_1mi)
+		executeCsh(bedops100k_1mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100k_1mi)
+		executeCsh(gonomicsSingleThread100k_1mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics100k_10mi)
+		executeCsh(gonomics100k_10mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools100k_10mi)
+		executeCsh(bedtools100k_10mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap100k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops100k_10mi)
+		executeCsh(bedops100k_10mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread100k_10mi)
+		executeCsh(gonomicsSingleThread100k_10mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1mi_100)
+		executeCsh(gonomics1mi_100)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1mi_100)
+		executeCsh(bedtools1mi_100)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1mi_100)
+		executeCsh(bedops1mi_100)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1mi_100)
+		executeCsh(gonomicsSingleThread1mi_100)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1mi_1k)
+		executeCsh(gonomics1mi_1k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1mi_1k)
+		executeCsh(bedtools1mi_1k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1mi_1k)
+		executeCsh(bedops1mi_1k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1mi_1k)
+		executeCsh(gonomicsSingleThread1mi_1k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1mi_10k)
+		executeCsh(gonomics1mi_10k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1mi_10k)
+		executeCsh(bedtools1mi_10k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1mi_10k)
+		executeCsh(bedops1mi_10k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1mi_10k)
+		executeCsh(gonomicsSingleThread1mi_10k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1mi_100k)
+		executeCsh(gonomics1mi_100k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1mi_100k)
+		executeCsh(bedtools1mi_100k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1mi_100k)
+		executeCsh(bedops1mi_100k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1mi_100k)
+		executeCsh(gonomicsSingleThread1mi_100k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1mi_1mi)
+		executeCsh(gonomics1mi_1mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1mi_1mi)
+		executeCsh(bedtools1mi_1mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1mi_1mi)
+		executeCsh(bedops1mi_1mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1mi_1mi)
+		executeCsh(gonomicsSingleThread1mi_1mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics1mi_10mi)
+		executeCsh(gonomics1mi_10mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools1mi_10mi)
+		executeCsh(bedtools1mi_10mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops1mi_10mi)
+		executeCsh(bedops1mi_10mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread1mi_10mi)
+		executeCsh(gonomicsSingleThread1mi_10mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10mi_100)
+		executeCsh(gonomics10mi_100)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10mi_100)
+		executeCsh(bedtools10mi_100)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10mi_100)
+		executeCsh(bedops10mi_100)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10mi_100)
+		executeCsh(gonomicsSingleThread10mi_100)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10mi_1k)
+		executeCsh(gonomics10mi_1k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10mi_1k)
+		executeCsh(bedtools10mi_1k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10mi_1k)
+		executeCsh(bedops10mi_1k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10mi_1k)
+		executeCsh(gonomicsSingleThread10mi_1k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10mi_10k)
+		executeCsh(gonomics10mi_10k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10mi_10k)
+		executeCsh(bedtools10mi_10k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10mi_10k)
+		executeCsh(bedops10mi_10k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10mi_10k)
+		executeCsh(gonomicsSingleThread10mi_10k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10mi_100k)
+		executeCsh(gonomics10mi_100k)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10mi_100k)
+		executeCsh(bedtools10mi_100k)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10mi_100k)
+		executeCsh(bedops10mi_100k)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10mi_100k)
+		executeCsh(gonomicsSingleThread10mi_100k)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10mi_1mi)
+		executeCsh(gonomics10mi_1mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10mi_1mi)
+		executeCsh(bedtools10mi_1mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10mi_1mi)
+		executeCsh(bedops10mi_1mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10mi_1mi)
+		executeCsh(gonomicsSingleThread10mi_1mi)
 	}
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomics10mi_10mi)
+		executeCsh(gonomics10mi_10mi)
 	}
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedtoolsIntervalOverlap(bedtools10mi_10mi)
+		executeCsh(bedtools10mi_10mi)
 	}
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		bedopsIntervalOverlap(bedops10mi_10mi)
+		executeCsh(bedops10mi_10mi)
 	}
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		gonomicsIntervalOverlap(gonomicsSingleThread10mi_10mi)
+		executeCsh(gonomicsSingleThread10mi_10mi)
 	}
 }
 
 // function calls
-func gonomicsIntervalOverlap(csh string) {
-	cmd := exec.Command(csh)
-	err := cmd.Run()
-	if err != nil {
-		log.Fatal(err)
-	}
-}
-
-func bedtoolsIntervalOverlap(csh string) {
-	cmd := exec.Command(csh)
-	err := cmd.Run()
-	if err != nil {
-		log.Fatal(err)
-	}
-}
-
-func bedopsIntervalOverlap(csh string) {
+func executeCsh(csh string) {
 	cmd := exec.Command(csh)
 	err := cmd.Run()
 	if err != nil {
