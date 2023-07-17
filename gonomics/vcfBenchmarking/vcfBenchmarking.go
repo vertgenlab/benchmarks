@@ -56,52 +56,10 @@ func longTestCutoffs(tree map[string]*interval.IntervalNode, truePos []vcf.Vcf, 
 	fmt.Printf("%s\t%f\t%0.5f\t%0.5f\n", path.Base(file), 0.0, 0.0, 0.0)
 }
 
-func testCutoffs(tree map[string]*interval.IntervalNode, truePos []vcf.Vcf, file string) {
-	vars, _ := vcf.Read(file)
-
-	var TPR, FPR, pCutoff float64
-	pCutoff = 1
-	TPR, FPR = getRates(tree, truePos, vars, pCutoff)
-	fmt.Printf("File: %s\tCutoff: %f\tTPR: %0.5f\tFPR: %0.5f\n", path.Base(file), pCutoff, TPR, FPR)
-
-	pCutoff = 0.5
-	TPR, FPR = getRates(tree, truePos, vars, pCutoff)
-	fmt.Printf("File: %s\tCutoff: %f\tTPR: %0.5f\tFPR: %0.5f\n", path.Base(file), pCutoff, TPR, FPR)
-
-	pCutoff = 0.1
-	TPR, FPR = getRates(tree, truePos, vars, pCutoff)
-	fmt.Printf("File: %s\tCutoff: %f\tTPR: %0.5f\tFPR: %0.5f\n", path.Base(file), pCutoff, TPR, FPR)
-
-	pCutoff = 0.05
-	TPR, FPR = getRates(tree, truePos, vars, pCutoff)
-	fmt.Printf("File: %s\tCutoff: %f\tTPR: %0.5f\tFPR: %0.5f\n", path.Base(file), pCutoff, TPR, FPR)
-
-	pCutoff = 0.01
-	TPR, FPR = getRates(tree, truePos, vars, pCutoff)
-	fmt.Printf("File: %s\tCutoff: %f\tTPR: %0.5f\tFPR: %0.5f\n", path.Base(file), pCutoff, TPR, FPR)
-
-	pCutoff = 0.005
-	TPR, FPR = getRates(tree, truePos, vars, pCutoff)
-	fmt.Printf("File: %s\tCutoff: %f\tTPR: %0.5f\tFPR: %0.5f\n", path.Base(file), pCutoff, TPR, FPR)
-
-	pCutoff = 0.001
-	TPR, FPR = getRates(tree, truePos, vars, pCutoff)
-	fmt.Printf("File: %s\tCutoff: %f\tTPR: %0.5f\tFPR: %0.5f\n", path.Base(file), pCutoff, TPR, FPR)
-
-	pCutoff = 0.0005
-	TPR, FPR = getRates(tree, truePos, vars, pCutoff)
-	fmt.Printf("File: %s\tCutoff: %f\tTPR: %0.5f\tFPR: %0.5f\n", path.Base(file), pCutoff, TPR, FPR)
-
-	pCutoff = 0.0001
-	TPR, FPR = getRates(tree, truePos, vars, pCutoff)
-	fmt.Printf("File: %s\tCutoff: %f\tTPR: %0.5f\tFPR: %0.5f\n", path.Base(file), pCutoff, TPR, FPR)
-}
-
 func getRates(tree map[string]*interval.IntervalNode, truePos, vars []vcf.Vcf, cutoff float64) (TPR, FPR float64) {
 	positives, negatives := classify(vars, cutoff)
 	var truePositives, falsePositives, trueNegatives, falseNegatives int
 	var overlaps []interval.Interval
-	//fmt.Println(len(positives), len(negatives))
 	for i := range positives {
 		overlaps = interval.Query(tree, positives[i], "any")
 		if len(overlaps) == 0 {
@@ -111,12 +69,10 @@ func getRates(tree map[string]*interval.IntervalNode, truePos, vars []vcf.Vcf, c
 			truePositives++
 			continue
 		}
-		//fmt.Println(overlaps[0].(vcf.Vcf).Alt[0], positives[i].Alt)
 	}
 	falsePositives = len(positives) - truePositives
 	falseNegatives = len(truePos) - truePositives
 	trueNegatives = len(negatives) - falseNegatives
-	//fmt.Println(truePositives, falsePositives, trueNegatives, falseNegatives)
 	TPR = float64(truePositives) / float64(truePositives+falseNegatives)
 	FPR = 1 - (float64(trueNegatives) / float64(trueNegatives+falsePositives))
 	return
