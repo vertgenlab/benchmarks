@@ -5,6 +5,7 @@
 #SBATCH --cpus-per-task=13
 
 : << 'COMMENT'
+
 # 1. Generate executables for all tools (programs/)
 
 # Gonomics intervalOverlap
@@ -26,24 +27,55 @@
 # move bedops executables to desired path ($bedopsSortBed, $bedops. As of now they are "programs/bin/sort-bed" and "programs/bin/bedops")
 
 # 2. Generate testdata (testdata/)
-# Modify code in makeTestdata.sh to generate files needed
-# On DCC:
-#sbatch makeTestdata.sh
-# If not on DCC:
-# run lines of code in makeTestdata.sh as needed
+# change path to simulateBed as needed ($simulateBedPath)
+# run the code below to generate testdata
+
+COMMENT
+
+# set path to the simulateBed executable
+simulateBedPath='/hpc/group/vertgenlab/raven/GOPATH/src/github.com/vertgenlab/gonomics/cmd/simulateBed/simulateBed'
+# set path to the hg38NoGapBed
+hg38NoGapBedPath='testdata/hg38.noGap.bed'
+
+# make test files
+$simulateBedPath -N 100 $hg38NoGapBedPath testdata/100a.bed
+$simulateBedPath -setSeed 1 -N 100 $hg38NoGapBedPath testdata/100b.bed
+
+$simulateBedPath -N 1000 $hg38NoGapBedPath testdata/1000a.bed
+$simulateBedPath -setSeed 1 -N 1000 $hg38NoGapBedPath testdata/1000b.bed
+
+$simulateBedPath -N 10000 $hg38NoGapBedPath testdata/10000a.bed
+$simulateBedPath -setSeed 1 -N 10000 $hg38NoGapBedPath testdata/10000b.bed
+
+$simulateBedPath -N 100000 $hg38NoGapBedPath testdata/100000a.bed
+$simulateBedPath -setSeed 1 -N 100000 $hg38NoGapBedPath testdata/100000b.bed
+
+$simulateBedPath -N 1000000 $hg38NoGapBedPath testdata/1000000a.bed
+$simulateBedPath -setSeed 1 -N 1000000 $hg38NoGapBedPath testdata/1000000b.bed
+
+$simulateBedPath -N 10000000 $hg38NoGapBedPath testdata/10000000a.bed
+$simulateBedPath -setSeed 1 -N 10000000 $hg38NoGapBedPath testdata/10000000b.bed
+
+# make test files compatible with bedtools
+for testdataBedtoolsIncompatible in testdata/1*.bed
+do
+  filenameBase="$(basename $testdataBedtoolsIncompatible)"
+  cut -f 1-3 $testdataBedtoolsIncompatible > testdata/test$filenameBase
+  rm $testdataBedtoolsIncompatible
+done
+
+: << 'COMMENT'
 
 # 3. Benchmark
 # for runtime:
-# Only have 1 _test.go file in the directory where benchmarks will be run
-# experiment: bedtoolsbedopsIntervalOverlap20230707_test.go (requires csh files in csh/)
-# to optimize the number of workers: bedtoolsbedopsIntervalOverlapOptimizeThreads_test.go
+# experiment: bedtoolsbedopsIntervalOverlap20230707_test.go
 # On DCC:
 # directly run this script
 #sbatch benchmarkBed.sh
 # If not on DCC:
 # change csh/*/*.csh executable paths ($gonomicsIntervalOverlap, $bedtools, $bedopsSortBed, $bedops)
 # ideally, have 8-13 cpus available
-#go test -timeout 0 -bench . -count 3
+#go test -timeout 0 -bench . -count 10
 
 # for memory
 # adjust executable paths as needed
