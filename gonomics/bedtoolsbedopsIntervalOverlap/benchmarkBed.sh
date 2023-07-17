@@ -10,14 +10,16 @@
 
 # Gonomics intervalOverlap
 # Follow official instructions to install gonomics: https://github.com/vertgenlab/gonomics
-# Generate executables for intervalOverlap and simulateBed
+# Generate executables for intervalOverlap and simulateBed and make sure they have execution permissions
 #cd /path/to/gonomics
 #cd cmd/intervalOverlap
 #go build
+#chmod +x intervalOverlap
 # move intervalOverlap executable to desired path (As of now it is "programs/intervalOverlap")
 #cd /path/to/gonomics
 #cd cmd/simulateBed
 #go build
+#chmod +x simulateBed
 # move simulateBed executable to desired path (As of now it is "programs/simulateBed")
 
 # Bedtools
@@ -38,7 +40,7 @@
 COMMENT
 
 # set path to the simulateBed executable
-simulateBedPath='/hpc/group/vertgenlab/raven/GOPATH/src/github.com/vertgenlab/gonomics/cmd/simulateBed/simulateBed'
+simulateBedPath='programs/simulateBed'
 # set path to the hg38NoGapBed
 hg38NoGapBedPath='testdata/hg38.noGap.bed'
 
