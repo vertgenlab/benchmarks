@@ -73,7 +73,7 @@ done
 
 # 3. Benchmark
 # for runtime:
-# experiment: bedtoolsbedopsIntervalOverlap20230707_test.go
+# experiment: bedtoolsbedopsIntervalOverlap_test.go
 # On DCC:
 # directly run this script
 #sbatch benchmarkBed.sh
