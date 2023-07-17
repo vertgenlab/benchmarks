@@ -27,7 +27,7 @@
 #module load Bedtools
 # If not on DCC:
 # Follow official instructions to install bedtools: https://bedtools.readthedocs.io/en/latest/content/installation.html
-# move bedtools executable to desired path (As of now it is a direct DCC module call "bedtools", aka in the PATH)
+# move bedtools executable to desired path (As of now it is a DCC module call for "bedtools", i.e. the executable lives in the PATH)
 
 # Bedops
 # Follow official instructions to install bedops: https://bedops.readthedocs.io/en/latest/content/installation.html
@@ -97,6 +97,12 @@ go test -timeout 0 -bench . -count 10
 #sbatch memBench.csh
 # If not on DCC:
 #./memBench.csh
+
+COMMENT
+
+./memBench.csh
+
+: << 'COMMENT'
 
 # 4. Analysis (analysis/)
 # Use files in analysis/
