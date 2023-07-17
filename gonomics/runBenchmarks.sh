@@ -28,3 +28,6 @@ echo "Preparing data for bam reading benchmark"
 simulateSam -n 1000000 testdata/test.fasta stdout | samtools sort > testdata/1m_reads.bam
 samtools index testdata/1m_reads.bam
 GOMAXPROCS=1 go test -bench=BamRead1m
+
+# run callVariants benchmarks
+./vcfBenchmarking/runCallerBenchmarks.sh
