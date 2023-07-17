@@ -1,12 +1,9 @@
 package benchmarking_test
 
 import (
-	"github.com/vertgenlab/gonomics/numbers"
 	"log"
 	"os/exec"
 	"testing"
-	"syscall"
-	"fmt"
 )
 
 var (
@@ -203,1634 +200,1003 @@ var (
 	gonomicsA1kOptimalThread1k_10mi = "csh/gonomicsA1kOptimalThread/a1k/intervalOverlapGonomics1k_10mi.csh"
 )
 
-// for benchmarking memory usage
-var memUsage []float64
-var cmd *exec.Cmd
-
 // benchmarking calls
 
 // gonomicsA1kOptimalThread
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_100)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_1k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_10k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_100k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_1mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkGonomicsA1kOptimalThreadIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_10mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kOptimalThread1k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // gonomicsA1kIntermediateThread
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_100)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_1k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_10k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_100k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_1mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkGonomicsA1kIntermediateThreadIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_10mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsA1kIntermediateThread1k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100_100)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100_1k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100_10k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100_100k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100_1mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100_10mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1k_100)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1k_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1k_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1k_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1k_1k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1k_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1k_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1k_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1k_10k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1k_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1k_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1k_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1k_100k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1k_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1k_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1k_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1k_1mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1k_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1k_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1k_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1k_10mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1k_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1k_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1k_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10k_100)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10k_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10k_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10k_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10k_1k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10k_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10k_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10k_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10k_10k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10k_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10k_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10k_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10k_100k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10k_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10k_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10k_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10k_1mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10k_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10k_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10k_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10k_10mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10k_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10k_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10k_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100k_100)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100k_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100k_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100k_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100k_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100k_1k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100k_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100k_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100k_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100k_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100k_10k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100k_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100k_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100k_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100k_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100k_100k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100k_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100k_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100k_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100k_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100k_1mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100k_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100k_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100k_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100k_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap100k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics100k_10mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics100k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap100k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools100k_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools100k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap100k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops100k_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops100k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap100k_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread100k_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread100k_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1mi_100)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1mi_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1mi_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1mi_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1mi_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1mi_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1mi_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1mi_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1mi_1k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1mi_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1mi_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1mi_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1mi_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1mi_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1mi_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1mi_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1mi_10k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1mi_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1mi_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1mi_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1mi_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1mi_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1mi_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1mi_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1mi_100k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1mi_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1mi_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1mi_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1mi_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1mi_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1mi_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1mi_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1mi_1mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1mi_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1mi_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1mi_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1mi_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1mi_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1mi_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1mi_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap1mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics1mi_10mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics1mi_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap1mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools1mi_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools1mi_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap1mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops1mi_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops1mi_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap1mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread1mi_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread1mi_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10mi_100)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10mi_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10mi_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10mi_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10mi_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10mi_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_100(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10mi_100)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10mi_100)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10mi_1k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10mi_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10mi_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10mi_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10mi_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10mi_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_1k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10mi_1k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10mi_1k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10mi_10k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10mi_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10mi_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10mi_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10mi_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10mi_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_10k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10mi_10k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10mi_10k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10mi_100k)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10mi_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10mi_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10mi_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10mi_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10mi_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_100k(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10mi_100k)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10mi_100k)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10mi_1mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10mi_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10mi_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10mi_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10mi_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10mi_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_1mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10mi_1mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10mi_1mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // 1 set of gonomics, bedtools, bedops, gonomicsSingleThread
 func BenchmarkGonomicsIntervalOverlap10mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomics10mi_10mi)
-		b.StopTimer() // prevent memUsage append from counting in benchmarking time
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomics10mi_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedtoolsIntervalOverlap10mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedtoolsIntervalOverlap(bedtools10mi_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedtoolsIntervalOverlap(bedtools10mi_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkBedopsIntervalOverlap10mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = bedopsIntervalOverlap(bedops10mi_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		bedopsIntervalOverlap(bedops10mi_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 func BenchmarkSingleThreadIntervalOverlap10mi_10mi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		cmd = gonomicsIntervalOverlap(gonomicsSingleThread10mi_10mi)
-		b.StartTimer()
-		memUsage = append(memUsage, float64(cmd.ProcessState.SysUsage().(*syscall.Rusage).Maxrss))
-		b.StartTimer()
+		gonomicsIntervalOverlap(gonomicsSingleThread10mi_10mi)
 	}
-	fmt.Print(" ", int(numbers.AverageFloat64(memUsage)))
 }
 
 // function calls
-func gonomicsIntervalOverlap(csh string) *exec.Cmd{
+func gonomicsIntervalOverlap(csh string) {
 	cmd := exec.Command(csh)
 	err := cmd.Run()
 	if err != nil {
 		log.Fatal(err)
 	}
-	return cmd
 }
 
-func bedtoolsIntervalOverlap(csh string) *exec.Cmd{
+func bedtoolsIntervalOverlap(csh string) {
 	cmd := exec.Command(csh)
 	err := cmd.Run()
 	if err != nil {
 		log.Fatal(err)
 	}
-	return cmd
 }
 
-func bedopsIntervalOverlap(csh string) *exec.Cmd{
+func bedopsIntervalOverlap(csh string) {
 	cmd := exec.Command(csh)
 	err := cmd.Run()
 	if err != nil {
 		log.Fatal(err)
 	}
-	return cmd
 }
