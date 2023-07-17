@@ -10,24 +10,29 @@
 
 # Gonomics intervalOverlap
 # Follow official instructions to install gonomics: https://github.com/vertgenlab/gonomics
+# Generate executables for intervalOverlap and simulateBed
 #cd /path/to/gonomics
 #cd cmd/intervalOverlap
 #go build
-# move intervalOverlap executable to desired path ($gonomicsIntervalOverlap. As of now it is "programs/intervalOverlap")
+# move intervalOverlap executable to desired path (As of now it is "programs/intervalOverlap")
+#cd /path/to/gonomics
+#cd cmd/simulateBed
+#go build
+# move simulateBed executable to desired path (As of now it is "programs/simulateBed")
 
 # Bedtools
 # On the Duke Computing Cluster (DCC):
 #module load Bedtools
 # If not on DCC:
 # Follow official instructions to install bedtools: https://bedtools.readthedocs.io/en/latest/content/installation.html
-# move bedtools executable to desired path ($bedtools. As of now it is a direct DCC module call "bedtools")
+# move bedtools executable to desired path (As of now it is a direct DCC module call "bedtools", aka in the PATH)
 
 # Bedops
 # Follow official instructions to install bedops: https://bedops.readthedocs.io/en/latest/content/installation.html
-# move bedops executables to desired path ($bedopsSortBed, $bedops. As of now they are "programs/bin/sort-bed" and "programs/bin/bedops")
+# move bedops executables to desired path (As of now they are "programs/sort-bed" and "programs/bedops")
 
 # 2. Generate testdata (testdata/)
-# change path to simulateBed as needed ($simulateBedPath)
+# change path to simulateBed in the code below as needed ($simulateBedPath)
 # run the code below to generate testdata
 
 COMMENT
@@ -73,14 +78,13 @@ done
 # directly run this script
 #sbatch benchmarkBed.sh
 # If not on DCC:
-# change csh/*/*.csh executable paths ($gonomicsIntervalOverlap, $bedtools, $bedopsSortBed, $bedops)
+# change csh/*.csh executable paths
 # ideally, have 8-13 cpus available
 #go test -timeout 0 -bench . -count 10
 
 # for memory
-# adjust executable paths as needed
-# as testdata paths as needed
 # run not this script but memBench.csh
+# adjust executable paths in memBench.csh as needed
 # On DCC:
 #sbatch memBench.csh
 # If not on DCC:

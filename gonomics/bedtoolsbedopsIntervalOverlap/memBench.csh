@@ -5,14 +5,15 @@
 #SBATCH --mem=40G
 #SBATCH --cpus-per-task=13
 
-set bedopsBinDir = "/work/yl726/raven/shellScripts/benchmarking/programs/bin"
-set intervalOverlapBinDir = "/work/yl726/raven/shellScripts/benchmarking/programs"
+# set path to executables
+set bedopsBinDir = "programs"
+set intervalOverlapBinDir = "programs"
 
 
 echo "100_100"
 
-set fileA = "/work/yl726/raven/shellScripts/benchmarking/testdata/test100a.bed"
-set fileB = "/work/yl726/raven/shellScripts/benchmarking/testdata/test100b.bed"
+set fileA = "testdata/test100a.bed"
+set fileB = "testdata/test100b.bed"
 
 wc -l $fileA $fileB
 
@@ -36,8 +37,8 @@ echo "done"
 
 echo "100_10mi"
 
-set fileA = "/work/yl726/raven/shellScripts/benchmarking/testdata/test100a.bed"
-set fileB = "/work/yl726/raven/shellScripts/benchmarking/testdata/test10mib.bed"
+set fileA = "testdata/test100a.bed"
+set fileB = "testdata/test10000000b.bed"
 
 wc -l $fileA $fileB
 
@@ -61,8 +62,8 @@ echo "done"
 
 echo "10mi_100"
 
-set fileA = "/work/yl726/raven/shellScripts/benchmarking/testdata/test10mia.bed"
-set fileB = "/work/yl726/raven/shellScripts/benchmarking/testdata/test100b.bed"
+set fileA = "testdata/test10000000a.bed"
+set fileB = "testdata/test100b.bed"
 
 wc -l $fileA $fileB
 
@@ -86,8 +87,8 @@ echo "done"
 
 echo "10mi_10mi"
 
-set fileA = "/work/yl726/raven/shellScripts/benchmarking/testdata/test10mia.bed"
-set fileB = "/work/yl726/raven/shellScripts/benchmarking/testdata/test10mib.bed"
+set fileA = "testdata/test10000000a.bed"
+set fileB = "testdata/test10000000b.bed"
 
 wc -l $fileA $fileB
 
