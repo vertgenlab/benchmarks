@@ -30,4 +30,6 @@ samtools index testdata/1m_reads.bam
 GOMAXPROCS=1 go test -bench=BamRead1m
 
 # run callVariants benchmarks
-./vcfBenchmarking/runCallerBenchmarks.sh
+cd vcfBenchmarking
+./runCallerBenchmarks.sh
+cd ..
