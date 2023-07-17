@@ -1,9 +1,3 @@
----
-title: "benchmarkingResults"
-output: html_document
-date: "2023-06-26"
----
-
 # load libraries
 ```{r}
 library(ggplot2)
@@ -11,113 +5,7 @@ library(ggpubr)
 theme_set(theme_pubr())
 ```
 
-# V1
-make dataframes
-all
-```{r}
-all_df <- as.data.frame(read.table("benchmarkingResults_all.csv", sep = ",", header = TRUE))
-```
-panel a (a constant, b increasing)
-```{r}
-a100_df <- all_df[all_df$a == 100, ]
-a1k_df <- all_df[all_df$a == 1000,]
-a100k_df <- all_df[all_df$a == 100000,]
-a10mi_df <- all_df[all_df$a == 10000000,]
-```
-panel b (b constant, a increasing)
-```{r}
-b100_df <- all_df[all_df$b == 100, ]
-b1k_df <- all_df[all_df$b == 1000, ]
-b100k_df <- all_df[all_df$b == 100000,]
-b10mi_df <- all_df[all_df$b == 10000000, ]
-```
-panel c (both a and b increasing)
-```{r}
-c_df <- all_df[all_df$a == all_df$b,]
-```
-
-make plots
-panel a (a constant, b increasing)
-```{r}
-a100_plot <- ggplot(data=a100_df, aes(x=b, y=ns.op, color=Tool)) +
-  geom_line() +
-  geom_point() +
-  ggtitle("file a size constant = 100, file b size increasing")
-
-a1k_plot <- ggplot(data=a1k_df, aes(x=b, y=ns.op, color=Tool)) +
-  geom_line() +
-  geom_point() +
-  ggtitle("file a size constant = 1k, file b size increasing")
-
-a100k_plot <- ggplot(data=a100k_df, aes(x=b, y=ns.op, color=Tool)) +
-  geom_line() +
-  geom_point() +
-  ggtitle("file a size constant = 100k, file b size increasing")
-
-a10mi_plot <- ggplot(data=a10mi_df, aes(x=b, y=ns.op, color=Tool)) +
-  geom_line() +
-  geom_point() +
-  ggtitle("file a size constant = 10mi, file b size increasing")
-```
-panel b (b constant, a increasing)
-```{r}
-b100_plot <- ggplot(data=b100_df, aes(x=a, y=ns.op, color=Tool)) +
-  geom_line() +
-  geom_point() +
-  ggtitle("file b size constant = 100, file a size increasing")
-
-b1k_plot <- ggplot(data=b1k_df, aes(x=a, y=ns.op, color=Tool)) +
-  geom_line() +
-  geom_point() +
-  ggtitle("file b size constant = 1k, file a size increasing")
-
-b100k_plot <- ggplot(data=b100k_df, aes(x=a, y=ns.op, color=Tool)) +
-  geom_line() +
-  geom_point() +
-  ggtitle("file b size constant = 100k, file a size increasing")
-
-b10mi_plot <- ggplot(data=b10mi_df, aes(x=a, y=ns.op, color=Tool)) +
-  geom_line() +
-  geom_point() +
-  ggtitle("file b size constant = 10mi, file a size increasing")
-```
-panel c (both a and b increasing)
-```{r}
-c_plot <-
-  ggplot(data=c_df, aes(x=a, y=ns.op, color=Tool)) +
-  geom_line() +
-  geom_point() +
-  ggtitle("file a size = file b size")
-```
-put panels together
-```{r}
-figure <- ggarrange(a100_plot, a1k_plot, a100k_plot, a10mi_plot, 
-                    b100_plot, b1k_plot, b100k_plot, b10mi_plot,
-                    c_plot,
-                    labels = c("A1", "A2", "A3", "A4", "B1","B2", "B3", "B4", "C"),
-                    ncol = 4, nrow = 3)
-```
-
-# V2
-from Riley's plotBenchMarks.r
-```{r}
-data <- read.csv("benchmarkingResults_all.csv", sep=",", header=TRUE)
-
-myPal <- c("#577590", "#364959", "#90bd6d", "#FF0000") 
-
-# when plotting, got some warnings, but not errors, so hopefully they are ok
-
-a_plot <- ggscatter(subset(data, a == 1000), x="b", y="ns.op", color="Tool", add="loess", conf.int=TRUE, palette=myPal)+yscale("log10", .format=TRUE)+xscale("log10", .format=TRUE)+ylab("Nanoseconds per Operation")+xlab("Input File Size")+ggtitle("a=1000, b increasing")
-
-b_plot <- ggscatter(subset(data, b == 10000000), x="a", y="ns.op", color="Tool", add="loess", conf.int=TRUE, palette=myPal)+yscale("log10", .format=TRUE)+xscale("log10", .format=TRUE)+ylab("Nanoseconds per Operation")+xlab("Select File Size")+ggtitle("b=10mi, a increasing")
-
-# just doing subset(data, a == b) didn't work to create correct df, so I did make another df
-c_df <- data[data$a == data$b,]
-c_plot <- ggscatter(c_df, x="b", y="ns.op", color="Tool", add="loess", conf.int=TRUE, palette=myPal)+yscale("log10", .format=TRUE)+xscale("log10", .format=TRUE)+ylab("Nanoseconds per Operation")+xlab("Input File Size")+ggtitle("a=b, a and b increasing")
-```
-
-# V3
-threads optimization
+# threads optimization
 ```{r}
 dataThreads <- read.csv("benchmarkingResultsThreads.csv", sep=",", header=TRUE)
 
@@ -128,64 +16,25 @@ threads_plot <- ggscatter(dataThreads, x="threads", y="ns.op", add="loess", conf
   ggtitle("a=10mi, b=10mi")
 ```
 
-# V4
 # Final Run
 load data
 ```{r}
 data <- read.csv("benchmarkingResults_all.csv", sep=",", header=TRUE)
 ```
-speed
+define color palette for plots
+```{r}
+myPal <- c("#577590", "#364959", "#92DC59", "#90bd6d") 
+```
 a_plot
 ```{r}
-myPal <- c("#577590", "#364959", "#FF0000", "#CC99FF", "#90bd6d", "#FF8000") 
-
-a_plot <- ggscatter(subset(data, a == 1000), x="b", y="ns.op", color="Tool", add="loess", conf.int=TRUE, palette=myPal)+yscale("log10", .format=TRUE)+xscale("log10", .format=TRUE)+ylab("Nanoseconds per Operation")+xlab("Input File Size")+ggtitle("a=1000, b increasing")
-
 # with subsetting Tool, only 4 tools (bedops, bedtools, gonomics1worker, gonomics4worker)
-# subset(data, a == 1000, Tool %in% c('Bedops', 'Bedtools', 'Gonomics1Worker', 'Gonomics4Worker') ) didn't work, so I did make another df
 a_df <- data[data$Tool %in% c('Bedops', 'Bedtools', 'Gonomics1Worker', 'Gonomics4Worker'), ]
-  
-myPal <- c("#577590", "#364959", "#92DC59", "#90bd6d") 
 
 a_plot <- ggscatter(subset(a_df, a == 1000), x="b", y="ns.op", color= "Tool", add="loess", conf.int=TRUE, palette=myPal)+yscale("log10", .format=TRUE)+xscale("log10", .format=TRUE)+ylab("Runtime (ns/op)")+xlab("Input File Size (number of entries)")+ggtitle("Select File Size = 1,000 entries")
 ```
 b_plot
 ```{r}
-# made another df to make coloring appear better, otherwise ggplot will plot 4-color and then 6-color because it's confused that not all 6 Tools show up in the b=10mi subset
 b_df <- data[data$Tool %in% c('Bedops', 'Bedtools', 'Gonomics1Worker', 'Gonomics8Worker'), ]
 
-myPal <- c("#577590", "#364959", "#92DC59", "#90bd6d") 
-
 b_plot <- ggscatter(subset(b_df, b == 10000000), x="a", y="ns.op", color="Tool", add="loess", conf.int=TRUE, palette=myPal)+yscale("log10", .format=TRUE)+xscale("log10", .format=TRUE)+ylab("Runtime (ns/op)")+xlab("Select File Size (number of entries)")+ggtitle("Input File Size = 10,000,000 entries")
-```
-c_plot
-```{r}
-# just doing subset(data, a == b) didn't work to create correct df, so I did make another df
-c_df <- data[data$a == data$b,]
-
-myPal <- c("#577590", "#364959", "#FF0000", "#CC99FF", "#90bd6d", "#FF8000") 
-
-c_plot <- ggscatter(c_df, x="b", y="ns.op", color="Tool", add="loess", conf.int=TRUE, palette=myPal)+yscale("log10", .format=TRUE)+xscale("log10", .format=TRUE)+ylab("Nanoseconds per Operation")+xlab("Input File Size")+ggtitle("a=b, a and b increasing")
-```
-memory
-a_plot
-```{r}
-myPal <- c("#577590", "#364959", "#FF0000", "#CC99FF", "#90bd6d", "#FF8000") 
-
-a_plot <- ggscatter(subset(data, a == 1000), x="b", y="memUsage", color="Tool", add="loess", conf.int=TRUE, palette=myPal)+xscale("log10", .format=TRUE)+ylab("Memory Usage")+xlab("Input File Size")+ggtitle("a=1000, b increasing")
-```
-b_plot
-```{r}
-myPal <- c("#577590", "#364959", "#FF0000", "#CC99FF", "#90bd6d", "#FF8000") 
-
-b_plot <- ggscatter(subset(data, b == 10000000), x="a", y="memUsage", color="Tool", add="loess", conf.int=TRUE, palette=myPal)+xscale("log10", .format=TRUE)+ylab("Memory Usage")+xlab("Select File Size")+ggtitle("b=10mi, a increasing")
-```
-c_plot
-```{r}
-# just doing subset(data, a == b) didn't work to create correct df, so I did make another df
-c_df <- data[data$a == data$b,]
-
-myPal <- c("#577590", "#364959", "#FF0000", "#CC99FF", "#90bd6d", "#FF8000") 
-
-c_plot <- ggscatter(c_df, x="b", y="memUsage", color="Tool", add="loess", conf.int=TRUE, palette=myPal)+xscale("log10", .format=TRUE)+ylab("Memory Usage")+xlab("Input File Size")+ggtitle("a=b, a and b increasing")
 ```
