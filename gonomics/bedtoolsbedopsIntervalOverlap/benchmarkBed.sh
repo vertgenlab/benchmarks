@@ -82,6 +82,12 @@ done
 # ideally, have 8-13 cpus available
 #go test -timeout 0 -bench . -count 10
 
+COMMENT
+
+go test -timeout 0 -bench . -count 10
+
+: << 'COMMENT'
+
 # for memory
 # run not this script but memBench.csh
 # adjust executable paths in memBench.csh as needed
@@ -96,5 +102,3 @@ done
 # To generate analysis/figures/
 
 COMMENT
-
-go test -timeout 0 -bench . -count 10
