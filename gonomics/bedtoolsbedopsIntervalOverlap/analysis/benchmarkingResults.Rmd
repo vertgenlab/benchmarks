@@ -5,21 +5,10 @@ library(ggpubr)
 theme_set(theme_pubr())
 ```
 
-# threads optimization
-```{r}
-dataThreads <- read.csv("benchmarkingResultsThreads.csv", sep=",", header=TRUE)
-
-threads_plot <- ggscatter(dataThreads, x="threads", y="ns.op", add="loess", conf.int=TRUE)+
-  yscale("log10", .format=TRUE)+
-  ylab("Nanoseconds per Operation")+
-  xlab("number of threads")+
-  ggtitle("a=10mi, b=10mi")
-```
-
 # Final Run
 load data
 ```{r}
-data <- read.csv("benchmarkingResults_all.csv", sep=",", header=TRUE)
+data <- read.csv("benchmarkingResults.csv", sep=",", header=TRUE)
 ```
 define color palette for plots
 ```{r}
@@ -27,7 +16,6 @@ myPal <- c("#577590", "#364959", "#92DC59", "#90bd6d")
 ```
 a_plot
 ```{r}
-# with subsetting Tool, only 4 tools (bedops, bedtools, gonomics1worker, gonomics4worker)
 a_df <- data[data$Tool %in% c('Bedops', 'Bedtools', 'Gonomics1Worker', 'Gonomics4Worker'), ]
 
 a_plot <- ggscatter(subset(a_df, a == 1000), x="b", y="ns.op", color= "Tool", add="loess", conf.int=TRUE, palette=myPal)+yscale("log10", .format=TRUE)+xscale("log10", .format=TRUE)+ylab("Runtime (ns/op)")+xlab("Input File Size (number of entries)")+ggtitle("Select File Size = 1,000 entries")
