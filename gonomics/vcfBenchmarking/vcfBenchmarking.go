@@ -20,7 +20,6 @@ var (
 	mut5File    = "testdata/mut5%_1000x.vcf"
 	mut2_5File  = "testdata/mut2.5%_1000x.vcf"
 	mut1File    = "testdata/mut1%_1000x.vcf"
-	mut0_1File  = "testdata/mut0.1%_1000x.vcf"
 )
 
 func main() {
@@ -41,7 +40,6 @@ func main() {
 	longTestCutoffs(tree, truePos, mut5File)
 	longTestCutoffs(tree, truePos, mut2_5File)
 	longTestCutoffs(tree, truePos, mut1File)
-	longTestCutoffs(tree, truePos, mut0_1File)
 }
 
 func longTestCutoffs(tree map[string]*interval.IntervalNode, truePos []vcf.Vcf, file string) {
