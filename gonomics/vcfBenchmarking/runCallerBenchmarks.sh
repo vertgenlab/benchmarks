@@ -4,6 +4,9 @@ gunzip -c testdata/1mb.fa.gz > testdata/1mb.fa
 gunzip -c testdata/1mb_mut.fa.gz > testdata/1mb_mut.fa
 gunzip -c testdata/truePos.vcf.gz > testdata/truePos.vcf
 
+samtools faidx testdata/1mb.fa
+samtools faidx testdata/1mb_mut.fa
+
 simulateSam -coverage 1000 -flatErrorRate 0.01 -setSeed 555 testdata/1mb_mut.fa stdout | samtools sort -@4 > testdata/mut100%_1000x.bam
 simulateSam -coverage 1000 -flatErrorRate 0.01 -setSeed 666 testdata/1mb.fa stdout | samtools sort -@4 > testdata/mut0%_1000x.bam
 simulateSam -coverage 1000 -flatErrorRate 0.01 -setSeed 777 testdata/1mb.fa stdout | samtools sort -@4 > testdata/normal_1000x.bam
